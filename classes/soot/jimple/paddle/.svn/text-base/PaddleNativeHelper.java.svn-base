@@ -1,0 +1,94 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2002 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.jimple.toolkits.pointer.representations.*;
+import soot.jimple.toolkits.pointer.util.*;
+import soot.toolkits.scalar.Pair;
+import soot.*;
+
+public class PaddleNativeHelper extends NativeHelper {
+    public PaddleNativeHelper( NodeFactory gnf ) {
+        this.gnf = gnf;
+    }
+    private NodeFactory gnf;
+    protected void assignImpl(ReferenceVariable lhs, ReferenceVariable rhs) {
+        gnf.addEdge( (Node) rhs, (Node) lhs );
+    }
+    protected void assignObjectToImpl(ReferenceVariable lhs, AbstractObject obj) {
+	AllocNode objNode = PaddleScene.v().nodeManager().makeGlobalAllocNode( 
+		new Pair( "AbstractObject", obj.getType() ),
+		 obj.getType(), null );
+
+        VarNode var;
+        if( lhs instanceof FieldRefNode ) {
+	    var = PaddleScene.v().nodeManager().makeGlobalVarNode( objNode, objNode.getType() );
+            gnf.addEdge( (Node) lhs, var );
+        } else {
+            var = (VarNode) lhs;
+        }
+        gnf.addEdge( objNode, var );
+    }
+    protected void throwExceptionImpl(AbstractObject obj) {
+	AllocNode objNode = PaddleScene.v().nodeManager().makeGlobalAllocNode( 
+		new Pair( "AbstractObject", obj.getType() ),
+		 obj.getType(), null );
+
+        gnf.addEdge( objNode, gnf.caseThrow() );
+    }
+    protected ReferenceVariable arrayElementOfImpl(ReferenceVariable base) {
+        Node n = (Node) base;
+        VarNode l;
+	if( base instanceof VarNode ) {
+	    l = (VarNode) base;
+	} else {
+	    FieldRefNode b = (FieldRefNode) base;
+	    l = PaddleScene.v().nodeManager().makeGlobalVarNode( b, b.getType() );
+	    gnf.addEdge( b, l );
+	}
+        return FieldRefNode.make( l, ArrayElement.v() );
+    }
+    protected ReferenceVariable cloneObjectImpl(ReferenceVariable source) {
+	return source;
+    }
+    protected ReferenceVariable newInstanceOfImpl(ReferenceVariable cls) {
+        return gnf.caseNewInstance( (VarNode) cls );
+    }
+    protected ReferenceVariable staticFieldImpl(String className, String fieldName ) {
+	SootClass c = RefType.v( className ).getSootClass();
+	SootField f = c.getFieldByName( fieldName );
+	return PaddleScene.v().nodeManager().makeGlobalVarNode( f, f.getType() );
+    }
+    protected ReferenceVariable tempFieldImpl(String fieldsig) {
+	return PaddleScene.v().nodeManager().makeGlobalVarNode( new Pair( "tempField", fieldsig ),
+            RefType.v( "java.lang.Object" ) );
+    }
+    protected ReferenceVariable tempVariableImpl() {
+	return PaddleScene.v().nodeManager().makeGlobalVarNode( new Pair( "TempVar", new Integer( ++G.v().PaddleNativeHelper_tempVar ) ),
+		RefType.v( "java.lang.Object" ) );
+    }
+    protected ReferenceVariable tempLocalVariableImpl(SootMethod method) {
+        if(PaddleScene.v().options().global_nodes_in_natives()) {
+            return tempVariableImpl();
+        } else {
+            return PaddleScene.v().nodeManager().makeLocalVarNode( new Pair( "TempVar", new Integer( ++G.v().PaddleNativeHelper_tempVar ) ),
+                    RefType.v( "java.lang.Object" ) , method );
+        }
+    }
+}

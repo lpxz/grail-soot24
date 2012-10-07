@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/110/trunk/JavaParser/src/japa/parser/ast
+END
+ImportDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/ImportDeclaration.java
+END
+PackageDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/PackageDeclaration.java
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/Comment.java
+END
+TypeParameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/TypeParameter.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/93/trunk/JavaParser/src/japa/parser/ast/Node.java
+END
+LineComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/LineComment.java
+END
+BlockComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/BlockComment.java
+END
+CompilationUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/CompilationUnit.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/soot/!svn/ver/2880/soot/trunk/src/soot/util/queue
+END
+BDDReader.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1529/soot/trunk/src/soot/util/queue/BDDReader.jedd
+END
+BDDQueue.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1529/soot/trunk/src/soot/util/queue/BDDQueue.jedd
+END
+ChunkedQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/2880/soot/trunk/src/soot/util/queue/ChunkedQueue.java
+END
+BDDChunk.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1529/soot/trunk/src/soot/util/queue/BDDChunk.jedd
+END
+QueueReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2880/soot/trunk/src/soot/util/queue/QueueReader.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/610/soot/trunk/src/soot/util/queue/package.html
+END

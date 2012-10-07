@@ -1,0 +1,2435 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/soot/!svn/ver/2223/soot/trunk/systests/java_tests
+END
+ReverseIfContinue.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ReverseIfContinue.java
+END
+SwitchLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchLabel.java
+END
+LabelDo.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LabelDo.java
+END
+FieldStringAssigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldStringAssigns.java
+END
+ExprInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ExprInit.java
+END
+StringConcatField.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringConcatField.java
+END
+OtherClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/OtherClass.java
+END
+NestedClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NestedClass.java
+END
+JAssert.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/JAssert.java
+END
+CaseWithAllNegLabels.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CaseWithAllNegLabels.java
+END
+LocalArrayInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LocalArrayInit.java
+END
+IVoke.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IVoke.java
+END
+ConTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ConTest.java
+END
+HelperWithParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/HelperWithParams.java
+END
+OrTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/OrTest.java
+END
+StaticMethodOtherClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StaticMethodOtherClass.java
+END
+NameTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NameTest.java
+END
+Test11.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test11.java
+END
+ArrayAccess2.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayAccess2.java
+END
+UnaryTest4.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryTest4.java
+END
+StaticFieldInits2.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StaticFieldInits2.java
+END
+Test23.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test23.java
+END
+Test35.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test35.java
+END
+Test91.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test91.java
+END
+ForLoopSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ForLoopSimple.java
+END
+Test47.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test47.java
+END
+Test59.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test59.java
+END
+LabeledStmtTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LabeledStmtTest.java
+END
+ParentUsingChildLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ParentUsingChildLJH.java
+END
+Faint.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Faint.java
+END
+InnerInConstCallWithQualifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerInConstCallWithQualifier.java
+END
+ReachingDefsTest1.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ReachingDefsTest1.java
+END
+TryCatch3.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TryCatch3.java
+END
+FloatOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FloatOp.java
+END
+TryCatchFinallyReturns2.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TryCatchFinallyReturns2.java
+END
+ArrayFieldsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayFieldsTest.java
+END
+ReflectProblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ReflectProblem.java
+END
+Test9.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test9.java
+END
+AttrTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AttrTest.java
+END
+DefUse.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DefUse.java
+END
+SemiColonTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SemiColonTests.java
+END
+IfDefTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfDefTest.java
+END
+Test20.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test20.java
+END
+AnonClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AnonClass.java
+END
+IfTest5.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfTest5.java
+END
+TryCatchFinallyReturns.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TryCatchFinallyReturns.java
+END
+EverythingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EverythingTest.java
+END
+Test32.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test32.java
+END
+Test44.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test44.java
+END
+InitTest5.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InitTest5.java
+END
+UnaryInc.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryInc.java
+END
+EmptyStmtTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyStmtTests.java
+END
+InnerClassConstr.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerClassConstr.java
+END
+Test56.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test56.java
+END
+FieldFloats.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldFloats.java
+END
+StringBufferTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringBufferTest.java
+END
+InterfaceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InterfaceTest.java
+END
+StaticFieldInits.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StaticFieldInits.java
+END
+InnerWhile.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerWhile.java
+END
+InnerInConstCall.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerInConstCall.java
+END
+Test6.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test6.java
+END
+Compare3.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Compare3.java
+END
+AssertInInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssertInInterface.java
+END
+NullTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NullTest.java
+END
+Reverse.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Reverse.java
+END
+SimpleSwitch.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleSwitch.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Constants.java
+END
+LoopAnalysisTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LoopAnalysisTest.java
+END
+AssignStmts.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignStmts.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test.java
+END
+ArrayInitComma.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitComma.java
+END
+IfTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfTest2.java
+END
+UnaryByte.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryByte.java
+END
+StaticConstantsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StaticConstantsTest.java
+END
+Test41.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test41.java
+END
+Hello2.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Hello2.java
+END
+InitTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InitTest2.java
+END
+AssignCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignCondition.java
+END
+DoWhile.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DoWhile.java
+END
+StringConcatInts.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringConcatInts.java
+END
+SwitchStmts.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchStmts.java
+END
+WeirdSwitch.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/WeirdSwitch.java
+END
+FieldAssigns2.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldAssigns2.java
+END
+Test77.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test77.java
+END
+ParentInterfaceUsingChildInnerInterfaceLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ParentInterfaceUsingChildInnerInterfaceLJH.java
+END
+Test101.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test101.java
+END
+Test3.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test3.java
+END
+Hello.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Hello.java
+END
+CompareEquality.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CompareEquality.java
+END
+FieldArrayInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldArrayInit.java
+END
+Assigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Assigns.java
+END
+CaseWithWeirdStuff.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CaseWithWeirdStuff.java
+END
+WhileTestBreak.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/WhileTestBreak.java
+END
+ArrayLengthTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayLengthTest.java
+END
+CaseCharLit.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CaseCharLit.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Main.java
+END
+Test50.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test50.java
+END
+NameTests2.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NameTests2.java
+END
+Test62.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test62.java
+END
+Test18.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test18.java
+END
+PrivateAddAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateAddAssign.java
+END
+StringTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringTests.java
+END
+Test74.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test74.java
+END
+FieldInits.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldInits.java
+END
+Test86.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test86.java
+END
+Strictfp.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Strictfp.java
+END
+ClassFieldOnPrimitiveTypeLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ClassFieldOnPrimitiveTypeLJH.java
+END
+CharOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CharOps.java
+END
+ArrayAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayAccess.java
+END
+InnerClassTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerClassTest.java
+END
+DeeplyNestedAnon.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DeeplyNestedAnon.java
+END
+NewStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NewStmt.java
+END
+NameTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NameTests.java
+END
+FinalLocalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinalLocalTest.java
+END
+PrivateStringField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateStringField.java
+END
+PrimTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrimTest.java
+END
+FinallyRet.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinallyRet.java
+END
+ArrayNewInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayNewInit.java
+END
+Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Helper.java
+END
+input
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/input
+END
+StringEqualsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringEqualsTest.java
+END
+SimpleParity.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleParity.java
+END
+Foo.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Foo.java
+END
+Binary.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Binary.java
+END
+Test15.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test15.java
+END
+IncDecTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IncDecTest.java
+END
+ThrowsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ThrowsTest.java
+END
+Test71.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test71.java
+END
+Test27.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test27.java
+END
+NewArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NewArray.java
+END
+Test83.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test83.java
+END
+Test39.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test39.java
+END
+UnaryFieldInc.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryFieldInc.java
+END
+LoopTest3.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LoopTest3.java
+END
+Test95.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test95.java
+END
+AssignAttrs.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignAttrs.java
+END
+WhileTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/WhileTest.java
+END
+PrivateFieldTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateFieldTest.java
+END
+NotEmpty.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NotEmpty.java
+END
+Test12.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test12.java
+END
+AssignTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignTest.java
+END
+SynchTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchTest.java
+END
+Test24.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test24.java
+END
+Test80.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test80.java
+END
+SynchTestNested.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchTestNested.java
+END
+ClassTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ClassTests.java
+END
+Test36.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test36.java
+END
+Test92.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test92.java
+END
+Test48.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test48.java
+END
+IfTrueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfTrueTest.java
+END
+If.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/If.java
+END
+PrivateAccessFieldSets.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateAccessFieldSets.java
+END
+FinalStaticTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinalStaticTest.java
+END
+ForLoopTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ForLoopTest2.java
+END
+ArrayAssigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayAssigns.java
+END
+LabelWhile.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LabelWhile.java
+END
+FieldTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldTypes.java
+END
+DoubleArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DoubleArray.java
+END
+CallGraphExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CallGraphExample.java
+END
+UnaryInc2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryInc2.java
+END
+CastTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CastTest2.java
+END
+CharTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CharTest.java
+END
+SimpleFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleFields.java
+END
+EmptyInnerClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyInnerClass.java
+END
+AssertErrorMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssertErrorMsg.java
+END
+Test21.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test21.java
+END
+Test33.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test33.java
+END
+SwitchNoBreaks.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchNoBreaks.java
+END
+Test45.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test45.java
+END
+TestsClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TestsClass.java
+END
+Recurse1.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Recurse1.java
+END
+DriverLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DriverLJH.java
+END
+Test57.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test57.java
+END
+StrictClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StrictClass.java
+END
+Test69.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test69.java
+END
+ShortTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ShortTest.java
+END
+MultiLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MultiLine.java
+END
+SynchMeth.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchMeth.java
+END
+MySuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MySuper.java
+END
+ArrayInitNested.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitNested.java
+END
+CondTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondTest2.java
+END
+CondAndTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondAndTest.java
+END
+ArrayInitComp5.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitComp5.java
+END
+FieldGets.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldGets.java
+END
+Test7.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test7.java
+END
+X.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/X.java
+END
+Compare4.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Compare4.java
+END
+SimpleAssert.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleAssert.java
+END
+SwitchOrderTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchOrderTest2.java
+END
+ExtendProtectedSuper.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ExtendProtectedSuper.java
+END
+BranchTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/BranchTests.java
+END
+IfTest3.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfTest3.java
+END
+Test30.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test30.java
+END
+CondTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondTest.java
+END
+Test42.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test42.java
+END
+InitTest3.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InitTest3.java
+END
+AnonInField.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AnonInField.java
+END
+Hello3.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Hello3.java
+END
+StringTest1.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringTest1.java
+END
+Test54.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test54.java
+END
+Simple.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Simple.java
+END
+RetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/RetTest.java
+END
+ImportTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ImportTests.java
+END
+JAssert2.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/JAssert2.java
+END
+IfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfTest.java
+END
+Test78.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test78.java
+END
+StaticBlockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StaticBlockTest.java
+END
+Test4.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test4.java
+END
+UnaryDec.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryDec.java
+END
+PrivateFieldArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateFieldArray.java
+END
+ArrayTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayTest.java
+END
+FieldBaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldBaseTest.java
+END
+EqBool.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EqBool.java
+END
+MultiDimArrayTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MultiDimArrayTest.java
+END
+FloatComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FloatComp.java
+END
+Test51.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test51.java
+END
+ConditionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ConditionTest.java
+END
+LHSTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LHSTest.java
+END
+ShortAppend.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ShortAppend.java
+END
+Test63.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test63.java
+END
+InstanceOfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InstanceOfTest.java
+END
+IteratorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IteratorTest.java
+END
+Test19.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test19.java
+END
+EmptyCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyCase.java
+END
+T1414rj1.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/T1414rj1.java
+END
+LocalTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LocalTest.java
+END
+Test75.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test75.java
+END
+LineNumberTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LineNumberTest.java
+END
+Test1.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test1.java
+END
+BitNotCond.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/BitNotCond.java
+END
+AssertInInner1.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssertInInner1.java
+END
+Complex.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Complex.java
+END
+NewArray2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NewArray2.java
+END
+StringLitCallTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringLitCallTest.java
+END
+FieldAssign3.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldAssign3.java
+END
+NewArrayInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NewArrayInit.java
+END
+ForLoopTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ForLoopTest.java
+END
+JasminTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/JasminTest.java
+END
+SynchTestRet2.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchTestRet2.java
+END
+SimpleThis.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleThis.java
+END
+STest1.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/STest1.java
+END
+LongInit.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LongInit.java
+END
+ByteProblem.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ByteProblem.java
+END
+Test60.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test60.java
+END
+Test16.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test16.java
+END
+ConstTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ConstTest.java
+END
+CondAndTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondAndTest2.java
+END
+Test72.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test72.java
+END
+Test28.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test28.java
+END
+Test84.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test84.java
+END
+PrimTypesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrimTypesTest.java
+END
+FinalFieldTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinalFieldTest.java
+END
+Unary.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Unary.java
+END
+ShiftOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ShiftOps.java
+END
+IVoke2.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IVoke2.java
+END
+LongToChar.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LongToChar.java
+END
+ArrayTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayTests.java
+END
+Graph.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Graph.java
+END
+StringConcatCond.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringConcatCond.java
+END
+FieldUnary.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldUnary.java
+END
+FileReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FileReaderTest.java
+END
+Position.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Position.java
+END
+WeirdPrivateSets.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/WeirdPrivateSets.java
+END
+PrimClassLit.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrimClassLit.java
+END
+LoopTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LoopTest.java
+END
+InnerHell.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerHell.java
+END
+LocalClassTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LocalClassTest.java
+END
+ArrayInitComp.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitComp.java
+END
+ArrayCloneTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayCloneTests.java
+END
+LocalAssigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LocalAssigns.java
+END
+IfInstanceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IfInstanceTest.java
+END
+Test13.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test13.java
+END
+T14rj1.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/T14rj1.java
+END
+ArrayInitTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitTests.java
+END
+Test25.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test25.java
+END
+Compare.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Compare.java
+END
+LineTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LineTest.java
+END
+Test81.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test81.java
+END
+Test37.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test37.java
+END
+InstanceOf.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InstanceOf.java
+END
+Test93.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test93.java
+END
+Test49.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test49.java
+END
+PrivateGets.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrivateGets.java
+END
+AddAssignTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AddAssignTest.java
+END
+UnreachableFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnreachableFields.java
+END
+FinallyAndReturnsLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinallyAndReturnsLJH.java
+END
+ArrayTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayTypes.java
+END
+Test222.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2223/soot/trunk/systests/java_tests/Test222.java
+END
+EmptyFor.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyFor.java
+END
+AssignUsed.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignUsed.java
+END
+InnerInConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerInConst.java
+END
+ArraySimple1.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArraySimple1.java
+END
+CaseUnorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CaseUnorder.java
+END
+FieldAssigns.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldAssigns.java
+END
+Casts.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Casts.java
+END
+T1412r1.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/T1412r1.java
+END
+Test10.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test10.java
+END
+UnaryTest3.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryTest3.java
+END
+CompTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CompTests.java
+END
+Test22.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test22.java
+END
+ReturnCond.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ReturnCond.java
+END
+AssertTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssertTest2.java
+END
+OrderOfTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/OrderOfTypes.java
+END
+SimpleCharOp.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleCharOp.java
+END
+Test34.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test34.java
+END
+Test90.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test90.java
+END
+Test46.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test46.java
+END
+Recurse2.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Recurse2.java
+END
+Example.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Example.java
+END
+InnerAccessLJH.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerAccessLJH.java
+END
+Test58.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test58.java
+END
+UnaryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryTest.java
+END
+TryCatch2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TryCatch2.java
+END
+SwitchStmtsSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchStmtsSimple.java
+END
+ThisTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ThisTest.java
+END
+Test8.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test8.java
+END
+ArrayInitTests2.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitTests2.java
+END
+RelationalOps.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/RelationalOps.java
+END
+NaNTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/NaNTest.java
+END
+DoubleAssignTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DoubleAssignTest.java
+END
+FinalFields.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinalFields.java
+END
+EmptyAfterMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyAfterMethod.java
+END
+ArrayInitEmpty.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ArrayInitEmpty.java
+END
+SwitchInWhile.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchInWhile.java
+END
+Test31.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test31.java
+END
+TestScript
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TestScript
+END
+TestBackdoor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TestBackdoor.java
+END
+Test43.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test43.java
+END
+FinallysAndReturns.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FinallysAndReturns.java
+END
+InitTest4.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InitTest4.java
+END
+PrimClassLit2.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/PrimClassLit2.java
+END
+Test55.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test55.java
+END
+Test79.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test79.java
+END
+CircularAdvice2.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CircularAdvice2.java
+END
+BooleanTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/BooleanTests.java
+END
+Conditional.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Conditional.java
+END
+Test5.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test5.java
+END
+DivTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DivTests.java
+END
+EnclosingClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EnclosingClass.java
+END
+Compare2.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Compare2.java
+END
+Simple2.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Simple2.java
+END
+CastTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CastTests.java
+END
+SubClassTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SubClassTest.java
+END
+UnaryTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/UnaryTests.java
+END
+InnerStatic.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerStatic.java
+END
+Test40.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test40.java
+END
+InitTest1.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InitTest1.java
+END
+CondOrTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondOrTest.java
+END
+STest5.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/STest5.java
+END
+LitTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LitTest.java
+END
+QualifierClass2.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/QualifierClass2.java
+END
+BoolTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/BoolTest.java
+END
+Test76.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test76.java
+END
+SwitchOrderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchOrderTest.java
+END
+SimpleBinaryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleBinaryTest.java
+END
+IntAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IntAssign.java
+END
+SynchTestRet.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchTestRet.java
+END
+Test88.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test88.java
+END
+AssignStmts2.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssignStmts2.java
+END
+AssertTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/AssertTest.java
+END
+Test2.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test2.java
+END
+ShiftTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ShiftTypes.java
+END
+SwitchNoDefault.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SwitchNoDefault.java
+END
+FieldTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldTest2.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Game.java
+END
+MyClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MyClass.java
+END
+TryCatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/TryCatch.java
+END
+SuperClassTesting.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SuperClassTesting.java
+END
+SynchTestRet3.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SynchTestRet3.java
+END
+FieldTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldTest.java
+END
+FieldStringAssigns2.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldStringAssigns2.java
+END
+STest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/STest2.java
+END
+Test61.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test61.java
+END
+LabelFor.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LabelFor.java
+END
+Test17.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test17.java
+END
+First.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/First.java
+END
+CondAndTest3.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CondAndTest3.java
+END
+Test73.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test73.java
+END
+Test29.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test29.java
+END
+Test85.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test85.java
+END
+DoubleToShort.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/DoubleToShort.java
+END
+SimpleChild.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleChild.java
+END
+ExceptionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ExceptionTest.java
+END
+ConsEx.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ConsEx.java
+END
+MyBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MyBlock.java
+END
+Inter2.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Inter2.java
+END
+SimpleIfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/SimpleIfTest.java
+END
+ForLoop.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ForLoop.java
+END
+ExThrowTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/ExThrowTest2.java
+END
+LocalDecl.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LocalDecl.java
+END
+EmptyAfterField.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/EmptyAfterField.java
+END
+StringTestsCompl.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/StringTestsCompl.java
+END
+Test14.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test14.java
+END
+T14rj2.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/T14rj2.java
+END
+Test70.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test70.java
+END
+MethodIntroductions2.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/MethodIntroductions2.java
+END
+Test26.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test26.java
+END
+FieldAssign.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/FieldAssign.java
+END
+Test82.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test82.java
+END
+CastTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CastTest.java
+END
+Test38.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/Test38.java
+END
+LoopTest2.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/LoopTest2.java
+END
+IntToChar.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/IntToChar.java
+END
+InnerTest1.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/InnerTest1.java
+END
+CallTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1928/soot/trunk/systests/java_tests/CallTests.java
+END

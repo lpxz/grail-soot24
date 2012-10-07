@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/renamer
+END
+infoGatheringAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/renamer/infoGatheringAnalysis.java
+END
+Renamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/renamer/Renamer.java
+END
+heuristicTuple.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/renamer/heuristicTuple.java
+END
+heuristicSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/renamer/heuristicSet.java
+END
+RemoveFullyQualifiedName.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/2337/soot/trunk/src/soot/dava/toolkits/base/renamer/RemoveFullyQualifiedName.java
+END

@@ -1,0 +1,155 @@
+atomic set:AtomicSet160588378
+summary: side effect (nonjava G)#:0
+<Bayes.ListNode: Bayes.LearnerTask dataPtr>
+<Bayes.ListNode: Bayes.ListNode nextPtr>
+<Bayes.LearnerTask: float score>
+<Bayes.Learner: Bayes.List taskListPtr>
+<Bayes.LearnerTask: int toId>
+<Bayes.List: int size>
+<Bayes.List: Bayes.ListNode head>
+summary:  side effect (nonempty, nonjava fields)#7
+writing to ./dot/AtomicSet160588378.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_503
+this transaction accesses the set:Bayes.Learner _ learnStructure_628
+
+
+
+
+
+
+atomic set:AtomicSet160648242
+<common.BitMap: int NUM_BIT_PER_BYTE>
+<Bayes.Queue: int QUEUE_GROWTH_FACTOR>
+<common.BitMap: int NUM_BIT_PER_WORD>
+summary: side effect (nonjava G)#:3
+<Bayes.Vector_t: java.lang.Object[] elements>
+<Bayes.Learner: Bayes.Net netPtr>
+<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+<common.BitMap: int numBit>
+<Bayes.Queue: int push>
+<Bayes.IntListNode: int dataPtr>
+<Bayes.NetNode: Bayes.IntList childIdListPtr>
+<Bayes.Queue: int pop>
+<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+<Bayes.Queue: int[] elements>
+<Bayes.IntList: Bayes.IntListNode head>
+<common.BitMap: int numWord>
+<Bayes.Queue: int capacity>
+<Bayes.IntList: int size>
+<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+<common.BitMap: int[] bits>
+summary:  side effect (nonempty, nonjava fields)#16
+writing to ./dot/AtomicSet160648242.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_513
+this transaction accesses the set:Bayes.Learner _ learnStructure_539
+this transaction accesses the set:Bayes.Learner _ learnStructure_603
+
+
+
+
+
+
+atomic set:AtomicSet160716516
+summary: side effect (nonjava G)#:0
+<Bayes.Learner: Bayes.Net netPtr>
+<Bayes.Vector_t: java.lang.Object[] elements>
+<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+<Bayes.Adtree: Bayes.AdtreeNode rootNodePtr>
+<Bayes.Adtree: int numRecord>
+<Bayes.AdtreeNode: int count>
+<Bayes.AdtreeVary: Bayes.AdtreeNode zeroNodePtr>
+<Bayes.AdtreeVary: Bayes.AdtreeNode oneNodePtr>
+<Bayes.IntListNode: int dataPtr>
+<Bayes.Query: int value>
+<Bayes.Vector_t: int capacity>
+<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+<Bayes.AdtreeVary: int mostCommonValue>
+<Bayes.AdtreeNode: int index>
+class java.lang.String
+<Bayes.Learner: float[] localBaseLogLikelihoods>
+<Bayes.IntList: Bayes.IntListNode head>
+<Bayes.Learner: Bayes.Adtree adtreePtr>
+<Bayes.AdtreeNode: Bayes.AdtreeVary[] varyVectorPtr>
+<Bayes.Vector_t: int size>
+<Bayes.Query: int index>
+<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+summary:  side effect (nonempty, nonjava fields)#21
+writing to ./dot/AtomicSet160716516.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_513
+this transaction accesses the set:Bayes.Learner _ learnStructure_539
+this transaction accesses the set:Bayes.Learner _ learnStructure_603
+
+
+
+
+
+
+
+
+
+
+
+
+atomic set:AtomicSet160718737
+summary: side effect (nonjava G)#:0
+<Bayes.Learner: int numTotalParent>
+summary:  side effect (nonempty, nonjava fields)#1
+writing to ./dot/AtomicSet160718737.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_546
+this transaction accesses the set:Bayes.Learner _ learnStructure_585
+
+
+
+
+
+
+escape protal: {varName  = "learnerPtr";  methName  ="main";}
+		 
+
+
+
+
+
+
+
+atomic set:AtomicSet160719686
+summary: side effect (nonjava G)#:0
+<Bayes.Learner: float baseLogLikelihood>
+summary:  side effect (nonempty, nonjava fields)#1
+writing to ./dot/AtomicSet160719686.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_585
+this transaction accesses the set:Bayes.Learner _ createTaskList_130
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atomic set:AtomicSet160742459
+summary: side effect (nonjava G)#:0
+<Bayes.Vector_t: java.lang.Object[] elements>
+<Bayes.Learner: Bayes.Net netPtr>
+<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+<Bayes.IntList: Bayes.IntListNode head>
+<Bayes.IntListNode: int dataPtr>
+<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+summary:  side effect (nonempty, nonjava fields)#7
+writing to ./dot/AtomicSet160742459.dot
+this transaction accesses the set:Bayes.Learner _ learnStructure_513
+this transaction accesses the set:Bayes.Learner _ learnStructure_539
+this transaction accesses the set:Bayes.Learner _ learnStructure_603
+
+

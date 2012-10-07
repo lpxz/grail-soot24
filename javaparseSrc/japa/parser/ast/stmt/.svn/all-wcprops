@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt
+END
+TypeDeclarationStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/TypeDeclarationStmt.java
+END
+LabeledStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/LabeledStmt.java
+END
+BlockStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/BlockStmt.java
+END
+Statement.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/Statement.java
+END
+IfStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/IfStmt.java
+END
+EmptyStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/EmptyStmt.java
+END
+ExpressionStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ExpressionStmt.java
+END
+SwitchStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/SwitchStmt.java
+END
+AssertStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/AssertStmt.java
+END
+DoStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/DoStmt.java
+END
+ThrowStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ThrowStmt.java
+END
+ForeachStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ForeachStmt.java
+END
+CatchClause.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/CatchClause.java
+END
+WhileStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/WhileStmt.java
+END
+TryStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/TryStmt.java
+END
+SynchronizedStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/SynchronizedStmt.java
+END
+ReturnStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ReturnStmt.java
+END
+ExplicitConstructorInvocationStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ExplicitConstructorInvocationStmt.java
+END
+SwitchEntryStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/SwitchEntryStmt.java
+END
+ContinueStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ContinueStmt.java
+END
+BreakStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/BreakStmt.java
+END
+ForStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/stmt/ForStmt.java
+END

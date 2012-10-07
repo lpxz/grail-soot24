@@ -1,0 +1,112 @@
+escape portal: { varName  = "workHeapPtr";  methName  ="process";} // meshPtr,workHeapPtr
+
+
+>>>>>>>>>>>>>>>>query:
+atomic set:AtomicSet146710531
+summary: side effect (nonjava G)#:0
+<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+class java.lang.String
+<Yada.java.heap: java.lang.Object[] elements>
+<Yada.java.heap: int size>
+summary:  side effect (nonempty, nonjava fields)#3
+writing to ./dot/AtomicSet146710531.dot
+this transaction accesses the set:Yada.java.yada _ process_98
+this transaction accesses the set:Yada.java.yada _ process_112
+this transaction accesses the set:Yada.java.yada _ process_121
+
+
+
+
+atomic set:AtomicSet146573090
+<common.G: java.lang.Object lock>
+summary: side effect (nonjava G)#:1
+<Yada.java.region: Yada.java.Queue_t expandQueuePtr>
+<Yada.java.yada: Yada.java.mesh global_meshPtr>
+<Yada.java.Queue_t: int capacity>
+<Yada.java.element: boolean isGarbage>
+<Yada.java.yada: Yada.java.heap global_workHeapPtr>
+<Yada.java.heap: int capacity>
+<Yada.java.edge: java.lang.Object secondPtr>
+<Yada.java.RBTree: int compID>
+<Yada.java.element: boolean isReferenced>
+<Yada.java.RBTree: Yada.java.Node root>
+<Yada.java.Node: Yada.java.Node l>
+<Yada.java.Vector_t: int size>
+<Yada.java.Node: java.lang.Object k>
+<Yada.java.heap: java.lang.Object[] elements>
+<Yada.java.coordinate: double x>
+<Yada.java.Node: Yada.java.Node p>
+<Yada.java.edge: java.lang.Object firstPtr>
+<Yada.java.List_t: int mode>
+<Yada.java.heap: int size>
+<Yada.java.Vector_t: int capacity>
+<Yada.java.element: double circumRadius>
+<Yada.java.mesh: Yada.java.element rootElementPtr>
+<Yada.java.Node: java.lang.Object v>
+<Yada.java.coordinate: double y>
+<Yada.java.element: boolean isSkinny>
+<Yada.java.element: int numEdge>
+<Yada.java.List_Node: java.lang.Object dataPtr>
+<Yada.java.region: Yada.java.List_t beforeListPtr>
+<Yada.java.List_Node: Yada.java.List_Node nextPtr>
+<Yada.java.element: int numCoordinate>
+<Yada.java.Queue_t: int push>
+<Yada.java.List_t: int size>
+<Yada.java.element: double minAngle>
+<Yada.java.element: Yada.java.coordinate circumCenter>
+<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+<Yada.java.element: Yada.java.coordinate[] coordinates>
+<Yada.java.Queue_t: int pop>
+<Yada.java.element: double[] radii>
+<Yada.java.Node: int c>
+<Yada.java.Vector_t: java.lang.Object[] elements>
+<Yada.java.mesh: Yada.java.RBTree boundarySetPtr>
+<Yada.java.region: Yada.java.List_t borderListPtr>
+<Yada.java.Node: Yada.java.Node r>
+<Yada.java.Queue_t: java.lang.Object[] elements>
+<Yada.java.element: double angleConstraint>
+class java.lang.String
+<Yada.java.region: Yada.java.coordinate centerCoordinate>
+<Yada.java.region: Yada.java.Vector_t badVectorPtr>
+<Yada.java.element: Yada.java.List_t neighborListPtr>
+<Yada.java.List_t: Yada.java.List_Node head>
+<Yada.java.element: Yada.java.coordinate[] midpoints>
+<Yada.java.element: Yada.java.edge[] edges>
+summary:  side effect (nonempty, nonjava fields)#51
+writing to ./dot/AtomicSet146573090.dot
+this transaction accesses the set:Yada.java.yada _ process_98
+this transaction accesses the set:Yada.java.yada _ process_105
+this transaction accesses the set:Yada.java.yada _ process_112
+this transaction accesses the set:Yada.java.yada _ process_116
+this transaction accesses the set:Yada.java.yada _ process_121
+
+
+
+
+
+atomic set:AtomicSet146581434
+summary: side effect (nonjava G)#:0
+<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+<Yada.java.heap: java.lang.Object[] elements>
+<Yada.java.heap: int size>
+summary:  side effect (nonempty, nonjava fields)#3
+writing to ./dot/AtomicSet146581434.dot
+this transaction accesses the set:process_98
+this transaction accesses the set:process_112
+this transaction accesses the set:process_121
+
+
+
+
+
+atomic set:AtomicSet146585487
+summary: side effect (nonjava G)#:0
+<Yada.java.element: boolean isGarbage>
+summary:  side effect (nonempty, nonjava fields)#1
+writing to ./dot/AtomicSet146585487.dot
+this transaction accesses the set:process_105
+this transaction accesses the set:process_112
+this transaction accesses the set:process_116
+this transaction accesses the set:process_121
+
+

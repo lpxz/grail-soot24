@@ -1,0 +1,485 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/soot/!svn/ver/3310/soot/trunk/src/soot/baf/internal
+END
+AbstractRefTypeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractRefTypeInst.java
+END
+AbstractInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractInst.java
+END
+BTableSwitchInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BTableSwitchInst.java
+END
+BDup1Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup1Inst.java
+END
+BIfCmpGeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpGeInst.java
+END
+BInterfaceInvokeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BInterfaceInvokeInst.java
+END
+BLoadInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/3310/soot/trunk/src/soot/baf/internal/BLoadInst.java
+END
+AbstractBranchInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractBranchInst.java
+END
+BArrayLengthInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BArrayLengthInst.java
+END
+BDivInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDivInst.java
+END
+BPrimitiveCastInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BPrimitiveCastInst.java
+END
+BIfCmpEqInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpEqInst.java
+END
+BIfGtInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfGtInst.java
+END
+BCmplInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BCmplInst.java
+END
+BStoreInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/3310/soot/trunk/src/soot/baf/internal/BStoreInst.java
+END
+BNopInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BNopInst.java
+END
+BJSRInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2353/soot/trunk/src/soot/baf/internal/BJSRInst.java
+END
+AbstractOpTypeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractOpTypeInst.java
+END
+BIfNonNullInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfNonNullInst.java
+END
+BTrap.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BTrap.java
+END
+BXorInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BXorInst.java
+END
+BDup2Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup2Inst.java
+END
+BIfGeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfGeInst.java
+END
+BSwapInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BSwapInst.java
+END
+BFieldPutInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BFieldPutInst.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/303/soot/trunk/src/soot/baf/internal/package.html
+END
+BInstanceCastInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BInstanceCastInst.java
+END
+BStaticPutInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BStaticPutInst.java
+END
+BUshrInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BUshrInst.java
+END
+BRemInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BRemInst.java
+END
+BFieldGetInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BFieldGetInst.java
+END
+BIfEqInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfEqInst.java
+END
+BShlInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BShlInst.java
+END
+BStaticGetInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BStaticGetInst.java
+END
+BNewArrayInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BNewArrayInst.java
+END
+BArrayWriteInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BArrayWriteInst.java
+END
+BSubInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BSubInst.java
+END
+BLookupSwitchInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BLookupSwitchInst.java
+END
+BSpecialInvokeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BSpecialInvokeInst.java
+END
+BMulInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BMulInst.java
+END
+BIfCmpLtInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpLtInst.java
+END
+BafLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/988/soot/trunk/src/soot/baf/internal/BafLocal.java
+END
+BGotoInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BGotoInst.java
+END
+BIncInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIncInst.java
+END
+BArrayReadInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BArrayReadInst.java
+END
+BIfCmpLeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpLeInst.java
+END
+BExitMonitorInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BExitMonitorInst.java
+END
+BIfCmpNeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpNeInst.java
+END
+BDup1_x1Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup1_x1Inst.java
+END
+BDup2_x1Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup2_x1Inst.java
+END
+BEnterMonitorInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BEnterMonitorInst.java
+END
+BAddInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BAddInst.java
+END
+BDupInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDupInst.java
+END
+BIfNullInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfNullInst.java
+END
+BIfLtInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfLtInst.java
+END
+BPopInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BPopInst.java
+END
+BReturnVoidInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BReturnVoidInst.java
+END
+BVirtualInvokeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BVirtualInvokeInst.java
+END
+BAndInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BAndInst.java
+END
+BStaticInvokeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BStaticInvokeInst.java
+END
+BNewMultiArrayInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BNewMultiArrayInst.java
+END
+BThrowInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BThrowInst.java
+END
+BNegInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BNegInst.java
+END
+BafLocalBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/988/soot/trunk/src/soot/baf/internal/BafLocalBox.java
+END
+AbstractInvokeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractInvokeInst.java
+END
+BReturnInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BReturnInst.java
+END
+BPushInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BPushInst.java
+END
+BIfLeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfLeInst.java
+END
+BCmpInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BCmpInst.java
+END
+AbstractOpTypeBranchInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/AbstractOpTypeBranchInst.java
+END
+BOrInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BOrInst.java
+END
+BIfNeInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfNeInst.java
+END
+BDup1_x2Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup1_x2Inst.java
+END
+BDup2_x2Inst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BDup2_x2Inst.java
+END
+BCmpgInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BCmpgInst.java
+END
+BInstanceOfInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BInstanceOfInst.java
+END
+BIdentityInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/3310/soot/trunk/src/soot/baf/internal/BIdentityInst.java
+END
+BIfCmpGtInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BIfCmpGtInst.java
+END
+BNewInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BNewInst.java
+END
+BShrInst.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/internal/BShrInst.java
+END

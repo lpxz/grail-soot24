@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/3305/soot/trunk/src/soot/jimple/toolkits/thread/synchronization
+END
+LockAllocationBodyTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/LockAllocationBodyTransformer.java
+END
+LockableReferenceAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/LockableReferenceAnalysis.java
+END
+DeadlockDetector.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/soot/!svn/ver/3305/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/DeadlockDetector.java
+END
+StrayRWFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/StrayRWFinder.java
+END
+DeadlockAvoidanceEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/soot/!svn/ver/3240/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/DeadlockAvoidanceEdge.java
+END
+CriticalSectionDataDependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSectionDataDependency.java
+END
+NewStaticLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/3240/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/NewStaticLock.java
+END
+SynchronizedRegionFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/soot/!svn/ver/3302/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/SynchronizedRegionFinder.java
+END
+CriticalSection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSection.java
+END
+CriticalSectionVisibleEdgesPred.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSectionVisibleEdgesPred.java
+END
+SynchronizedRegion.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/soot/!svn/ver/3241/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/SynchronizedRegion.java
+END
+CriticalSectionAwareSideEffectAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSectionAwareSideEffectAnalysis.java
+END
+SynchronizedRegionFlowPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/SynchronizedRegionFlowPair.java
+END
+LockAllocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/3305/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/LockAllocator.java
+END
+CriticalSectionInterferenceGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSectionInterferenceGraph.java
+END
+CriticalSectionGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/soot/!svn/ver/3242/soot/trunk/src/soot/jimple/toolkits/thread/synchronization/CriticalSectionGroup.java
+END

@@ -1,0 +1,22 @@
+from now on, we use the source directly for paddle
+using the jar is too limited
+
+three parts:
+src
+generated/jedd
+generated/singletons
+
+all are java sources codes now (some are generated from jedd grammar)
+
+//================
+the build of paddle is pretty simple, 
+download the svn to paddle_svn
+and put the lib aside paddle_svn
+then change the paddle_svn's ant.settings
+so that the references can be found
+
+then ant
+
+then okay... import the three components
+note:
+zchaff and zcore may be a little time-consuming to fix.

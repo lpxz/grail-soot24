@@ -1,0 +1,4 @@
+for i in *.dot; 
+do echo $i; 
+done
+

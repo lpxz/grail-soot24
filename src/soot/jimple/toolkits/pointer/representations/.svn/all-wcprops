@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/representations
+END
+ConstantObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/soot/!svn/ver/1012/soot/trunk/src/soot/jimple/toolkits/pointer/representations/ConstantObject.java
+END
+Environment.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/representations/Environment.java
+END
+ReferenceVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/representations/ReferenceVariable.java
+END
+AbstractObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/soot/!svn/ver/1012/soot/trunk/src/soot/jimple/toolkits/pointer/representations/AbstractObject.java
+END
+GeneralConstObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/soot/!svn/ver/1012/soot/trunk/src/soot/jimple/toolkits/pointer/representations/GeneralConstObject.java
+END
+TypeConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/representations/TypeConstants.java
+END

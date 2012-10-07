@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity
+END
+PurityAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityAnalysis.java
+END
+DirectedCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/DirectedCallGraph.java
+END
+PurityNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityNode.java
+END
+PurityMethodNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityMethodNode.java
+END
+PurityStmtNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityStmtNode.java
+END
+PurityGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityGraph.java
+END
+PurityIntraproceduralAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityIntraproceduralAnalysis.java
+END
+PurityEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityEdge.java
+END
+PurityInterproceduralAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityInterproceduralAnalysis.java
+END
+PurityGlobalNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityGlobalNode.java
+END
+PurityParamNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityParamNode.java
+END
+PurityGraphBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityGraphBox.java
+END
+AbstractInterproceduralAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/annotation/purity/AbstractInterproceduralAnalysis.java
+END
+PurityThisNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/PurityThisNode.java
+END
+SootMethodFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2097/soot/trunk/src/soot/jimple/toolkits/annotation/purity/SootMethodFilter.java
+END

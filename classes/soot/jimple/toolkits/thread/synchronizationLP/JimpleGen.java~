@@ -1,0 +1,143 @@
+package soot.jimple.toolkits.thread.synchronizationLP;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+import soot.ArrayType;
+import soot.Modifier;
+import soot.RefType;
+import soot.Scene;
+import soot.SootClass;
+import soot.SootField;
+import soot.SootMethod;
+import soot.Type;
+import soot.VoidType;
+import soot.jimple.Jimple;
+import soot.jimple.JimpleBody;
+
+public class JimpleGen {
+
+	// classtoInsert, fieldinserted, typeOfinsertedField
+	// ret: SootField
+	public static SootField addFieldToClass(SootClass classToInsert,
+			String fieldToAdd, String typeOfField, boolean isStatic) {
+		SootField retField = null;
+
+		try {
+			retField = classToInsert.getFieldByName(fieldToAdd);
+			// field already exists
+		} catch (RuntimeException re) {
+			// field does not yet exist (or, as a pre-existing error, there is
+			// more than one field by this name)
+			if (isStatic) {
+				retField = new SootField(fieldToAdd, RefType.v(typeOfField),
+						Modifier.STATIC | Modifier.PUBLIC);
+				classToInsert.addField(retField);
+			} else {
+				retField = new SootField(fieldToAdd, RefType.v(typeOfField),
+						Modifier.PUBLIC);
+				classToInsert.addField(retField);
+			}
+
+		}
+		return retField;
+	}
+
+	public static SootField addFieldToClass(String classToInsertStr,
+			String fieldToAdd, String typeOfField, boolean isStatic) {
+		SootField retField = null;
+		SootClass classToInsert = Scene.v().loadClassAndSupport(
+				classToInsertStr);
+
+		try {
+			retField = classToInsert.getFieldByName(fieldToAdd);
+			// field already exists
+		} catch (RuntimeException re) {
+			// field does not yet exist (or, as a pre-existing error, there is
+			// more than one field by this name)
+			if (isStatic) {
+				retField = new SootField(fieldToAdd, RefType.v(typeOfField),
+						Modifier.STATIC | Modifier.PUBLIC);
+				classToInsert.addField(retField);
+			} else {
+				retField = new SootField(fieldToAdd, RefType.v(typeOfField),
+						Modifier.PUBLIC);
+				classToInsert.addField(retField);
+			}
+
+		}
+		return retField;
+	}
+
+	// classToInsert
+	// methodname
+	// ArrayList:parameter types
+	// ret type
+	// isStatic
+
+	public static SootMethod addMethodToClass(SootClass classToInsert, String methodName,
+			ArrayList paraTypeNameOrClasses, String returnTypeName, boolean isStatic) {
+		SootMethod method =null;
+		ArrayList<Type> paraTypes  = translateFrom(paraTypeNameOrClasses);
+		Type retType =translateFrom(returnTypeName);
+		if(isStatic)
+		{
+			method = new SootMethod(methodName,
+					paraTypes, 
+	                retType, Modifier.PUBLIC | Modifier.STATIC);  
+			//Arrays.asList(new Type[] {ArrayType.v(RefType.v("java.lang.String"), 1)}),
+		    //VoidType.v()
+		}
+		else {
+			method = new SootMethod(methodName,
+	                paraTypes,
+	                retType, Modifier.PUBLIC);  
+			//Arrays.asList(new Type[] {ArrayType.v(RefType.v("java.lang.String"), 1)}),
+			//VoidType.v()
+		}
+      
+           classToInsert.addMethod(method);
+            JimpleBody body = Jimple.v().newBody(method);            
+            method.setActiveBody(body);
+            return method;
+
+	}
+
+	private static Type translateFrom(String returnTypeName) {
+        if(returnTypeName.equalsIgnoreCase("void"))
+        {
+        	return VoidType.v();
+        }
+        if(returnTypeName.equalsIgnoreCase("String"))
+        {
+        	return RefType.v("java.lang.String");
+        	
+        	
+        }
+        if(returnTypeName.equalsIgnoreCase("String[]"))
+        {
+        	return ArrayType.v(RefType.v("java.lang.String"), 1);
+        	
+        }
+        else{
+        	throw new RuntimeException();// I have not seens this type before
+        }
+        
+	}
+
+	private static ArrayList<Type> translateFrom(ArrayList paraTypeNames) {
+            ArrayList< Type> ret = new ArrayList<Type>();
+            for(int i= 0;i< paraTypeNames.size();i++)
+            {
+            	String returnTypeName = (String)paraTypeNames.get(i);
+            	Type tmpType = translateFrom(returnTypeName);
+            	ret.add(i, tmpType);
+            }
+            return ret;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

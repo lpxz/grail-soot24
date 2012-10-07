@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2142/soot/trunk/generated/sablecc/soot/jimple/parser/parser
+END
+State.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1167/soot/trunk/generated/sablecc/soot/jimple/parser/parser/State.java
+END
+parser.dat
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2142/soot/trunk/generated/sablecc/soot/jimple/parser/parser/parser.dat
+END
+TokenIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2142/soot/trunk/generated/sablecc/soot/jimple/parser/parser/TokenIndex.java
+END
+ParserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/1167/soot/trunk/generated/sablecc/soot/jimple/parser/parser/ParserException.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2142/soot/trunk/generated/sablecc/soot/jimple/parser/parser/Parser.java
+END

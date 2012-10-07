@@ -1,0 +1,104 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2003, 2004, 2005 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.jimple.paddle.queue.*;
+import soot.jimple.paddle.bdddomains.*;
+import soot.*;
+import java.util.*;
+
+/** Keeps track of which methods are reachable.
+ * @author Ondrej Lhotak
+ */
+public class BDDReachableMethods extends AbsReachableMethods 
+{ 
+    private <A_ctxt, A_method> reachableCM;
+    private <A_method> reachableM;
+    private AbsCallGraph cg;
+    private Rctxt_method newMethods;
+    BDDReachableMethods( Rsrcc_srcm_stmt_kind_tgtc_tgtm edgesIn, Rctxt_method methodsIn, Qmethod mout, Qctxt_method cmout, AbsCallGraph cg ) {
+        super( edgesIn, methodsIn, mout, cmout == null ? new Qctxt_methodBDD("cmout") : cmout );
+        this.cg = cg;
+        newMethods = this.cmout.reader("bddrm");
+    }
+    public boolean update() {
+        boolean change = false;
+
+        if( methodsIn != null ) {
+            <A_ctxt, A_method> newMethodsIn = methodsIn.get();
+            if(add(newMethodsIn)) change = true;
+        }
+
+        if( edgesIn != null ) {
+            <A_srcc, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm> newEdges =
+                edgesIn.get() {A_srcc, A_srcm} >< reachableCM {A_ctxt, A_method};
+
+            newEdges |= cg.edgesOutOf( newMethods ).get();
+
+            while( newEdges != 0B ) {
+                <A_ctxt, A_method> newTargets =
+                    (A_srcc=>, A_srcm=>, A_stmt=>, A_kind=>, A_tgtc=>A_ctxt, A_tgtm=>A_method) newEdges;
+                if(add( newTargets )) change = true;
+                newEdges = cg.edgesOutOf( newMethods ).get();
+            }
+        }
+        return change;
+    }
+    boolean add( Context c, SootMethod m ) {
+        return add( new{ c=>A_ctxt, m=>A_method } );
+    }
+    private boolean add(<A_ctxt, A_method> methodContexts) {
+        boolean ret = false;
+        <A_ctxt, A_method> newCM = methodContexts - reachableCM;
+        reachableCM |= newCM;
+        if(cmout != null) cmout.add(newCM);
+        <A_method> newM = (A_ctxt=>)methodContexts - reachableM;
+        reachableM |= newM;
+        if(mout != null) mout.add(newM);
+        return (newCM != 0B) || (newM != 0B);
+    }
+    public int sizeM() {
+        return (int) reachableM.size();
+    }
+    public int sizeCM() {
+        return (int) reachableCM.size();
+    }
+    public boolean contains( SootMethod m ) {
+        <A_method> newM = new{ m=>A_method };
+        return (reachableM & newM) != 0B;
+    }
+    public boolean contains( Context c, SootMethod m ) {
+        <A_ctxt, A_method> newM = new{ c=>A_ctxt, m=>A_method };
+        return (reachableCM & newM) != 0B;
+    }
+    public Rmethod methods() {
+        return new RmethodBDD(reachableM, "methods", null);
+    }
+    public Rctxt_method contextMethods() {
+        return new Rctxt_methodBDD(reachableCM, "methods", null);
+    }
+    public Iterator methodIterator() {
+        return reachableM.iterator();
+    }
+    public long countContexts(SootMethod m) {
+        <A_ctxt> contexts = reachableCM{A_method} <> new{m=>A_method}{A_method};
+        return contexts.size();
+    }
+}
+

@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST
+END
+ASTOrCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2048/soot/trunk/src/soot/dava/internal/AST/ASTOrCondition.java
+END
+ASTBinaryCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2334/soot/trunk/src/soot/dava/internal/AST/ASTBinaryCondition.java
+END
+ASTLabeledNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2369/soot/trunk/src/soot/dava/internal/AST/ASTLabeledNode.java
+END
+ASTSynchronizedBlockNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTSynchronizedBlockNode.java
+END
+ASTAggregatedCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTAggregatedCondition.java
+END
+ASTDoWhileNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTDoWhileNode.java
+END
+ASTStatementSequenceNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTStatementSequenceNode.java
+END
+ASTIfNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTIfNode.java
+END
+ASTUnaryCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2334/soot/trunk/src/soot/dava/internal/AST/ASTUnaryCondition.java
+END
+ASTUnconditionalLoopNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTUnconditionalLoopNode.java
+END
+ASTSwitchNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTSwitchNode.java
+END
+ASTAndCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2334/soot/trunk/src/soot/dava/internal/AST/ASTAndCondition.java
+END
+ASTLabeledBlockNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTLabeledBlockNode.java
+END
+ASTUnaryBinaryCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2334/soot/trunk/src/soot/dava/internal/AST/ASTUnaryBinaryCondition.java
+END
+ASTIfElseNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTIfElseNode.java
+END
+ASTWhileNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTWhileNode.java
+END
+ASTControlFlowNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTControlFlowNode.java
+END
+ASTTryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTTryNode.java
+END
+ASTNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTNode.java
+END
+ASTMethodNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTMethodNode.java
+END
+ASTCondition.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2334/soot/trunk/src/soot/dava/internal/AST/ASTCondition.java
+END
+ASTForLoopNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/AST/ASTForLoopNode.java
+END

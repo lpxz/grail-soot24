@@ -1,0 +1,116 @@
+name: 0
+r0 := @this: popl.example.StringBuffer
+
+
+name: 1
+i0 := @parameter0: int
+
+
+name: 10
+if i0 <= i1 goto i2 = i1 - i0
+
+
+name: 11
+$r2 = new java.lang.StringIndexOutOfBoundsException
+
+
+name: 12
+specialinvoke $r2.<java.lang.StringIndexOutOfBoundsException: void <init>()>()
+
+
+name: 13
+throw $r2
+
+
+name: 14
+i2 = i1 - i0
+
+
+name: 15
+if i2 <= 0 goto return r0
+
+
+name: 16
+$z0 = r0.<popl.example.StringBuffer: boolean shared>
+
+
+name: 17
+if $z0 == 0 goto $r3 = r0.<popl.example.StringBuffer: char[] value>
+
+
+name: 18
+specialinvoke r0.<popl.example.StringBuffer: void copy()>()
+
+
+name: 19
+$r3 = r0.<popl.example.StringBuffer: char[] value>
+
+
+name: 2
+i1 := @parameter1: int
+
+
+name: 20
+$i4 = i0 + i2
+
+
+name: 21
+$r4 = r0.<popl.example.StringBuffer: char[] value>
+
+
+name: 22
+$i5 = r0.<popl.example.StringBuffer: int count>
+
+
+name: 23
+$i6 = $i5 - i1
+
+
+name: 24
+staticinvoke <java.lang.System: void arraycopy(java.lang.Object,int,java.lang.Object,int,int)>($r3, $i4, $r4, i0, $i6)
+
+
+name: 25
+$i7 = r0.<popl.example.StringBuffer: int count>
+
+
+name: 26
+$i8 = $i7 - i2
+
+
+name: 27
+r0.<popl.example.StringBuffer: int count> = $i8
+
+
+name: 28
+return r0
+
+
+name: 3
+if i0 >= 0 goto $i3 = r0.<popl.example.StringBuffer: int count>
+
+
+name: 4
+$r1 = new java.lang.StringIndexOutOfBoundsException
+
+
+name: 5
+specialinvoke $r1.<java.lang.StringIndexOutOfBoundsException: void <init>(int)>(i0)
+
+
+name: 6
+throw $r1
+
+
+name: 7
+$i3 = r0.<popl.example.StringBuffer: int count>
+
+
+name: 8
+if i1 <= $i3 goto (branch)
+
+
+name: 9
+i1 = r0.<popl.example.StringBuffer: int count>
+
+

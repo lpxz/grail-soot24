@@ -1,0 +1,245 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/soot/!svn/ver/3479/soot/trunk/src/soot/javaToJimple
+END
+LocalGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/LocalGenerator.java
+END
+PrivateMethodAccMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/1735/soot/trunk/src/soot/javaToJimple/PrivateMethodAccMethodSource.java
+END
+JimpleBodyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/3258/soot/trunk/src/soot/javaToJimple/JimpleBodyBuilder.java
+END
+CastInsertionVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2275/soot/trunk/src/soot/javaToJimple/CastInsertionVisitor.java
+END
+PrivateFieldAccMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/PrivateFieldAccMethodSource.java
+END
+AnonLocalClassInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AnonLocalClassInfo.java
+END
+AssertClassMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AssertClassMethodSource.java
+END
+CommaJBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2425/soot/trunk/src/soot/javaToJimple/CommaJBB.java
+END
+NestedClassListBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/NestedClassListBuilder.java
+END
+InitialResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/3218/soot/trunk/src/soot/javaToJimple/InitialResolver.java
+END
+ReturnStmtChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/ReturnStmtChecker.java
+END
+PrivateFieldSetMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1735/soot/trunk/src/soot/javaToJimple/PrivateFieldSetMethodSource.java
+END
+AccessFieldJBB.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AccessFieldJBB.java
+END
+TypeListBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/TypeListBuilder.java
+END
+IInitialResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/3185/soot/trunk/src/soot/javaToJimple/IInitialResolver.java
+END
+JavaToJimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/JavaToJimple.java
+END
+AbstractJimpleBodyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AbstractJimpleBodyBuilder.java
+END
+PolyglotMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/PolyglotMethodSource.java
+END
+PrivateAccessUses.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/PrivateAccessUses.java
+END
+LocalClassDeclFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/LocalClassDeclFinder.java
+END
+MethodFinalsChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/MethodFinalsChecker.java
+END
+AnonInitBodyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AnonInitBodyBuilder.java
+END
+ClassLiteralMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/ClassLiteralMethodSource.java
+END
+InnerClassInfoFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/InnerClassInfoFinder.java
+END
+ClassLiteralChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/ClassLiteralChecker.java
+END
+AbstractJBBFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2095/soot/trunk/src/soot/javaToJimple/AbstractJBBFactory.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/3094/soot/trunk/src/soot/javaToJimple/Util.java
+END
+InnerClassInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/InnerClassInfo.java
+END
+LocalUsesChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/LocalUsesChecker.java
+END
+PrivateAccessChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/PrivateAccessChecker.java
+END
+PrivateInstancesAvailable.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/PrivateInstancesAvailable.java
+END
+ClassDeclFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/ClassDeclFinder.java
+END
+SaveASTVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/SaveASTVisitor.java
+END
+AnonClassInitMethodSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AnonClassInitMethodSource.java
+END
+ClassResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/3185/soot/trunk/src/soot/javaToJimple/ClassResolver.java
+END
+BiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/BiMap.java
+END
+AnonConstructorFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AnonConstructorFinder.java
+END
+StrictFPPropagator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/StrictFPPropagator.java
+END
+JimpleBodyBuilderFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2095/soot/trunk/src/soot/javaToJimple/JimpleBodyBuilderFactory.java
+END
+AssertStmtChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/javaToJimple/AssertStmtChecker.java
+END

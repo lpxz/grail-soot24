@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/soot/!svn/ver/3488/soot/trunk/src
+END
+singletons.list
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/soot/!svn/ver/3479/soot/trunk/src/singletons.list
+END
+baf.scc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/soot/!svn/ver/260/soot/trunk/src/baf.scc
+END
+make_singletons
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/soot/!svn/ver/1488/soot/trunk/src/make_singletons
+END
+jimple.scc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/soot/!svn/ver/2142/soot/trunk/src/jimple.scc
+END

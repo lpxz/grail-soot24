@@ -1,0 +1,120 @@
+name: 0
+r0 := @parameter0: java.lang.String[]
+
+
+name: 1
+r1 = "ss"
+
+
+name: 10
+$r3 = <java.lang.System: java.io.PrintStream out>
+
+
+name: 11
+virtualinvoke $r3.<java.io.PrintStream: void println(java.lang.String)>("i==7")
+
+
+name: 12
+n1 = n0
+
+
+name: 13
+entermonitor n0
+
+
+name: 14
+nop
+
+
+name: 15
+if b0 != 9 goto exitmonitor n1
+
+
+name: 16
+$r4 = <java.lang.System: java.io.PrintStream out>
+
+
+name: 17
+virtualinvoke $r4.<java.io.PrintStream: void println(java.lang.String)>("j==9")
+
+
+name: 18
+exitmonitor n1
+
+
+name: 19
+goto [?= $r7 = <java.lang.System: java.io.PrintStream out>]
+
+
+name: 2
+r2 = "tt"
+
+
+name: 20
+$r5 := @caughtexception
+
+
+name: 21
+exitmonitor n1
+
+
+name: 22
+throw $r5
+
+
+name: 23
+if z1 == 0 goto $r7 = <java.lang.System: java.io.PrintStream out>
+
+
+name: 24
+$r6 = <java.lang.System: java.io.PrintStream out>
+
+
+name: 25
+virtualinvoke $r6.<java.io.PrintStream: void println(java.lang.String)>("love")
+
+
+name: 26
+$r7 = <java.lang.System: java.io.PrintStream out>
+
+
+name: 27
+virtualinvoke $r7.<java.io.PrintStream: void println(java.lang.String)>("stub")
+
+
+name: 28
+if b0 > 9 goto (branch)
+
+
+name: 29
+return
+
+
+name: 3
+n0 = null
+
+
+name: 4
+z0 = 1
+
+
+name: 5
+z1 = 1
+
+
+name: 6
+b0 = 10
+
+
+name: 7
+b1 = 9
+
+
+name: 8
+goto [?= (branch)]
+
+
+name: 9
+if b1 != 7 goto (branch)
+
+

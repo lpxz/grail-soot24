@@ -1,0 +1,34 @@
+    public static void main(java.lang.String[])
+    {
+        java.lang.String[] r0;
+        Simple$1 $r1, r2;
+        Simple$2 r3, $r5;
+        java.lang.InterruptedException r4, $r6;
+
+        r0 := @parameter0: java.lang.String[];
+        $r1 = new Simple$1;
+        specialinvoke $r1.<Simple$1: void <init>()>();
+        r2 = $r1;
+        $r5 = new Simple$2;
+        specialinvoke $r5.<Simple$2: void <init>()>();
+        r3 = $r5;
+        virtualinvoke r2.<java.lang.Thread: void start()>();
+        virtualinvoke r3.<java.lang.Thread: void start()>();
+
+     label0:
+        virtualinvoke r2.<java.lang.Thread: void join()>();
+        virtualinvoke r3.<java.lang.Thread: void join()>();
+
+     label1:
+        goto label3;
+
+     label2:
+        $r6 := @caughtexception;
+        r4 = $r6;
+        virtualinvoke r4.<java.lang.InterruptedException: void printStackTrace()>();
+
+     label3:
+        return;
+
+        catch java.lang.InterruptedException from label0 to label1 with label2;
+    }

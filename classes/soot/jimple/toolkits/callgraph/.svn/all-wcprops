@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/3483/soot/trunk/src/soot/jimple/toolkits/callgraph
+END
+TopologicalOrderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/TopologicalOrderer.java
+END
+SlowCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/SlowCallGraph.java
+END
+Units.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/Units.java
+END
+ContextSensitiveEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2011/soot/trunk/src/soot/jimple/toolkits/callgraph/ContextSensitiveEdge.java
+END
+ObjSensContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ObjSensContextManager.java
+END
+InstanceInvokeEdgesPred.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/InstanceInvokeEdgesPred.java
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/3402/soot/trunk/src/soot/jimple/toolkits/callgraph/Edge.java
+END
+CallGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/3125/soot/trunk/src/soot/jimple/toolkits/callgraph/CallGraphBuilder.java
+END
+ExplicitEdgesPred.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ExplicitEdgesPred.java
+END
+VirtualCalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/VirtualCalls.java
+END
+ContextInsensitiveContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ContextInsensitiveContextManager.java
+END
+VirtualCallSite.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/VirtualCallSite.java
+END
+Targets.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2880/soot/trunk/src/soot/jimple/toolkits/callgraph/Targets.java
+END
+ReflectionModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/3345/soot/trunk/src/soot/jimple/toolkits/callgraph/ReflectionModel.java
+END
+ClinitElimTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ClinitElimTransformer.java
+END
+OnFlyCallGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/3483/soot/trunk/src/soot/jimple/toolkits/callgraph/OnFlyCallGraphBuilder.java
+END
+CHATransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1488/soot/trunk/src/soot/jimple/toolkits/callgraph/CHATransformer.java
+END
+ContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ContextManager.java
+END
+TransitiveTargets.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/TransitiveTargets.java
+END
+Sources.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/Sources.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2880/soot/trunk/src/soot/jimple/toolkits/callgraph/Filter.java
+END
+EdgePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/EdgePredicate.java
+END
+ReachableMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2880/soot/trunk/src/soot/jimple/toolkits/callgraph/ReachableMethods.java
+END
+OneCFAContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/OneCFAContextManager.java
+END
+CallGraphPack.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/3100/soot/trunk/src/soot/jimple/toolkits/callgraph/CallGraphPack.java
+END
+ContextSensitiveCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ContextSensitiveCallGraph.java
+END
+CallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2880/soot/trunk/src/soot/jimple/toolkits/callgraph/CallGraph.java
+END
+ClinitElimAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/ClinitElimAnalysis.java
+END
+UnreachableMethodTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/callgraph/UnreachableMethodTransformer.java
+END

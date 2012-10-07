@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/3322/paddle/trunk/src/soot/jimple/paddle/bdddomains
+END
+SigDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/SigDomain.jedd
+END
+A_tgtm.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_tgtm.jedd
+END
+ContextDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/bdddomains/ContextDomain.jedd
+END
+A_basec.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_basec.jedd
+END
+MS.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/MS.jedd
+END
+VarDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/VarDomain.jedd
+END
+CM1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/CM1.jedd
+END
+MC3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/MC3.jedd
+END
+InfCFAContextDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/bdddomains/InfCFAContextDomain.jedd
+END
+MEASURE4.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/bdddomains/MEASURE4.jedd
+END
+A_kind.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_kind.jedd
+END
+T2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/T2.jedd
+END
+A_stmt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_stmt.jedd
+END
+V2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/V2.jedd
+END
+A_var.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_var.jedd
+END
+A_srcc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_srcc.jedd
+END
+A_dst.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_dst.jedd
+END
+KD.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/KD.jedd
+END
+ObjDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/ObjDomain.jedd
+END
+C1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/C1.jedd
+END
+MethodDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2162/paddle/trunk/src/soot/jimple/paddle/bdddomains/MethodDomain.jedd
+END
+ST3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/ST3.jedd
+END
+A_obj.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_obj.jedd
+END
+A_subt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_subt.jedd
+END
+ShadowDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/ShadowDomain.jedd
+END
+MT.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/MT.jedd
+END
+A_method.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_method.jedd
+END
+CM2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/CM2.jedd
+END
+MEASURE1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/bdddomains/MEASURE1.jedd
+END
+A_atp.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_atp.jedd
+END
+T3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/T3.jedd
+END
+ST.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/ST.jedd
+END
+A_supt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_supt.jedd
+END
+A_dstc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_dstc.jedd
+END
+A_tgtc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_tgtc.jedd
+END
+A_arrayt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_arrayt.jedd
+END
+C2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/C2.jedd
+END
+CH1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/bdddomains/CH1.jedd
+END
+KindDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/KindDomain.jedd
+END
+A_objc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_objc.jedd
+END
+StmtDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2392/paddle/trunk/src/soot/jimple/paddle/bdddomains/StmtDomain.jedd
+END
+MC1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/MC1.jedd
+END
+A_type.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_type.jedd
+END
+CM3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/CM3.jedd
+END
+A_ctxt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_ctxt.jedd
+END
+MEASURE2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/bdddomains/MEASURE2.jedd
+END
+A_src.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_src.jedd
+END
+A_dtp.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_dtp.jedd
+END
+FD.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/FD.jedd
+END
+A_srcm.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_srcm.jedd
+END
+C3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/C3.jedd
+END
+A_elemt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_elemt.jedd
+END
+MEASURE15.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2123/paddle/trunk/src/soot/jimple/paddle/bdddomains/MEASURE15.jedd
+END
+H1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/H1.jedd
+END
+A_base.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/3322/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_base.jedd
+END
+FieldDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/FieldDomain.jedd
+END
+CH2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/bdddomains/CH2.jedd
+END
+M3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1949/paddle/trunk/src/soot/jimple/paddle/bdddomains/M3.jedd
+END
+MC2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/MC2.jedd
+END
+LocalDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/LocalDomain.jedd
+END
+T1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/T1.jedd
+END
+MEASURE3.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/bdddomains/MEASURE3.jedd
+END
+A_shadow.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_shadow.jedd
+END
+V1.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/V1.jedd
+END
+A_local.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_local.jedd
+END
+A_varc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_varc.jedd
+END
+A_anyst.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_anyst.jedd
+END
+A_curstmt.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_curstmt.jedd
+END
+A_signature.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_signature.jedd
+END
+A_fld.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/bdddomains/A_fld.jedd
+END
+ST2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/bdddomains/ST2.jedd
+END
+SG.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/SG.jedd
+END
+TypeDomain.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/bdddomains/TypeDomain.jedd
+END
+H2.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/bdddomains/H2.jedd
+END

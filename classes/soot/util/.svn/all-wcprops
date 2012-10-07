@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/soot/!svn/ver/3383/soot/trunk/src/soot/util
+END
+BitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/3120/soot/trunk/src/soot/util/BitVector.java
+END
+EscapedWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/988/soot/trunk/src/soot/util/EscapedWriter.java
+END
+IdentityHashSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/2893/soot/trunk/src/soot/util/IdentityHashSet.java
+END
+LargeNumberedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2757/soot/trunk/src/soot/util/LargeNumberedMap.java
+END
+Numberable.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/567/soot/trunk/src/soot/util/Numberable.java
+END
+PhaseDumper.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2756/soot/trunk/src/soot/util/PhaseDumper.java
+END
+JasminOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/3383/soot/trunk/src/soot/util/JasminOutputStream.java
+END
+Switchable.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/988/soot/trunk/src/soot/util/Switchable.java
+END
+IterableMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/IterableMap.java
+END
+Debug.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/Debug.java
+END
+HashChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/3344/soot/trunk/src/soot/util/HashChain.java
+END
+StationaryArrayList.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/988/soot/trunk/src/soot/util/StationaryArrayList.java
+END
+NumberedString.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/573/soot/trunk/src/soot/util/NumberedString.java
+END
+HashMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/HashMultiMap.java
+END
+SingletonList.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/594/soot/trunk/src/soot/util/SingletonList.java
+END
+Switch.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/988/soot/trunk/src/soot/util/Switch.java
+END
+Cons.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/soot/!svn/ver/1606/soot/trunk/src/soot/util/Cons.java
+END
+IterableSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/IterableSet.java
+END
+BitSetIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/BitSetIterator.java
+END
+SharedBitSetCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1488/soot/trunk/src/soot/util/SharedBitSetCache.java
+END
+DeterministicHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/DeterministicHashMap.java
+END
+StringNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/StringNumberer.java
+END
+MapNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/MapNumberer.java
+END
+NumberedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/NumberedSet.java
+END
+UnitMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/UnitMap.java
+END
+Heap.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/Heap.java
+END
+ArrayNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2436/soot/trunk/src/soot/util/ArrayNumberer.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/soot/!svn/ver/303/soot/trunk/src/soot/util/package.html
+END
+Numberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/soot/!svn/ver/2436/soot/trunk/src/soot/util/Numberer.java
+END
+SharedBitSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/984/soot/trunk/src/soot/util/SharedBitSet.java
+END
+Chain.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/3238/soot/trunk/src/soot/util/Chain.java
+END
+StringTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/StringTools.java
+END
+EscapedReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/EscapedReader.java
+END
+IterableNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2028/soot/trunk/src/soot/util/IterableNumberer.java
+END
+MultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/541/soot/trunk/src/soot/util/MultiMap.java
+END
+SmallNumberedMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/util/SmallNumberedMap.java
+END
+ArraySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/soot/!svn/ver/3337/soot/trunk/src/soot/util/ArraySet.java
+END
+IntegerNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/2436/soot/trunk/src/soot/util/IntegerNumberer.java
+END

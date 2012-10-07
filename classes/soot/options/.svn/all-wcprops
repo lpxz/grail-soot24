@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/soot/!svn/ver/3485/soot/trunk/src/soot/options
+END
+options_dialog.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/971/soot/trunk/src/soot/options/options_dialog.xsl
+END
+phase_options_dialog.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/3221/soot/trunk/src/soot/options/phase_options_dialog.xsl
+END
+soot_options.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/2006/soot/trunk/src/soot/options/soot_options.xsl
+END
+xalan-to-xsltproc.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/1072/soot/trunk/src/soot/options/xalan-to-xsltproc.xsl
+END
+OptionsBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/2728/soot/trunk/src/soot/options/OptionsBase.java
+END
+ant-task.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/2019/soot/trunk/src/soot/options/ant-task.xsl
+END
+soot-options.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/610/soot/trunk/src/soot/options/soot-options.txt
+END
+options_dialog_handler.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/684/soot/trunk/src/soot/options/options_dialog_handler.xsl
+END
+make-soot-options.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2717/soot/trunk/src/soot/options/make-soot-options.xsl
+END
+soot_options.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/3485/soot/trunk/src/soot/options/soot_options.xml
+END

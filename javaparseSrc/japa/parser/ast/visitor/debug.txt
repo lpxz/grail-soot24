@@ -1,0 +1,4 @@
+when debugging, do not break  the original visitor system
+just sysout by product.
+when you are sure about the generated info,
+substitute the original, do it ! 

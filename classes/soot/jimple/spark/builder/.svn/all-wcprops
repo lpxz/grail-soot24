@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/3395/soot/trunk/src/soot/jimple/spark/builder
+END
+ContextInsensitiveBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/builder/ContextInsensitiveBuilder.java
+END
+MethodNodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3321/soot/trunk/src/soot/jimple/spark/builder/MethodNodeFactory.java
+END
+GlobalNodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3395/soot/trunk/src/soot/jimple/spark/builder/GlobalNodeFactory.java
+END

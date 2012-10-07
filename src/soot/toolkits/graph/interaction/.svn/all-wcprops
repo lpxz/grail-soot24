@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/graph/interaction
+END
+InteractionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/1722/soot/trunk/src/soot/toolkits/graph/interaction/InteractionEvent.java
+END
+FlowInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/1722/soot/trunk/src/soot/toolkits/graph/interaction/FlowInfo.java
+END
+IInteractionConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/1722/soot/trunk/src/soot/toolkits/graph/interaction/IInteractionConstants.java
+END
+IInteractionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/1722/soot/trunk/src/soot/toolkits/graph/interaction/IInteractionController.java
+END
+InteractionHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/graph/interaction/InteractionHandler.java
+END
+IInteractionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/1722/soot/trunk/src/soot/toolkits/graph/interaction/IInteractionListener.java
+END

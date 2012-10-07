@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/3254/soot/trunk/src/soot/toolkits/astmetrics
+END
+ClassData.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/ClassData.java
+END
+metricPrettyPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2367/soot/trunk/src/soot/toolkits/astmetrics/metricPrettyPrinter.java
+END
+ExpressionComplexityMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/ExpressionComplexityMetric.java
+END
+NumLocalsMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2324/soot/trunk/src/soot/toolkits/astmetrics/NumLocalsMetric.java
+END
+MetricInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2319/soot/trunk/src/soot/toolkits/astmetrics/MetricInterface.java
+END
+ConstructNumbersMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2412/soot/trunk/src/soot/toolkits/astmetrics/ConstructNumbersMetric.java
+END
+ConditionComplexityMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2368/soot/trunk/src/soot/toolkits/astmetrics/ConditionComplexityMetric.java
+END
+IdentifiersMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/IdentifiersMetric.java
+END
+AbruptEdgesMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/AbruptEdgesMetric.java
+END
+ComputeASTMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/ComputeASTMetrics.java
+END
+ASTMetric.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/ASTMetric.java
+END
+StmtSumWeightedByDepth.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/toolkits/astmetrics/StmtSumWeightedByDepth.java
+END
+MetricData.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2324/soot/trunk/src/soot/toolkits/astmetrics/MetricData.java
+END

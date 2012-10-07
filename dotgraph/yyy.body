@@ -1,0 +1,42 @@
+    public void run()
+    {
+        popl.example.StringBufferTest$1 r0;
+        popl.example.StringBuffer $r1, r2, $r3, $r4, $r5, $r6;
+        int i0, $i1;
+        char[] $r7;
+        java.lang.Throwable $r8;
+
+        r0 := @this: popl.example.StringBufferTest$1;
+        $r1 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>;
+        r2 = $r1;
+        entermonitor $r1;
+
+     label0:
+        $r5 = <popl.example.StringBufferTest: popl.example.StringBuffer s2>;
+        i0 = virtualinvoke $r5.<popl.example.StringBuffer: int length()>();
+        $r6 = <popl.example.StringBufferTest: popl.example.StringBuffer s2>;
+        $r3 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>;
+        $r7 = $r3.<popl.example.StringBuffer: char[] value>;
+        $r4 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>;
+        $i1 = $r4.<popl.example.StringBuffer: int count>;
+        virtualinvoke $r6.<popl.example.StringBuffer: void getChars(int,int,char[],int)>(0, i0, $r7, $i1);
+        exitmonitor r2;
+
+     label1:
+        goto label5;
+
+     label2:
+        $r8 := @caughtexception;
+
+     label3:
+        exitmonitor r2;
+
+     label4:
+        throw $r8;
+
+     label5:
+        return;
+
+        catch java.lang.Throwable from label0 to label1 with label2;
+        catch java.lang.Throwable from label3 to label4 with label2;
+    }

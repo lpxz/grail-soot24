@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil
+END
+Predicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Predicate.java
+END
+ArraySetMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ArraySetMultiMap.java
+END
+UnorderedPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/UnorderedPair.java
+END
+ArraySetDupesMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ArraySetDupesMultiMap.java
+END
+ImmutableStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ImmutableStack.java
+END
+MutablePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/MutablePair.java
+END
+Stack.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Stack.java
+END
+HashSetMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/HashSetMultiMap.java
+END
+ObjWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ObjWrapper.java
+END
+AbstractMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/AbstractMultiMap.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Util.java
+END
+Propagator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Propagator.java
+END
+DisjointSets.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/DisjointSets.java
+END
+Mapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Mapper.java
+END
+ObjectVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ObjectVisitor.java
+END
+MultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/MultiMap.java
+END
+FIFOQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/FIFOQueue.java
+END
+ArraySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/ArraySet.java
+END
+Averager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/Averager.java
+END
+IteratorMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/genericutil/IteratorMapper.java
+END

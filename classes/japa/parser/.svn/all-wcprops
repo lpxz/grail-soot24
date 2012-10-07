@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/110/trunk/JavaParser/src/japa/parser
+END
+ASTParserTokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/ASTParserTokenManager.java
+END
+Token.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/Token.java
+END
+TokenMgrError.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/TokenMgrError.java
+END
+ASTParserConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/ASTParserConstants.java
+END
+ASTParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/106/trunk/JavaParser/src/japa/parser/ASTParser.java
+END
+ASTHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/110/trunk/JavaParser/src/japa/parser/ASTHelper.java
+END
+java_1_5.jj
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/82/trunk/JavaParser/src/japa/parser/java_1_5.jj
+END
+ParseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/ParseException.java
+END
+JavaCharStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/71/trunk/JavaParser/src/japa/parser/JavaCharStream.java
+END
+JavaParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/JavaParser.java
+END

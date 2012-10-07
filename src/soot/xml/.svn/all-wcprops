@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml
+END
+LinkAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/LinkAttribute.java
+END
+TagCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/TagCollector.java
+END
+ColorAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/ColorAttribute.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/Attribute.java
+END
+XMLRoot.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/988/soot/trunk/src/soot/xml/XMLRoot.java
+END
+XMLPrinter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/XMLPrinter.java
+END
+PosColorAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/PosColorAttribute.java
+END
+JavaAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/JavaAttribute.java
+END
+XMLNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/988/soot/trunk/src/soot/xml/XMLNode.java
+END
+Key.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/Key.java
+END
+StringAttribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/soot/!svn/ver/2728/soot/trunk/src/soot/xml/StringAttribute.java
+END

@@ -1,0 +1,4 @@
+// if no join, the start-join analysis lose.
+// at the moment, the output class is problematic, as they are not protected at all.
+// Find out if the "thread" in "thread.start()" could be more than one object, what about the whle-loop
+// the eclipse is down, then I ifconfig lo up!

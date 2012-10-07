@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/1188/soot/trunk/src/soot/javaToJimple/jj/tests
+END
+test
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1188/soot/trunk/src/soot/javaToJimple/jj/tests/test
+END
+Hello.jj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1188/soot/trunk/src/soot/javaToJimple/jj/tests/Hello.jj
+END
+Hello.jl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1188/soot/trunk/src/soot/javaToJimple/jj/tests/Hello.jl
+END

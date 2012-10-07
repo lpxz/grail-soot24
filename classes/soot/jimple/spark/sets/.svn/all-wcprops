@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/spark/sets
+END
+HashPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/HashPointsToSet.java
+END
+PointsToBitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/3122/soot/trunk/src/soot/jimple/spark/sets/PointsToBitVector.java
+END
+EqualsSupportingPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2911/soot/trunk/src/soot/jimple/spark/sets/EqualsSupportingPointsToSet.java
+END
+PointsToSetEqualsWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/spark/sets/PointsToSetEqualsWrapper.java
+END
+EmptyPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2458/soot/trunk/src/soot/jimple/spark/sets/EmptyPointsToSet.java
+END
+SortedArraySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/SortedArraySet.java
+END
+P2SetVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/P2SetVisitor.java
+END
+SharedListSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/SharedListSet.java
+END
+AllSharedListNodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/AllSharedListNodes.java
+END
+SharedHybridSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2441/soot/trunk/src/soot/jimple/spark/sets/SharedHybridSet.java
+END
+P2SetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/P2SetFactory.java
+END
+DoublePointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/DoublePointsToSet.java
+END
+PointsToSetInternal.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/spark/sets/PointsToSetInternal.java
+END
+BitPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/sets/BitPointsToSet.java
+END
+AllSharedHybridNodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2371/soot/trunk/src/soot/jimple/spark/sets/AllSharedHybridNodes.java
+END
+HybridPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/3118/soot/trunk/src/soot/jimple/spark/sets/HybridPointsToSet.java
+END

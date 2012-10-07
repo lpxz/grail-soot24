@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2695/soot/trunk/tests/soot/toolkits/exceptions
+END
+ExceptionTestUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/1897/soot/trunk/tests/soot/toolkits/exceptions/ExceptionTestUtility.java
+END
+ThrowableSetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2695/soot/trunk/tests/soot/toolkits/exceptions/ThrowableSetTest.java
+END
+UnitThrowAnalysisTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2695/soot/trunk/tests/soot/toolkits/exceptions/UnitThrowAnalysisTest.java
+END

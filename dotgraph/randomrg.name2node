@@ -1,0 +1,60 @@
+name: Region0
+Begin-----------PDGRegion:  0-------------
+Children Regions are: 1, 4, 
+Units are: 
+r0 := @parameter0: java.lang.String[]
+$r1 = new Simple$1
+specialinvoke $r1.<Simple$1: void <init>()>()
+r2 = $r1
+$r5 = new Simple$2
+specialinvoke $r5.<Simple$2: void <init>()>()
+r3 = $r5
+virtualinvoke r2.<java.lang.Thread: void start()>()
+virtualinvoke r3.<java.lang.Thread: void start()>()
+return
+End of PDG Region 0 -----------------------------
+
+
+
+name: Region1
+Begin-----------PDGRegion:  1-------------
+Parent is: 0----
+Children Regions are: 2, 4, 
+Units are: 
+virtualinvoke r2.<java.lang.Thread: void join()>()
+End of PDG Region 1 -----------------------------
+
+
+
+name: Region4
+Begin-----------PDGRegion:  4-------------
+Parent is: 0----
+Children Regions are: 
+Units are: 
+$r6 := @caughtexception
+r4 = $r6
+virtualinvoke r4.<java.lang.InterruptedException: void printStackTrace()>()
+End of PDG Region 4 -----------------------------
+
+
+
+name: Region2
+Begin-----------PDGRegion:  2-------------
+Parent is: 1----
+Children Regions are: 3, 4, 
+Units are: 
+virtualinvoke r3.<java.lang.Thread: void join()>()
+End of PDG Region 2 -----------------------------
+
+
+
+name: Region3
+Begin-----------PDGRegion:  3-------------
+Parent is: 2----
+Children Regions are: 
+Units are: 
+goto [?= return]
+End of PDG Region 3 -----------------------------
+
+
+

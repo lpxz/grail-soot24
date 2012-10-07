@@ -1,0 +1,33 @@
+escape portal: { varName  = "argPtr";  methName  ="solve";}
+>>>>>>>>>>>>>>>>query:
+atomic set:AtomicSet151201191
+summary: side effect (nonjava G)#:0
+<Labyrinth3D.Queue_t: int capacity>
+<Labyrinth3D.Queue_t: int pop>
+<Labyrinth3D.Queue_t: java.lang.Object[] elements>
+<Labyrinth3D.Queue_t: int push>
+summary:  side effect (nonempty, nonjava fields)#4
+writing to ./dot/AtomicSet151201191.dot
+this transaction accesses the set:solve_192
+this transaction accesses the set:solve_209
+
+
+
+atomic set:AtomicSet151208897
+summary: side effect (nonjava G)#:0
+<Labyrinth3D.Coordinate: int z>
+<Labyrinth3D.Coordinate: int y>
+<common.Pair: java.lang.Object first>
+<common.Pair: java.lang.Object second>
+<Labyrinth3D.Coordinate: int x>
+<Labyrinth3D.List_t: int size>
+<Labyrinth3D.List_Node: java.lang.Object dataPtr>
+<Labyrinth3D.List_t: Labyrinth3D.List_Node head>
+<Labyrinth3D.List_t: boolean isCoordinate>
+<Labyrinth3D.List_Node: Labyrinth3D.List_Node nextPtr>
+summary:  side effect (nonempty, nonjava fields)#10
+writing to ./dot/AtomicSet151208897.dot
+this transaction accesses the set:solve_209
+this transaction accesses the set:solve_227
+
+

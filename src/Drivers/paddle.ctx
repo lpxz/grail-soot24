@@ -1,0 +1,140 @@
+Warning: Phase wjtp.tnlp is not a standard Soot phase listed in XML files.
+Worklist has 6 nodes.
+Worklist has 14 nodes.
+Worklist has 8 nodes.
+Worklist has 0 nodes.
+Now handling field references
+[Paddle] Propagation in 0.3 seconds.
+null
+<ToyObjectSen: void go()>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 3 new Container <ToyObjectSen: void go()> type Container )
+<Container: void <init>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 5 new Container <ToyObjectSen: void go()> type Container )
+<Container: void setItem(Item)>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+null
+<ToyObjectSen: void main(java.lang.String[])>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 4 new Item <ToyObjectSen: void go()> type Item )
+<Item: void <init>()>
+
+
+null
+<java.lang.Object: void <clinit>()>
+====call====>
+null
+<java.lang.Object: void registerNatives()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 3 new Container <ToyObjectSen: void go()> type Container )
+<Container: void setItem(Item)>
+
+
+( null, LocalAllocNode 4 new Item <ToyObjectSen: void go()> type Item )
+<Item: void <init>()>
+====call====>
+( LocalAllocNode 4 new Item <ToyObjectSen: void go()> type Item, LocalAllocNode 4 new Item <ToyObjectSen: void go()> type Item )
+<java.lang.Object: void <init>()>
+
+
+( null, LocalAllocNode 3 new Container <ToyObjectSen: void go()> type Container )
+<Container: void <init>()>
+====call====>
+( LocalAllocNode 3 new Container <ToyObjectSen: void go()> type Container, LocalAllocNode 3 new Container <ToyObjectSen: void go()> type Container )
+<java.lang.Object: void <init>()>
+
+
+null
+<java.lang.Object: void <clinit>()>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 5 new Container <ToyObjectSen: void go()> type Container )
+<Container: void <init>()>
+
+
+( null, LocalAllocNode 6 new Item <ToyObjectSen: void go()> type Item )
+<Item: void <init>()>
+====call====>
+( LocalAllocNode 6 new Item <ToyObjectSen: void go()> type Item, LocalAllocNode 6 new Item <ToyObjectSen: void go()> type Item )
+<java.lang.Object: void <init>()>
+
+
+null
+<ToyObjectSen: void main(java.lang.String[])>
+====call====>
+null
+<ToyObjectSen: void go()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+( null, LocalAllocNode 6 new Item <ToyObjectSen: void go()> type Item )
+<Item: void <init>()>
+
+
+null
+<ToyObjectSen: void go()>
+====call====>
+null
+<java.lang.Object: void <clinit>()>
+
+
+( null, LocalAllocNode 5 new Container <ToyObjectSen: void go()> type Container )
+<Container: void <init>()>
+====call====>
+( LocalAllocNode 5 new Container <ToyObjectSen: void go()> type Container, LocalAllocNode 5 new Container <ToyObjectSen: void go()> type Container )
+<java.lang.Object: void <init>()>
+
+
+class soot.jimple.paddle.DoublePointsToSet
+Transforming ToyObjectSen... 
+Transforming Item... 
+Transforming Container... 
+Writing to sootOutput/ToyObjectSen.jimple
+Writing to sootOutput/Item.jimple
+Writing to sootOutput/Container.jimple

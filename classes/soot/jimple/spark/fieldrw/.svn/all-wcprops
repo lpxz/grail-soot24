@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw
+END
+FieldTagAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/1488/soot/trunk/src/soot/jimple/spark/fieldrw/FieldTagAggregator.java
+END
+FieldRWTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/978/soot/trunk/src/soot/jimple/spark/fieldrw/FieldRWTag.java
+END
+FieldWriteTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw/FieldWriteTag.java
+END
+FieldReadTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw/FieldReadTag.java
+END
+FieldTagger.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw/FieldTagger.java
+END
+FieldWriteTagAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw/FieldWriteTagAggregator.java
+END
+FieldReadTagAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/spark/fieldrw/FieldReadTagAggregator.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer
+END
+TypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/TypeException.java
+END
+TypeResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/TypeResolver.java
+END
+ClassHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/ClassHierarchy.java
+END
+InternalTypingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/soot/!svn/ver/988/soot/trunk/src/soot/jimple/toolkits/typing/integer/InternalTypingException.java
+END
+TypeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/TypeNode.java
+END
+TypeVariable.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/TypeVariable.java
+END
+ConstraintChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/ConstraintChecker.java
+END
+StronglyConnectedComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/StronglyConnectedComponents.java
+END
+ConstraintCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/typing/integer/ConstraintCollector.java
+END

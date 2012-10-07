@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/94/trunk/JavaParser/src/japa/parser/ast/body
+END
+VariableDeclaratorId.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/VariableDeclaratorId.java
+END
+BodyDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/BodyDeclaration.java
+END
+EmptyTypeDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/EmptyTypeDeclaration.java
+END
+AnnotationMemberDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/AnnotationMemberDeclaration.java
+END
+ModifierSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/94/trunk/JavaParser/src/japa/parser/ast/body/ModifierSet.java
+END
+EnumDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/EnumDeclaration.java
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/Parameter.java
+END
+AnnotationDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/AnnotationDeclaration.java
+END
+EnumConstantDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/EnumConstantDeclaration.java
+END
+MethodDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/MethodDeclaration.java
+END
+VariableDeclarator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/VariableDeclarator.java
+END
+TypeDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/TypeDeclaration.java
+END
+InitializerDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/InitializerDeclaration.java
+END
+FieldDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/FieldDeclaration.java
+END
+JavadocComment.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/JavadocComment.java
+END
+ConstructorDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/ConstructorDeclaration.java
+END
+EmptyMemberDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/EmptyMemberDeclaration.java
+END
+ClassOrInterfaceDeclaration.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/body/ClassOrInterfaceDeclaration.java
+END

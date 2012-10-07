@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke
+END
+SiteInliner.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/SiteInliner.java
+END
+InlinerSafetyManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/InlinerSafetyManager.java
+END
+SynchronizerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/SynchronizerManager.java
+END
+StaticInliner.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/StaticInliner.java
+END
+AccessManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/AccessManager.java
+END
+StaticMethodBinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/StaticMethodBinder.java
+END
+ThrowManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/invoke/ThrowManager.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/303/soot/trunk/src/soot/jimple/toolkits/invoke/package.html
+END

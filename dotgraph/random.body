@@ -1,0 +1,89 @@
+    private java.lang.String getVal(java.lang.String)
+    {
+        example.URLParse r0;
+        java.lang.String r1, $r3, $r4, $r5, r6, $r16, $r17;
+        java.lang.Object $r2, $r7, r10, $r11, r14;
+        int i0, i1, $i2, i3;
+        java.lang.Throwable $r8, r9, $r12, r13;
+        boolean $z0;
+        java.lang.InterruptedException $r15;
+
+        r0 := @this: example.URLParse;
+        r1 := @parameter0: java.lang.String;
+        $r2 = <example.URLParse: java.lang.Object globalLockObj0>;
+        entermonitor $r2;
+
+     label0:
+        $r3 = r0.<example.URLParse: java.lang.String url>;
+        i0 = virtualinvoke $r3.<java.lang.String: int indexOf(java.lang.String)>(r1);
+        $r4 = r0.<example.URLParse: java.lang.String url>;
+        $i2 = virtualinvoke $r4.<java.lang.String: int indexOf(java.lang.String,int)>("=", i0);
+        i1 = $i2 + 1;
+        $r5 = r0.<example.URLParse: java.lang.String url>;
+        i3 = virtualinvoke $r5.<java.lang.String: int indexOf(java.lang.String,int)>("&", i0);
+        if i3 >= 0 goto label6;
+
+        r6 = r0.<example.URLParse: java.lang.String url>;
+        $r7 = <example.URLParse: java.lang.Object globalLockObj0>;
+        exitmonitor $r7;
+
+     label1:
+        goto label5;
+
+     label2:
+        $r8 := @caughtexception;
+        r9 = $r8;
+        r10 = <example.URLParse: java.lang.Object globalLockObj0>;
+
+     label3:
+        exitmonitor r10;
+
+     label4:
+        throw r9;
+
+     label5:
+        i3 = virtualinvoke r6.<java.lang.String: int length()>();
+        goto label11;
+
+     label6:
+        $r11 = <example.URLParse: java.lang.Object globalLockObj0>;
+        exitmonitor $r11;
+
+     label7:
+        goto label11;
+
+     label8:
+        $r12 := @caughtexception;
+        r13 = $r12;
+        r14 = <example.URLParse: java.lang.Object globalLockObj0>;
+
+     label9:
+        exitmonitor r14;
+
+     label10:
+        throw r13;
+
+     label11:
+        $z0 = virtualinvoke r1.<java.lang.String: boolean equals(java.lang.Object)>("key2");
+        if $z0 == 0 goto label14;
+
+        staticinvoke <java.lang.Thread: void sleep(long)>(1L);
+
+     label12:
+        goto label14;
+
+     label13:
+        $r15 := @caughtexception;
+        virtualinvoke $r15.<java.lang.InterruptedException: void printStackTrace()>();
+
+     label14:
+        $r16 = r0.<example.URLParse: java.lang.String url>;
+        $r17 = virtualinvoke $r16.<java.lang.String: java.lang.String substring(int,int)>(i1, i3);
+        return $r17;
+
+        catch java.lang.Throwable from label0 to label7 with label8;
+        catch java.lang.Throwable from label9 to label10 with label8;
+        catch java.lang.Throwable from label0 to label1 with label2;
+        catch java.lang.Throwable from label3 to label4 with label2;
+        catch java.lang.InterruptedException from label11 to label12 with label13;
+    }

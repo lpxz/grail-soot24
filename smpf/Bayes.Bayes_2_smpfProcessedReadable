@@ -1,0 +1,255 @@
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: float baseLogLikelihood>
+:2
+
+**************************************************
+Pair AllocNode 4378 newarray (float)[$i4] in method <Bayes.Learner: void <init>(Bayes.Data,Bayes.Adtree,int,int,int,float)>,ARRAY_ELEMENTS_NODE
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: Bayes.AdtreeNode rootNodePtr>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int index>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int index>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Adtree adtreePtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: float[] localBaseLogLikelihoods>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode oneNodePtr>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode zeroNodePtr>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: Bayes.AdtreeVary[] varyVectorPtr>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int count>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: int mostCommonValue>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: int numRecord>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+:2
+
+**************************************************
+Pair Bayes.Queue,<Bayes.Queue: int QUEUE_GROWTH_FACTOR>
+Pair AllocNode 92 new Bayes.Queue in method <Bayes.Queue: Bayes.Queue queue_alloc(int)>,<Bayes.Queue: int capacity>
+Pair AllocNode 92 new Bayes.Queue in method <Bayes.Queue: Bayes.Queue queue_alloc(int)>,<Bayes.Queue: int pop>
+Pair AllocNode 94 new common.BitMap in method <common.BitMap: common.BitMap bitmap_alloc(int)>,<common.BitMap: int[] bits>
+Pair AllocNode 4383 new Bayes.NetNode in method <Bayes.Net: Bayes.NetNode allocNode(int)>,<Bayes.NetNode: Bayes.IntList childIdListPtr>
+Pair common.BitMap,<common.BitMap: int NUM_BIT_PER_WORD>
+Pair AllocNode 92 new Bayes.Queue in method <Bayes.Queue: Bayes.Queue queue_alloc(int)>,<Bayes.Queue: int[] elements>
+Pair AllocNode 94 new common.BitMap in method <common.BitMap: common.BitMap bitmap_alloc(int)>,<common.BitMap: int numBit>
+Pair AllocNode 92 new Bayes.Queue in method <Bayes.Queue: Bayes.Queue queue_alloc(int)>,<Bayes.Queue: int push>
+Pair AllocNode 4384 new Bayes.IntList in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntList: int size>
+Pair common.BitMap,<common.BitMap: int NUM_BIT_PER_BYTE>
+Pair AllocNode 94 new common.BitMap in method <common.BitMap: common.BitMap bitmap_alloc(int)>,<common.BitMap: int numWord>
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 4377 new Bayes.Net in method <Bayes.Learner: void <init>(Bayes.Data,Bayes.Adtree,int,int,int,float)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4384 new Bayes.IntList in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntList: Bayes.IntListNode head>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4398 new Bayes.Net in method <Bayes.Data: Bayes.Net data_generate(int,int,int)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4383 new Bayes.NetNode in method <Bayes.Net: Bayes.NetNode allocNode(int)>,<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Net netPtr>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+:2
+
+**************************************************
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: int numTotalParent>
+:2
+
+**************************************************
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: Bayes.AdtreeNode rootNodePtr>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int index>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int index>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Adtree adtreePtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: float[] localBaseLogLikelihoods>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode oneNodePtr>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode zeroNodePtr>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: Bayes.AdtreeVary[] varyVectorPtr>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int count>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: int mostCommonValue>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: int numRecord>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+:3
+
+**************************************************
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: Bayes.AdtreeNode rootNodePtr>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int index>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4412 new Bayes.Query in method <Bayes.Learner: float learner_score()>,<Bayes.Query: int index>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Adtree adtreePtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: float[] localBaseLogLikelihoods>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode oneNodePtr>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: Bayes.AdtreeNode zeroNodePtr>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: Bayes.AdtreeVary[] varyVectorPtr>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 4391 new Bayes.AdtreeNode in method <Bayes.Adtree: Bayes.AdtreeNode makeNode(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeNode: int count>
+Pair AllocNode 43 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: int size>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int index>
+Pair AllocNode 40 new Bayes.Query in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4393 new Bayes.AdtreeVary in method <Bayes.Adtree: Bayes.AdtreeVary makeVary(int,int,int,int,Bayes.Data)>,<Bayes.AdtreeVary: int mostCommonValue>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int size>
+Pair AllocNode 52 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 50 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 49 new Bayes.Query in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Query: int value>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: int size>
+Pair AllocNode 44 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 6 new Bayes.Adtree in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Adtree: int numRecord>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: int capacity>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 4377 new Bayes.Net in method <Bayes.Learner: void <init>(Bayes.Data,Bayes.Adtree,int,int,int,float)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4384 new Bayes.IntList in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntList: Bayes.IntListNode head>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4398 new Bayes.Net in method <Bayes.Data: Bayes.Net data_generate(int,int,int)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4383 new Bayes.NetNode in method <Bayes.Net: Bayes.NetNode allocNode(int)>,<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Net netPtr>
+:2
+
+**************************************************
+Pair AllocNode 55 new Bayes.LearnerTask in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.LearnerTask: float score>
+Pair AllocNode 4380 new Bayes.List in method <Bayes.List: Bayes.List list_alloc()>,<Bayes.List: int size>
+Pair AllocNode 46 new Bayes.LearnerTask in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.LearnerTask: float score>
+Pair AllocNode 4389 new Bayes.ListNode in method <Bayes.List: Bayes.ListNode allocNode(Bayes.LearnerTask)>,<Bayes.ListNode: Bayes.LearnerTask dataPtr>
+Pair AllocNode 4380 new Bayes.List in method <Bayes.List: Bayes.List list_alloc()>,<Bayes.List: Bayes.ListNode head>
+Pair AllocNode 4386 new Bayes.LearnerTask in method <Bayes.Learner: Bayes.LearnerTask TMfindBestInsertTask(Bayes.FindBestTaskArg)>,<Bayes.LearnerTask: int toId>
+Pair AllocNode 4389 new Bayes.ListNode in method <Bayes.List: Bayes.ListNode allocNode(Bayes.LearnerTask)>,<Bayes.ListNode: Bayes.ListNode nextPtr>
+Pair AllocNode 4381 new Bayes.ListNode in method <Bayes.List: Bayes.List list_alloc()>,<Bayes.ListNode: Bayes.ListNode nextPtr>
+Pair AllocNode 46 new Bayes.LearnerTask in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.LearnerTask: int toId>
+Pair AllocNode 4386 new Bayes.LearnerTask in method <Bayes.Learner: Bayes.LearnerTask TMfindBestInsertTask(Bayes.FindBestTaskArg)>,<Bayes.LearnerTask: float score>
+Pair AllocNode 55 new Bayes.LearnerTask in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.LearnerTask: int toId>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.List taskListPtr>
+:3
+
+**************************************************
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 4377 new Bayes.Net in method <Bayes.Learner: void <init>(Bayes.Data,Bayes.Adtree,int,int,int,float)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4384 new Bayes.IntList in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntList: Bayes.IntListNode head>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4390 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntListNode allocNode(int)>,<Bayes.IntListNode: int dataPtr>
+Pair AllocNode 4398 new Bayes.Net in method <Bayes.Data: Bayes.Net data_generate(int,int,int)>,<Bayes.Net: Bayes.Vector_t nodeVectorPtr>
+Pair AllocNode 4383 new Bayes.NetNode in method <Bayes.Net: Bayes.NetNode allocNode(int)>,<Bayes.NetNode: Bayes.IntList parentIdListPtr>
+Pair AllocNode 4385 new Bayes.IntListNode in method <Bayes.IntList: Bayes.IntList list_alloc()>,<Bayes.IntListNode: Bayes.IntListNode nextPtr>
+Pair AllocNode 7 new Bayes.Learner in method <Bayes.Bayes: void main(java.lang.String[])>,<Bayes.Learner: Bayes.Net netPtr>
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+:3
+
+**************************************************
+Pair AllocNode 42 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 41 new Bayes.Vector_t in method <Bayes.Learner: void learnStructure(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4382 new Bayes.Vector_t in method <Bayes.Net: void <init>(int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4410 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4409 new Bayes.Vector_t in method <Bayes.Learner: float learner_score()>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4413 new Bayes.Vector_t in method <Bayes.Adtree: int getCount(Bayes.AdtreeNode,int,int,Bayes.Vector_t,int)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 51 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 53 new Bayes.Vector_t in method <Bayes.Learner: void createTaskList(int,int,Bayes.Learner)>,<Bayes.Vector_t: java.lang.Object[] elements>
+:4
+
+**************************************************

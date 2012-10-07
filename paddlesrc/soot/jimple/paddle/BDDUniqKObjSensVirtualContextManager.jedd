@@ -1,0 +1,104 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2005 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.jimple.paddle.queue.*;
+import soot.jimple.paddle.bdddomains.*;
+import jedd.*;
+import java.util.*;
+import soot.*;
+
+/** Assigns a target context to virtual call edges depending on the source
+ * context.
+ * @author Ondrej Lhotak
+ */
+public class BDDUniqKObjSensVirtualContextManager extends BDDVirtualContextManager
+{ 
+    BDDUniqKObjSensVirtualContextManager( Rvarc_var_objc_obj_srcm_stmt_kind_tgtm in, Qsrcc_srcm_stmt_kind_tgtc_tgtm out, Qobjc_obj_varc_var thisOut, NodeFactory gnf, int k ) {
+        super( in, out, thisOut, gnf );
+        this.k = k;
+    }
+    private Jedd.Shifter shifter;
+    private Jedd.Shifter[] shifters;
+    private int k;
+    private int shiftWidth() {
+        return ((ContextStringNumberer) Scene.v().getContextNumberer())
+            .shiftWidth;
+    }
+    public boolean update() {
+        if( shifter == null ) {
+            int[] from = new int[(k-1)*shiftWidth()];
+            int[] to = new int[(k-1)*shiftWidth()];
+            for( int i = 0; i < from.length; i++ ) {
+                from[i] = i + C1.v().firstBit();
+                to[i] = i + C2.v().firstBit() + shiftWidth();
+            }
+            shifter = Jedd.v().makeShifter( from, to );
+        }
+        if( shifters == null ) {
+            shifters = new Jedd.Shifter[k];
+            for( int j = 0; j < k; j++ ) {
+                int[] from = new int[shiftWidth()];
+                int[] to = new int[shiftWidth()];
+                for( int i = 0; i < from.length; i++ ) {
+                    from[i] = i + C2.v().firstBit();
+                    to[i] = i + C1.v().firstBit() + j*shiftWidth();
+                }
+                shifters[j] = Jedd.v().makeShifter(from, to);
+            }
+        }
+
+        <A_varc, A_objc, A_obj, A_srcm, A_stmt, A_kind, A_tgtm> newIn = (A_var=>) in.get();
+
+        <A_obj:C2> objects = (A_varc=>, A_objc=>, A_srcm=>, A_stmt=>, A_kind=>, A_tgtm=>) newIn;
+        // This BDD will have the current object in all the context slots.
+        <A_varc:C1, A_obj:C2> existing = 0B;
+        for( int i = 0; i < k; i++ ) {
+            existing |= (<A_varc, A_obj>) objects.applyShifter(shifters[i]);
+        }
+
+        // This BDD will have all edges which already had the current
+        // object, so don't need it pushed.
+        <A_varc, A_objc, A_obj, A_srcm, A_stmt, A_kind, A_tgtm> unchanged =
+            newIn{A_obj, A_varc} >< existing{A_obj, A_varc};
+
+        <A_varc, A_objc, A_obj, A_srcm, A_stmt, A_kind, A_tgtm> changed =
+            newIn - unchanged;
+
+        <A_varc:C1, A_objc:CH1, A_obj, A_srcm, A_stmt, A_kind, A_tgtc:C2, A_tgtm> newEdges = 
+            (A_obj=>A_obj, A_obj=>A_tgtc) changed;
+
+        newEdges = (<A_varc, A_objc, A_obj, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm>)
+            newEdges.applyShifter(shifter);
+
+        newEdges |= (A_varc=>A_varc, A_varc=>A_tgtc) unchanged;
+
+        out.add((A_varc=>A_srcc, A_objc=>, A_obj=>) newEdges);
+
+        if( thisOut != null ) { 
+            newMethods((A_varc=>, A_objc=>, A_obj=>, A_srcm=>, A_stmt=>, A_kind=>, A_tgtc=>)
+                newEdges);
+            thisOut.add(
+                (A_varc=>, A_srcm=>, A_stmt=>, A_kind=>, A_tgtc=>A_varc) newEdges{A_tgtm} <>
+                thisVar(){A_method} );
+        }
+
+        return newIn != 0B;
+    }
+}

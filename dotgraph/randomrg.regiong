@@ -1,0 +1,21 @@
+digraph "./dotgraph/randomrg.regiong" {
+    label="./dotgraph/randomrg.regiong";
+    node [shape=circle];
+    "Block0"
+    "Region2"
+    "Region3"
+    "Region2"->"Region3";
+    "Region4"
+    "Region2"->"Region4";
+    "Block1"
+    "Block5"
+    "Block3"
+    "Block4"
+    "Region0"
+    "Region1"
+    "Region0"->"Region1";
+    "Region1"->"Region2";
+    "Region1"->"Region4";
+    "Region0"->"Region4";
+    "Block2"
+}

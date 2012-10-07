@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/3327/soot/trunk/src/soot/jimple/spark/ondemand
+END
+ManualFieldCheckHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/ManualFieldCheckHeuristic.java
+END
+HeuristicType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/HeuristicType.java
+END
+FieldCheckHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/FieldCheckHeuristic.java
+END
+InnerTypesIncrementalHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/3317/soot/trunk/src/soot/jimple/spark/ondemand/InnerTypesIncrementalHeuristic.java
+END
+TerminateEarlyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/TerminateEarlyException.java
+END
+EverythingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/EverythingHeuristic.java
+END
+IncrementalTypesHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/IncrementalTypesHeuristic.java
+END
+DotPointerGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2740/soot/trunk/src/soot/jimple/spark/ondemand/DotPointerGraph.java
+END
+ManualAndInnerHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/ManualAndInnerHeuristic.java
+END
+DemandCSPointsTo.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3315/soot/trunk/src/soot/jimple/spark/ondemand/DemandCSPointsTo.java
+END
+WrappedPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/spark/ondemand/WrappedPointsToSet.java
+END
+CallSiteException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/CallSiteException.java
+END
+AllocAndContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3049/soot/trunk/src/soot/jimple/spark/ondemand/AllocAndContext.java
+END
+NothingHeuristic.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2730/soot/trunk/src/soot/jimple/spark/ondemand/NothingHeuristic.java
+END
+LazyContextSensitivePointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/soot/!svn/ver/3327/soot/trunk/src/soot/jimple/spark/ondemand/LazyContextSensitivePointsToSet.java
+END
+AllocAndContextSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/spark/ondemand/AllocAndContextSet.java
+END

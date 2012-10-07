@@ -1,0 +1,167 @@
+escape portal:  {varName  = "g";  methName  ="main";}
+
+
+atomic set:AtomicSet143313859
+<common.G: java.lang.Object lock>
+summary: side effect (nonjava G)#:1
+<Genome.constructEntry: Genome.constructEntry startPtr>
+<Genome.Genome: common.Random randomPtr>
+<Genome.endInfoEntry: int jumpToNext>
+<Genome.ByteString: byte[] value>
+<Genome.Pair: Genome.ByteString firstPtr>
+<Genome.Sequencer: Genome.Table[] startHashToConstructEntryTables>
+<Genome.constructEntry: Genome.ByteString segment>
+<Genome.Sequencer: Genome.Table hashToConstructEntryTable>
+<Genome.List: Genome.ListNode head>
+<Genome.Genome: Genome.Sequencer sequencerPtr>
+<Genome.constructEntry: Genome.constructEntry nextPtr>
+<Genome.Segments: int length>
+<Genome.ListNode: Genome.ListNode nextPtr>
+<Genome.Sequencer: Genome.Segments segmentsPtr>
+<Genome.Hashtable: int size>
+<Genome.constructEntry: int endHash>
+<Genome.Segments: java.util.Vector contentsPtr>
+<Genome.Sequencer: Genome.endInfoEntry[] endInfoEntries>
+<Genome.Hashtable: int numBucket>
+<Genome.endInfoEntry: boolean isEnd>
+<Genome.constructEntry: int length>
+<Genome.constructEntry: boolean isStart>
+<Genome.ByteString: int offset>
+<Genome.Table: java.util.LinkedList[] buckets>
+<Genome.Hashtable: Genome.List[] buckets>
+class java.lang.String
+<Genome.Genome: int numThread>
+<Genome.ByteString: int count>
+<Genome.Sequencer: Genome.constructEntry[] constructEntries>
+<Genome.constructEntry: int overlap>
+<Genome.Sequencer: Genome.ByteString sequence>
+<Genome.ByteString: int cachedHashcode>
+<Genome.ListNode: Genome.Pair dataPtr>
+<Genome.List: int size>
+<Genome.Sequencer: Genome.Hashtable uniqueSegmentsPtr>
+<Genome.Table: int numBucket>
+<Genome.constructEntry: Genome.constructEntry endPtr>
+summary:  side effect (nonempty, nonjava fields)#36
+writing to ./dot/AtomicSet143313859.dot
+this transaction accesses the set:Genome.Sequencer _ run_80
+this transaction accesses the set:Genome.Sequencer _ run_116
+this transaction accesses the set:Genome.Sequencer _ run_133
+this transaction accesses the set:Genome.Sequencer _ run_128
+this transaction accesses the set:Genome.Sequencer _ run_166
+
+
+
+
+
+
+
+
+
+
+atomic set:AtomicSet206239736
+<common.G: java.lang.Object lock>
+summary: side effect (nonjava G)#:1
+<Genome.constructEntry: Genome.constructEntry startPtr>
+<Genome.Genome: common.Random randomPtr>
+<Genome.endInfoEntry: int jumpToNext>
+<Genome.ByteString: byte[] value>
+<Genome.Pair: Genome.ByteString firstPtr>
+<Genome.Sequencer: Genome.Table[] startHashToConstructEntryTables>
+<Genome.constructEntry: Genome.ByteString segment>
+<Genome.Sequencer: Genome.Table hashToConstructEntryTable>
+<Genome.List: Genome.ListNode head>
+<Genome.Genome: Genome.Sequencer sequencerPtr>
+<Genome.constructEntry: Genome.constructEntry nextPtr>
+<Genome.Segments: int length>
+<Genome.ListNode: Genome.ListNode nextPtr>
+<Genome.Sequencer: Genome.Segments segmentsPtr>
+<Genome.Hashtable: int size>
+<Genome.constructEntry: int endHash>
+<Genome.Segments: java.util.Vector contentsPtr>
+<Genome.Sequencer: Genome.endInfoEntry[] endInfoEntries>
+<Genome.Hashtable: int numBucket>
+<Genome.endInfoEntry: boolean isEnd>
+<Genome.constructEntry: int length>
+<Genome.constructEntry: boolean isStart>
+<Genome.ByteString: int offset>
+<Genome.Table: java.util.LinkedList[] buckets>
+<Genome.Hashtable: Genome.List[] buckets>
+<Genome.Genome: int numThread>
+<Genome.ByteString: int count>
+<Genome.Sequencer: Genome.constructEntry[] constructEntries>
+<Genome.constructEntry: int overlap>
+<Genome.Sequencer: Genome.ByteString sequence>
+<Genome.ByteString: int cachedHashcode>
+<Genome.ListNode: Genome.Pair dataPtr>
+<Genome.List: int size>
+<Genome.Sequencer: Genome.Hashtable uniqueSegmentsPtr>
+<Genome.Table: int numBucket>
+<Genome.constructEntry: Genome.constructEntry endPtr>
+summary:  side effect (nonempty, nonjava fields)#36
+writing to ./dot/AtomicSet206239736.dot
+this transaction accesses the set:Genome.Sequencer _ run_80
+this transaction accesses the set:Genome.Sequencer _ run_116
+this transaction accesses the set:Genome.Sequencer _ run_133
+this transaction accesses the set:Genome.Sequencer _ run_128
+this transaction accesses the set:Genome.Sequencer _ run_166
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atomic set:AtomicSet206207910
+summary: side effect (nonjava G)#:0
+<Genome.ByteString: int count>
+<Genome.ByteString: byte[] value>
+<Genome.Pair: Genome.ByteString firstPtr>
+<Genome.ByteString: int cachedHashcode>
+<Genome.ListNode: Genome.ListNode nextPtr>
+<Genome.ListNode: Genome.Pair dataPtr>
+<Genome.ByteString: int offset>
+<Genome.Hashtable: int size>
+<Genome.List: int size>
+<Genome.Hashtable: Genome.List[] buckets>
+<Genome.Hashtable: int numBucket>
+<Genome.List: Genome.ListNode head>
+summary:  side effect (nonempty, nonjava fields)#12
+writing to ./dot/AtomicSet206207910.dot
+this transaction accesses the set:Genome.Sequencer _ run_80
+this transaction accesses the set:Genome.Sequencer _ run_133
+this transaction accesses the set:Genome.Sequencer _ run_128
+this transaction accesses the set:Genome.Sequencer _ run_166
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+atomic set:AtomicSet206148662
+summary: side effect (nonjava G)#:0
+<Genome.constructEntry: Genome.ByteString segment>
+summary:  side effect (nonempty, nonjava fields)#1
+writing to ./dot/AtomicSet206148662.dot
+this transaction accesses the set:Genome.Sequencer _ run_116
+this transaction accesses the set:Genome.Sequencer _ run_133
+this transaction accesses the set:Genome.Sequencer _ run_128
+this transaction accesses the set:Genome.Sequencer _ run_166
+
+

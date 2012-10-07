@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2914/soot/trunk/src/soot/jimple/toolkits/annotation/logic
+END
+LoopFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2914/soot/trunk/src/soot/jimple/toolkits/annotation/logic/LoopFinder.java
+END
+Loop.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2900/soot/trunk/src/soot/jimple/toolkits/annotation/logic/Loop.java
+END
+LoopInvariantFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/2866/soot/trunk/src/soot/jimple/toolkits/annotation/logic/LoopInvariantFinder.java
+END

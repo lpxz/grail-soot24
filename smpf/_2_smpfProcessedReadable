@@ -1,0 +1,156 @@
+Pair AllocNode 4365 newarray (java.lang.Object)[capacity] in method <Yada.java.heap: void <init>(int)>,ARRAY_ELEMENTS_NODE
+Pair AllocNode 4375 newarray (java.lang.Object)[newCapacity] in method <Yada.java.heap: boolean heap_insert(java.lang.Object)>,ARRAY_ELEMENTS_NODE
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: int size>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: java.lang.Object[] elements>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+:2
+
+**************************************************
+Pair AllocNode 4335 new Yada.java.region in method <Yada.java.yada: void process()>,<Yada.java.region: Yada.java.List_t beforeListPtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double circumRadius>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double circumRadius>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.coordinate[] coordinates>
+Pair AllocNode 4343 new Yada.java.coordinate in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.coordinate: double x>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge[] edges>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double circumRadius>
+Pair AllocNode 4350 new Yada.java.List_t in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.List_t: int size>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge[] edges>
+Pair AllocNode 4360 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: Yada.java.List_Node head>
+Pair AllocNode 4368 new Yada.java.RBTree in method <Yada.java.mesh: void <init>(double)>,<Yada.java.RBTree: Yada.java.Node root>
+Pair AllocNode 4361 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: Yada.java.List_Node head>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.coordinate[] midpoints>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge[] edges>
+Pair AllocNode 4350 new Yada.java.List_t in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.List_t: Yada.java.List_Node head>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isSkinny>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isSkinny>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isSkinny>
+Pair AllocNode 4368 new Yada.java.RBTree in method <Yada.java.mesh: void <init>(double)>,<Yada.java.RBTree: int compID>
+Pair AllocNode 4376 new Yada.java.Queue_t in method <Yada.java.mesh: boolean mesh_check(int)>,<Yada.java.Queue_t: int pop>
+Pair AllocNode 4362 new Yada.java.Vector_t in method <Yada.java.region: void <init>()>,<Yada.java.Vector_t: int capacity>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numCoordinate>
+Pair AllocNode 1 new Yada.java.yada in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.yada: Yada.java.mesh global_meshPtr>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numCoordinate>
+Pair AllocNode 6 new Yada.java.yada in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.yada: Yada.java.mesh global_meshPtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numCoordinate>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: Yada.java.Node p>
+Pair AllocNode 4394 new Yada.java.List_Node in method <Yada.java.List_t: void clear()>,<Yada.java.List_Node: Yada.java.List_Node nextPtr>
+Pair AllocNode 4359 new Yada.java.Queue_t in method <Yada.java.region: void <init>()>,<Yada.java.Queue_t: int push>
+Pair AllocNode 4359 new Yada.java.Queue_t in method <Yada.java.region: void <init>()>,<Yada.java.Queue_t: int pop>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] coordinates>
+Pair AllocNode 4362 new Yada.java.Vector_t in method <Yada.java.region: void <init>()>,<Yada.java.Vector_t: int size>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] coordinates>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: int c>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] coordinates>
+Pair AllocNode 4374 new Yada.java.List_Node in method <Yada.java.List_t: Yada.java.List_Node allocNode(java.lang.Object)>,<Yada.java.List_Node: Yada.java.List_Node nextPtr>
+Pair AllocNode 4367 new Yada.java.Queue_t in method <Yada.java.mesh: void <init>(double)>,<Yada.java.Queue_t: int pop>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: double minAngle>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: boolean isReferenced>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: double circumRadius>
+Pair AllocNode 4347 newarray (Yada.java.edge)[3] in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,ARRAY_ELEMENTS_NODE
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: double angleConstraint>
+Pair AllocNode 1 new Yada.java.yada in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.yada: Yada.java.heap global_workHeapPtr>
+Pair AllocNode 4367 new Yada.java.Queue_t in method <Yada.java.mesh: void <init>(double)>,<Yada.java.Queue_t: int push>
+Pair AllocNode 6 new Yada.java.yada in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.yada: Yada.java.heap global_workHeapPtr>
+Pair AllocNode 4376 new Yada.java.Queue_t in method <Yada.java.mesh: boolean mesh_check(int)>,<Yada.java.Queue_t: int push>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double minAngle>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double minAngle>
+Pair AllocNode 4367 new Yada.java.Queue_t in method <Yada.java.mesh: void <init>(double)>,<Yada.java.Queue_t: int capacity>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double minAngle>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: int capacity>
+Pair AllocNode 4376 new Yada.java.Queue_t in method <Yada.java.mesh: boolean mesh_check(int)>,<Yada.java.Queue_t: int capacity>
+Pair AllocNode 3 new Yada.java.mesh in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.mesh: Yada.java.RBTree boundarySetPtr>
+Pair common.G,<common.G: java.lang.Object lock>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: boolean isSkinny>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: int numCoordinate>
+Pair AllocNode 4335 new Yada.java.region in method <Yada.java.yada: void process()>,<Yada.java.region: Yada.java.coordinate centerCoordinate>
+Pair AllocNode 4360 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: int size>
+Pair AllocNode 4361 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: int size>
+Pair AllocNode 4359 new Yada.java.Queue_t in method <Yada.java.region: void <init>()>,<Yada.java.Queue_t: int capacity>
+Pair AllocNode 4350 new Yada.java.List_t in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.List_t: int mode>
+Pair AllocNode 4361 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: int mode>
+Pair AllocNode 4360 new Yada.java.List_t in method <Yada.java.region: void <init>()>,<Yada.java.List_t: int mode>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: int numEdge>
+Pair AllocNode 4335 new Yada.java.region in method <Yada.java.yada: void process()>,<Yada.java.region: Yada.java.Queue_t expandQueuePtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate circumCenter>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate circumCenter>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: Yada.java.Node l>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate circumCenter>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double[] radii>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.List_t neighborListPtr>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double[] radii>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.List_t neighborListPtr>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double[] radii>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.List_t neighborListPtr>
+Pair AllocNode 3 new Yada.java.mesh in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.mesh: Yada.java.element rootElementPtr>
+Pair AllocNode 4370 new Yada.java.edge in method <Yada.java.avltree: java.lang.Object find(java.lang.Object)>,<Yada.java.edge: java.lang.Object firstPtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numEdge>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numEdge>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: int numEdge>
+Pair AllocNode 4371 new Yada.java.edge in method <Yada.java.avltree: boolean remove(java.lang.Object)>,<Yada.java.edge: java.lang.Object firstPtr>
+Pair AllocNode 4394 new Yada.java.List_Node in method <Yada.java.List_t: void clear()>,<Yada.java.List_Node: java.lang.Object dataPtr>
+Pair AllocNode 4349 new Yada.java.edge in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.edge: java.lang.Object secondPtr>
+Pair AllocNode 4383 new Yada.java.coordinate in method <Yada.java.mesh: int mesh_read(java.lang.String)>,<Yada.java.coordinate: double y>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.edge[] edges>
+Pair AllocNode 4376 new Yada.java.Queue_t in method <Yada.java.mesh: boolean mesh_check(int)>,<Yada.java.Queue_t: java.lang.Object[] elements>
+Pair AllocNode 4353 new Yada.java.edge in method <Yada.java.avltree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.edge: java.lang.Object firstPtr>
+Pair AllocNode 4383 new Yada.java.coordinate in method <Yada.java.mesh: int mesh_read(java.lang.String)>,<Yada.java.coordinate: double x>
+Pair AllocNode 4349 new Yada.java.edge in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.edge: java.lang.Object firstPtr>
+Pair AllocNode 4367 new Yada.java.Queue_t in method <Yada.java.mesh: void <init>(double)>,<Yada.java.Queue_t: java.lang.Object[] elements>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] midpoints>
+Pair AllocNode 4335 new Yada.java.region in method <Yada.java.yada: void process()>,<Yada.java.region: Yada.java.List_t borderListPtr>
+Pair AllocNode 4374 new Yada.java.List_Node in method <Yada.java.List_t: Yada.java.List_Node allocNode(java.lang.Object)>,<Yada.java.List_Node: java.lang.Object dataPtr>
+Pair AllocNode 4352 new Yada.java.edge in method <Yada.java.avltree: boolean contains(java.lang.Object)>,<Yada.java.edge: java.lang.Object firstPtr>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: java.lang.Object k>
+Pair AllocNode 4359 new Yada.java.Queue_t in method <Yada.java.region: void <init>()>,<Yada.java.Queue_t: java.lang.Object[] elements>
+Pair AllocNode 4351 new Yada.java.List_Node in method <Yada.java.List_t: void <init>(int)>,<Yada.java.List_Node: Yada.java.List_Node nextPtr>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: double[] radii>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.List_t neighborListPtr>
+Pair AllocNode 4348 new Yada.java.coordinate in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.coordinate: double y>
+Pair AllocNode 4335 new Yada.java.region in method <Yada.java.yada: void process()>,<Yada.java.region: Yada.java.Vector_t badVectorPtr>
+Pair AllocNode 4343 new Yada.java.coordinate in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.coordinate: double y>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.coordinate circumCenter>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double angleConstraint>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] midpoints>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double angleConstraint>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: double angleConstraint>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.coordinate[] midpoints>
+Pair AllocNode 4362 new Yada.java.Vector_t in method <Yada.java.region: void <init>()>,<Yada.java.Vector_t: java.lang.Object[] elements>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: Yada.java.Node r>
+Pair AllocNode 4348 new Yada.java.coordinate in method <Yada.java.element: void <init>(Yada.java.coordinate[],int,double)>,<Yada.java.coordinate: double x>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isReferenced>
+Pair AllocNode 4369 new Yada.java.Node in method <Yada.java.RBTree: boolean insert(java.lang.Object,java.lang.Object)>,<Yada.java.Node: java.lang.Object v>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isReferenced>
+Pair AllocNode 4351 new Yada.java.List_Node in method <Yada.java.List_t: void <init>(int)>,<Yada.java.List_Node: java.lang.Object dataPtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isReferenced>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: int size>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: java.lang.Object[] elements>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+:2
+
+**************************************************
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: int size>
+Pair AllocNode 5 new Yada.java.heap in method <Yada.java.yada: void main(java.lang.String[])>,<Yada.java.heap: java.lang.Object[] elements>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: Yada.java.edge encroachedEdgePtr>
+:3
+
+**************************************************
+Pair AllocNode 4393 new Yada.java.element in method <Yada.java.mesh: void createElement(Yada.java.coordinate[],int,Yada.java.avltree)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4339 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4340 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+Pair AllocNode 4342 new Yada.java.element in method <Yada.java.region: int TMretriangulate(Yada.java.element,Yada.java.region,Yada.java.mesh,Yada.java.avltree,double)>,<Yada.java.element: boolean isGarbage>
+:4
+
+**************************************************

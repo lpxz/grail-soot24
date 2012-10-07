@@ -1,0 +1,72 @@
+name: 0
+r0 := @this: popl.example.StringBufferTest$1
+
+
+name: 1
+$r1 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>
+
+
+name: 10
+$i1 = $r4.<popl.example.StringBuffer: int count>
+
+
+name: 11
+virtualinvoke $r6.<popl.example.StringBuffer: void getChars(int,int,char[],int)>(0, i0, $r7, $i1)
+
+
+name: 12
+exitmonitor r2
+
+
+name: 13
+goto [?= return]
+
+
+name: 14
+$r8 := @caughtexception
+
+
+name: 15
+exitmonitor r2
+
+
+name: 16
+throw $r8
+
+
+name: 17
+return
+
+
+name: 2
+r2 = $r1
+
+
+name: 3
+entermonitor $r1
+
+
+name: 4
+$r5 = <popl.example.StringBufferTest: popl.example.StringBuffer s2>
+
+
+name: 5
+i0 = virtualinvoke $r5.<popl.example.StringBuffer: int length()>()
+
+
+name: 6
+$r6 = <popl.example.StringBufferTest: popl.example.StringBuffer s2>
+
+
+name: 7
+$r3 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>
+
+
+name: 8
+$r7 = $r3.<popl.example.StringBuffer: char[] value>
+
+
+name: 9
+$r4 = <popl.example.StringBufferTest: popl.example.StringBuffer s1>
+
+

@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep
+END
+DSpecialInvokeExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1718/soot/trunk/src/soot/dava/internal/javaRep/DSpecialInvokeExpr.java
+END
+DAssignStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DAssignStmt.java
+END
+DIncrementStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2069/soot/trunk/src/soot/dava/internal/javaRep/DIncrementStmt.java
+END
+DNotExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2048/soot/trunk/src/soot/dava/internal/javaRep/DNotExpr.java
+END
+DArrayInitExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DArrayInitExpr.java
+END
+DVirtualInvokeExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DVirtualInvokeExpr.java
+END
+DIdentityStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DIdentityStmt.java
+END
+DNewMultiArrayExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DNewMultiArrayExpr.java
+END
+DStaticInvokeExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/1718/soot/trunk/src/soot/dava/internal/javaRep/DStaticInvokeExpr.java
+END
+DVariableDeclarationStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2337/soot/trunk/src/soot/dava/internal/javaRep/DVariableDeclarationStmt.java
+END
+DNewInvokeExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/1718/soot/trunk/src/soot/dava/internal/javaRep/DNewInvokeExpr.java
+END
+DThisRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1011/soot/trunk/src/soot/dava/internal/javaRep/DThisRef.java
+END
+DIntConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/1011/soot/trunk/src/soot/dava/internal/javaRep/DIntConstant.java
+END
+DInstanceFieldRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DInstanceFieldRef.java
+END
+DAbruptStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DAbruptStmt.java
+END
+DNegExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DNegExpr.java
+END
+DArrayInitValueBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DArrayInitValueBox.java
+END
+DInterfaceInvokeExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/1718/soot/trunk/src/soot/dava/internal/javaRep/DInterfaceInvokeExpr.java
+END
+DCmpExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2387/soot/trunk/src/soot/dava/internal/javaRep/DCmpExpr.java
+END
+DDecrementStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2069/soot/trunk/src/soot/dava/internal/javaRep/DDecrementStmt.java
+END
+DLengthExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DLengthExpr.java
+END
+DCmpgExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2387/soot/trunk/src/soot/dava/internal/javaRep/DCmpgExpr.java
+END
+DNewArrayExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DNewArrayExpr.java
+END
+DStaticFieldRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/1718/soot/trunk/src/soot/dava/internal/javaRep/DStaticFieldRef.java
+END
+DShortcutAssignStmt.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DShortcutAssignStmt.java
+END
+DCmplExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2387/soot/trunk/src/soot/dava/internal/javaRep/DCmplExpr.java
+END
+DShortcutIf.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/internal/javaRep/DShortcutIf.java
+END

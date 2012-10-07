@@ -1,0 +1,152 @@
+PARSER_BEGIN(UQLParser)
+package aTSE;
+
+
+import java.io.StringReader;
+import java.io.Reader;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class CSParser {
+
+ 
+   
+    public CSParse(String s) 
+    {
+        this((Reader)(new StringReader(s))); 
+      
+    }
+    
+    public static String loadAFileToString(String fstr) {
+      
+        BufferedReader br = null;
+        String ret = null;
+        try {
+        	File  f = new  File(fstr);
+            br =  new BufferedReader(new FileReader(f));
+            String line = null;
+            StringBuffer sb = new StringBuffer((int)f.length());
+            while( (line = br.readLine() ) != null ) {
+                sb.append(line);
+            }
+            ret = sb.toString();
+       } 
+        catch (Exception e) {
+			System.err.println( "reading files error");
+		}
+        finally {
+            if(br!=null) {try{br.close();} catch(Exception e){} }
+        }
+
+        return ret;       
+    }
+    public static void main(String args[])
+    {
+        try
+        {
+
+                String query = args[0];
+                String truequery= loadAFileToString(query);
+                CSParse parser = new CSParse(truequery);
+                parser.parse();
+        }
+        catch(Exception e)
+        {
+                e.printStackTrace();
+        }
+    }
+}
+PARSER_END(CSParse) 
+
+/**  And now, the actual parsing specifications...... */
+
+/** Skip these characters, they are considered "white space" **/
+SKIP :                              
+{
+    " "
+    | "\t"
+    | "\r"
+    | "\n"
+
+}
+
+
+TOKEN: /*RESERVED TOKENS FOR UQL */
+{
+      <EOE: ";">
+   |  <EQUALS:  "=">
+   |  <SITESEP: "->">
+   |  <ITEMSEP: ":">
+   |  <TOKENSEP: ".">
+   |  <AFTER: "after">
+   |  <BEFORE: "before">
+   | <BETWEEN: "between">
+}
+
+TOKEN : /* the keywords and comparators - QUOTEDVALUE accounts for escaped quotes as well */
+{
+        < STRING : (["A"-"Z","a"-"z","0"-"9"])+ >
+
+}
+
+
+/** 
+ *  Top level
+ */
+void parse() :
+{
+}
+{
+    whole()   <EOF>       // a query followed by optional sort
+}
+
+/**
+ * An expression is defined to be a queryTerm followed by zero or more
+ * query terms joined by either an AND or an OR.   If two query terms are joined with 
+ * AND then both conditions must be met.  If two query terms are joined with an OR, then
+ * one of the two conditions must be met.  
+ */
+void whole() :
+{
+}
+{            equation()    
+            ( equation() )*
+
+} 
+
+void equation():
+{}
+{
+   <STRING> <EQUALS> inter() <EOE>
+}
+
+void inter():
+{}
+{
+    chain()| <AFTER> chain()| <BEFORE> chain()|<BETWEEN> chain()
+}
+
+void chain():
+{}
+{
+     site()(<SITESEP> site())*
+}
+
+void site():
+{}
+{
+ item()(<ITEMSEP>item())*
+}
+
+void item():
+{}
+{
+   <STRING>(<TOKENSEP><STRING>)*
+}
+
+
+
+
+

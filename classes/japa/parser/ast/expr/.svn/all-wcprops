@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/95/trunk/JavaParser/src/japa/parser/ast/expr
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/Expression.java
+END
+ConditionalExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ConditionalExpr.java
+END
+QualifiedNameExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/QualifiedNameExpr.java
+END
+ClassExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ClassExpr.java
+END
+IntegerLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/IntegerLiteralExpr.java
+END
+MethodCallExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/MethodCallExpr.java
+END
+MarkerAnnotationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/95/trunk/JavaParser/src/japa/parser/ast/expr/MarkerAnnotationExpr.java
+END
+LongLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/LongLiteralExpr.java
+END
+MemberValuePair.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/MemberValuePair.java
+END
+StringLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/StringLiteralExpr.java
+END
+NormalAnnotationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/95/trunk/JavaParser/src/japa/parser/ast/expr/NormalAnnotationExpr.java
+END
+AssignExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/AssignExpr.java
+END
+NullLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/NullLiteralExpr.java
+END
+CastExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/CastExpr.java
+END
+VariableDeclarationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/VariableDeclarationExpr.java
+END
+ObjectCreationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ObjectCreationExpr.java
+END
+UnaryExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/UnaryExpr.java
+END
+SuperExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/SuperExpr.java
+END
+ArrayAccessExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ArrayAccessExpr.java
+END
+ArrayCreationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ArrayCreationExpr.java
+END
+SingleMemberAnnotationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/95/trunk/JavaParser/src/japa/parser/ast/expr/SingleMemberAnnotationExpr.java
+END
+FieldAccessExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/FieldAccessExpr.java
+END
+ThisExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ThisExpr.java
+END
+AnnotationExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/95/trunk/JavaParser/src/japa/parser/ast/expr/AnnotationExpr.java
+END
+IntegerLiteralMinValueExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/IntegerLiteralMinValueExpr.java
+END
+LongLiteralMinValueExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/LongLiteralMinValueExpr.java
+END
+NameExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/NameExpr.java
+END
+ArrayInitializerExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/ArrayInitializerExpr.java
+END
+BinaryExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/BinaryExpr.java
+END
+DoubleLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/DoubleLiteralExpr.java
+END
+InstanceOfExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/InstanceOfExpr.java
+END
+CharLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/CharLiteralExpr.java
+END
+BooleanLiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/BooleanLiteralExpr.java
+END
+EnclosedExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/EnclosedExpr.java
+END
+LiteralExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/63/trunk/JavaParser/src/japa/parser/ast/expr/LiteralExpr.java
+END

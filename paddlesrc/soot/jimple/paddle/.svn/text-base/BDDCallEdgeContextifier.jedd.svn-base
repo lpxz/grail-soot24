@@ -1,0 +1,75 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2004 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.*;
+import soot.util.*;
+import soot.jimple.paddle.queue.*;
+import soot.jimple.paddle.bdddomains.*;
+import java.util.*;
+
+/** Instantiates the pointer flow edges of methods in specific contexts.
+ * @author Ondrej Lhotak
+ */
+public class BDDCallEdgeContextifier extends AbsCallEdgeContextifier
+{ 
+    private BDDNodeInfo ni;
+    public BDDCallEdgeContextifier(
+        BDDNodeInfo ni,
+        Rsrcm_stmt_kind_tgtm_src_dst parms,
+        Rsrcm_stmt_kind_tgtm_src_dst rets,
+        Rsrcc_srcm_stmt_kind_tgtc_tgtm calls,
+
+        Qsrcc_src_dstc_dst csimple
+        ) 
+    {
+        super(parms, rets, calls, csimple);
+        this.ni = ni;
+    }
+
+    public boolean update() {
+        <A_srcc, A_src, A_dstc, A_dst> simpleOut = 0B;
+
+        allParms |= parms.get();
+        allRets |= rets.get();
+
+        <A_srcc, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm> newCalls = calls.get();
+
+        simpleOut |= (A_tgtc=>A_dstc) 
+            newCalls{A_srcm, A_stmt, A_kind, A_tgtm} <>
+            allParms{A_srcm, A_stmt, A_kind, A_tgtm};
+        simpleOut |= (A_srcc=>A_dstc, A_tgtc=>A_srcc)
+            newCalls{A_srcm, A_stmt, A_kind, A_tgtm} <>
+             allRets{A_srcm, A_stmt, A_kind, A_tgtm};
+
+        <A_srcc, A_src, A_dstc, A_dst> globalDsts = simpleOut{A_dst} >< ni.globalSet(){A_var};
+        simpleOut -= globalDsts;
+        simpleOut |= ((A_dstc=>) globalDsts){} >< new{null=>A_dstc}{};
+        <A_srcc, A_src, A_dstc, A_dst> globalSrcs = simpleOut{A_src} >< ni.globalSet(){A_var};
+        simpleOut -= globalSrcs;
+        simpleOut |= ((A_srcc=>) globalSrcs){} >< new{null=>A_srcc}{};
+        csimple.add(simpleOut);
+
+        return simpleOut != 0B;
+    }
+
+    private <A_srcm, A_stmt, A_kind, A_tgtm, A_src, A_dst> allParms = 0B;
+    private <A_srcm, A_stmt, A_kind, A_tgtm, A_src, A_dst> allRets = 0B;
+}
+

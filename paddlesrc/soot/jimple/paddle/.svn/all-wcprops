@@ -1,0 +1,965 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/soot/!svn/ver/3501/paddle/trunk/src/soot/jimple/paddle
+END
+TradKObjSensVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradKObjSensVirtualContextManager.java
+END
+TradKObjSensStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/TradKObjSensStaticContextManager.java
+END
+ContextVarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextVarNode.java
+END
+TradStaticCallBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3323/paddle/trunk/src/soot/jimple/paddle/TradStaticCallBuilder.java
+END
+AbsP2Sets.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/AbsP2Sets.java
+END
+BDDPAG.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDPAG.jedd
+END
+TraceQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TraceQFactory.java
+END
+BDDCflow.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDCflow.jedd
+END
+TradCallEdgeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradCallEdgeHandler.java
+END
+ContextAllocDotField.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextAllocDotField.java
+END
+TradTypeManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/TradTypeManager.jedd
+END
+PaddleComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/PaddleComponent.java
+END
+AbsMethodPAGContextifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsMethodPAGContextifier.java
+END
+BDDReachableMethods.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDReachableMethods.jedd
+END
+PointsToSetReadOnly.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/3037/paddle/trunk/src/soot/jimple/paddle/PointsToSetReadOnly.java
+END
+ContextFieldRefNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextFieldRefNode.java
+END
+Trad1CFAVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/Trad1CFAVirtualContextManager.java
+END
+AbsPAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsPAG.java
+END
+AbsFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2085/paddle/trunk/src/soot/jimple/paddle/AbsFactory.java
+END
+OFCGConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/OFCGConfig.java
+END
+PaddleScene.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2766/paddle/trunk/src/soot/jimple/paddle/PaddleScene.java
+END
+NodeManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2545/paddle/trunk/src/soot/jimple/paddle/NodeManagerFactory.java
+END
+BDDContextCallGraphBuilder.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDContextCallGraphBuilder.jedd
+END
+LocalVarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/LocalVarNode.java
+END
+BDDObjSensStaticContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDObjSensStaticContextManager.jedd
+END
+AbsCallEdgeContextifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsCallEdgeContextifier.java
+END
+BDDRecursiveAnalysis.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDRecursiveAnalysis.jedd
+END
+LocalAllocNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/LocalAllocNode.java
+END
+BDDTypeManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDTypeManager.jedd
+END
+ContextString.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextString.java
+END
+P2SetVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/P2SetVisitor.java
+END
+AbsStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsStaticContextManager.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/package.html
+END
+PropWorklist.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2468/paddle/trunk/src/soot/jimple/paddle/PropWorklist.java
+END
+AbsStaticCallBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsStaticCallBuilder.java
+END
+BDD1CFAVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDD1CFAVirtualContextManager.jedd
+END
+GlobalAllocNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/GlobalAllocNode.java
+END
+TradPAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/TradPAG.java
+END
+BDDPointsToAnalysis.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDPointsToAnalysis.jedd
+END
+ShadowNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1904/paddle/trunk/src/soot/jimple/paddle/ShadowNumberer.java
+END
+FieldRefNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/FieldRefNode.java
+END
+ContextNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextNode.java
+END
+BitPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/BitPointsToSet.java
+END
+BDDReachableMethodsAdapter.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDReachableMethodsAdapter.jedd
+END
+AbsVirtualCalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsVirtualCalls.java
+END
+PaddleContextSensitiveCallGraph.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/PaddleContextSensitiveCallGraph.jedd
+END
+OFCGScene.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2088/paddle/trunk/src/soot/jimple/paddle/OFCGScene.java
+END
+VarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1949/paddle/trunk/src/soot/jimple/paddle/VarNode.java
+END
+PaddleQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/PaddleQueue.java
+END
+AbsContextCallGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsContextCallGraphBuilder.java
+END
+Results.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/Results.java
+END
+OFCGAOTConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/OFCGAOTConfig.java
+END
+SortedArraySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/SortedArraySet.java
+END
+AOTCGScene.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2085/paddle/trunk/src/soot/jimple/paddle/AOTCGScene.java
+END
+PropBDD.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/PropBDD.jedd
+END
+NodeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/NodeManager.java
+END
+BDDFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2091/paddle/trunk/src/soot/jimple/paddle/BDDFactory.java
+END
+AbsReachableMethodsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2075/paddle/trunk/src/soot/jimple/paddle/AbsReachableMethodsAdapter.java
+END
+TradClassHierarchyAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradClassHierarchyAnalysis.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/Node.java
+END
+P2SetFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/P2SetFactory.java
+END
+TradObjSensStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/TradObjSensStaticContextManager.java
+END
+DepItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/DepItem.java
+END
+NumTraceQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/NumTraceQFactory.java
+END
+AbsNodeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsNodeInfo.java
+END
+PropAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/PropAlias.java
+END
+AbsClassHierarchyAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsClassHierarchyAnalysis.java
+END
+PaddleNativeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2064/paddle/trunk/src/soot/jimple/paddle/PaddleNativeHelper.java
+END
+PointsToBitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2440/paddle/trunk/src/soot/jimple/paddle/PointsToBitVector.java
+END
+BDDQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/BDDQFactory.java
+END
+ExecutesManyAnalysis.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/ExecutesManyAnalysis.jedd
+END
+AbsPropagator.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsPropagator.java
+END
+TradMethodPAGContextifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2327/paddle/trunk/src/soot/jimple/paddle/TradMethodPAGContextifier.java
+END
+CHAScene.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2088/paddle/trunk/src/soot/jimple/paddle/CHAScene.java
+END
+OFCGContextConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/OFCGContextConfig.java
+END
+EmptyPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/1904/paddle/trunk/src/soot/jimple/paddle/EmptyPointsToSet.java
+END
+overview.dot
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/1972/paddle/trunk/src/soot/jimple/paddle/overview.dot
+END
+PaddleTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2767/paddle/trunk/src/soot/jimple/paddle/PaddleTransformer.java
+END
+BDDHierarchy.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDHierarchy.jedd
+END
+OFCGContextAOTConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/OFCGContextAOTConfig.java
+END
+BDDP2Sets.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDP2Sets.jedd
+END
+PaddleQueueReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/PaddleQueueReader.java
+END
+TradInsensitiveStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/TradInsensitiveStaticContextManager.java
+END
+AbsCallEdgeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsCallEdgeHandler.java
+END
+StringConstantNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/StringConstantNode.java
+END
+TradKCFAVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradKCFAVirtualContextManager.java
+END
+CHAContextAOTConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/CHAContextAOTConfig.java
+END
+AllSharedHybridNodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2442/paddle/trunk/src/soot/jimple/paddle/AllSharedHybridNodes.java
+END
+BDDCflowStack.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDCflowStack.jedd
+END
+AllocNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/AllocNode.java
+END
+AbsMethodPAGBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2085/paddle/trunk/src/soot/jimple/paddle/AbsMethodPAGBuilder.java
+END
+AllocDotField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/AllocDotField.java
+END
+ContextAllocNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/ContextAllocNode.java
+END
+TradCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradCallGraph.java
+END
+DependencyManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/DependencyManager.java
+END
+BDDKCFAVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDKCFAVirtualContextManager.jedd
+END
+ContextStringNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3036/paddle/trunk/src/soot/jimple/paddle/ContextStringNumberer.java
+END
+PaddleNumberers.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2045/paddle/trunk/src/soot/jimple/paddle/PaddleNumberers.java
+END
+TradNodeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2026/paddle/trunk/src/soot/jimple/paddle/TradNodeInfo.java
+END
+NodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/NodeFactory.java
+END
+BDDCallEdgeContextifier.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDCallEdgeContextifier.jedd
+END
+BDDKObjSensVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDKObjSensVirtualContextManager.jedd
+END
+BDDVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDVirtualContextManager.jedd
+END
+CHAContextConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/CHAContextConfig.java
+END
+PointsToSetInternal.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2440/paddle/trunk/src/soot/jimple/paddle/PointsToSetInternal.java
+END
+ArrayElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/1904/paddle/trunk/src/soot/jimple/paddle/ArrayElement.java
+END
+P2SetMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/P2SetMap.java
+END
+BDDCallGraph.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDCallGraph.jedd
+END
+Trad1CFAStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/Trad1CFAStaticContextManager.java
+END
+HashPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/HashPointsToSet.java
+END
+Parm.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/3324/paddle/trunk/src/soot/jimple/paddle/Parm.java
+END
+DebugQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/DebugQFactory.java
+END
+BDDVirtualCalls.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/3474/paddle/trunk/src/soot/jimple/paddle/BDDVirtualCalls.jedd
+END
+BDDObjSensVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDObjSensVirtualContextManager.jedd
+END
+AbsVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsVirtualContextManager.java
+END
+AbsQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsQFactory.java
+END
+GlobalVarNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/GlobalVarNode.java
+END
+AbsReachableMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/AbsReachableMethods.java
+END
+TradFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2089/paddle/trunk/src/soot/jimple/paddle/TradFactory.java
+END
+TradInsensitiveVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradInsensitiveVirtualContextManager.java
+END
+AbsCallGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsCallGraph.java
+END
+BDDKObjSensStaticContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDKObjSensStaticContextManager.jedd
+END
+DoublePointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2118/paddle/trunk/src/soot/jimple/paddle/DoublePointsToSet.java
+END
+TradKCFAStaticContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradKCFAStaticContextManager.java
+END
+TradMethodPAGBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2085/paddle/trunk/src/soot/jimple/paddle/TradMethodPAGBuilder.java
+END
+AbsConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/AbsConfig.java
+END
+HybridPointsToSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/HybridPointsToSet.java
+END
+BDDNodeInfo.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDNodeInfo.jedd
+END
+BDDEscapeAnalysis.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDEscapeAnalysis.jedd
+END
+PropIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/PropIter.java
+END
+BDDInsensitiveStaticContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDInsensitiveStaticContextManager.jedd
+END
+PropBDDInc.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/PropBDDInc.jedd
+END
+AbsPointsToAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/3212/paddle/trunk/src/soot/jimple/paddle/AbsPointsToAnalysis.java
+END
+TopoSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/TopoSorter.java
+END
+BDD1CFAStaticContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDD1CFAStaticContextManager.jedd
+END
+TradContextCallGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/TradContextCallGraphBuilder.java
+END
+SharedHybridSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2440/paddle/trunk/src/soot/jimple/paddle/SharedHybridSet.java
+END
+Shadow.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1903/paddle/trunk/src/soot/jimple/paddle/Shadow.java
+END
+ContextCountPrinter.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/ContextCountPrinter.jedd
+END
+TradUniqKObjSensVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradUniqKObjSensVirtualContextManager.java
+END
+TradCallEdgeContextifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradCallEdgeContextifier.java
+END
+ZhuContext.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/ZhuContext.jedd
+END
+TradQFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradQFactory.java
+END
+TradReachableMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2121/paddle/trunk/src/soot/jimple/paddle/TradReachableMethods.java
+END
+BDDInsensitiveVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDInsensitiveVirtualContextManager.jedd
+END
+TradReachableMethodsAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2076/paddle/trunk/src/soot/jimple/paddle/TradReachableMethodsAdapter.java
+END
+ObjNumberer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/soot/!svn/ver/2026/paddle/trunk/src/soot/jimple/paddle/ObjNumberer.java
+END
+BDDKCFAStaticContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDKCFAStaticContextManager.jedd
+END
+MethodNodeFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/3325/paddle/trunk/src/soot/jimple/paddle/MethodNodeFactory.java
+END
+TradVirtualCalls.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/TradVirtualCalls.java
+END
+BDDUniqKObjSensVirtualContextManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDUniqKObjSensVirtualContextManager.jedd
+END
+CHAConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/CHAConfig.java
+END
+CHAAOTConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/2002/paddle/trunk/src/soot/jimple/paddle/CHAAOTConfig.java
+END
+TradObjSensVirtualContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2082/paddle/trunk/src/soot/jimple/paddle/TradObjSensVirtualContextManager.java
+END
+AbsTypeManager.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/AbsTypeManager.jedd
+END
+BDDPointsToSet.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/3501/paddle/trunk/src/soot/jimple/paddle/BDDPointsToSet.jedd
+END
+SideEffectAnalysis.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/SideEffectAnalysis.jedd
+END
+TradP2Sets.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/TradP2Sets.java
+END
+BDDMethodPAGContextifier.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2556/paddle/trunk/src/soot/jimple/paddle/BDDMethodPAGContextifier.jedd
+END
+TradPointsToAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2012/paddle/trunk/src/soot/jimple/paddle/TradPointsToAnalysis.java
+END

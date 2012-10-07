@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/3487/soot/trunk/src/soot/jimple/toolkits/pointer
+END
+LocalMustNotAliasAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/3487/soot/trunk/src/soot/jimple/toolkits/pointer/LocalMustNotAliasAnalysis.java
+END
+RWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/2512/soot/trunk/src/soot/jimple/toolkits/pointer/RWSet.java
+END
+MemoryEfficientRasUnion.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/MemoryEfficientRasUnion.java
+END
+FullObjectSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2507/soot/trunk/src/soot/jimple/toolkits/pointer/FullObjectSet.java
+END
+SideEffectAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/SideEffectAnalysis.java
+END
+MethodRWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/MethodRWSet.java
+END
+LocalTypeSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/LocalTypeSet.java
+END
+PASideEffectTester.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/PASideEffectTester.java
+END
+CodeBlockRWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3024/soot/trunk/src/soot/jimple/toolkits/pointer/CodeBlockRWSet.java
+END
+DependenceGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/DependenceGraph.java
+END
+CastCheckEliminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/CastCheckEliminator.java
+END
+StmtRWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/StmtRWSet.java
+END
+InstanceKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/3145/soot/trunk/src/soot/jimple/toolkits/pointer/InstanceKey.java
+END
+StrongLocalMustAliasAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/3275/soot/trunk/src/soot/jimple/toolkits/pointer/StrongLocalMustAliasAnalysis.java
+END
+UnionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/978/soot/trunk/src/soot/jimple/toolkits/pointer/UnionFactory.java
+END
+LocalMustAliasAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/3358/soot/trunk/src/soot/jimple/toolkits/pointer/LocalMustAliasAnalysis.java
+END
+CastCheckTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/978/soot/trunk/src/soot/jimple/toolkits/pointer/CastCheckTag.java
+END
+ParameterAliasTagger.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/ParameterAliasTagger.java
+END
+DependenceTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/DependenceTag.java
+END
+FieldRWTagger.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/FieldRWTagger.java
+END
+FullRWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2512/soot/trunk/src/soot/jimple/toolkits/pointer/FullRWSet.java
+END
+Union.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/3128/soot/trunk/src/soot/jimple/toolkits/pointer/Union.java
+END
+DependenceTagAggregator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/DependenceTagAggregator.java
+END
+SiteRWSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/SiteRWSet.java
+END
+CastCheckEliminatorDumper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/1488/soot/trunk/src/soot/jimple/toolkits/pointer/CastCheckEliminatorDumper.java
+END
+SideEffectTagger.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/pointer/SideEffectTagger.java
+END
+DumbPointerAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/1746/soot/trunk/src/soot/jimple/toolkits/pointer/DumbPointerAnalysis.java
+END

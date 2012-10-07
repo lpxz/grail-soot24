@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="all" name="Transformer">
+    <taskdef resource="net/sf/antcontrib/antlib.xml">
+        <classpath>
+            <pathelement location="lib/ant-contrib.jar"/>
+        </classpath>
+    </taskdef>
+	   
+	    <!--goto see the muvi-once, and set the typebased.option properly-->
+	<!--bayes,genome,intruder,kmeans,labyrinth3d,matrixmultiply,ssca2,vacation,yada,stmbench7,specjbb,avrora,batik,eclipse,h2,jython,luindex,lusearch,pmd,sunflow,tomcat,tradebeans, tradesoap,xalan-->
+        <property name = "stamp.other.dacapo.benchmark" value ="avrora,batik,eclipse,h2,jython,luindex,lusearch,pmd,sunflow,tomcat,tradebeans, tradesoap,xalan"/>
+	
+	<property name = "analysis.class" value ="pldi.locking.studyConcurrent.SharedVariableStatistic"/>
+	<property name = "min.support.list" value ="1"/>
+		
+	
+	    <property name="STMBench7.location" value="../STMBench7"/>
+	    <property name="Tomcat.location" value="../Tomcat"/>
+	    <property name="avrora.location" value="../avrora"/>
+	    <property name="batik.location" value="../batik"/>
+	    <property name="h2.location" value="../h2"/>
+	    <property name="jython.location" value="../jython"/>
+	    <property name="lucene.location" value="../lucene"/>
+	 <property name="pmd.location" value="../pmd"/>
+	    <property name="smpf.location" value="../smpf"/>
+	    <property name="specjbb2005107_runnable.location" value="../specjbb2005107_runnable"/>
+	    <property name="stamp.location" value="../stamp"/>
+	    <property name="sunflow.location" value="../sunflow"/>
+	    <property name="xalan.location" value="../xalan"/>
+	    <property name="debuglevel" value="source,lines,vars"/>
+	    <property name="target" value="1.5"/>
+	    <property name="source" value="1.5"/>
+	    <path id="avrora.classpath">
+	        <pathelement location="${avrora.location}/bin"/>
+	        <pathelement location="${avrora.location}/lib/commons-cli-1.1.jar"/>
+	    </path>
+	    <path id="smpf.classpath">
+	        <pathelement location="${smpf.location}/bin"/>
+	    </path>
+	    <path id="batik.classpath">
+	        <pathelement location="${batik.location}/bin"/>
+	        <pathelement location="${batik.location}/lib/commons-cli-1.1.jar"/>
+	        <pathelement location="${batik.location}/lib/js.jar"/>
+	        <pathelement location="${batik.location}/lib/pdf-transcoder.jar"/>
+	        <pathelement location="${batik.location}/lib/xalan-2.6.0.jar"/>
+	        <pathelement location="${batik.location}/lib/xerces_2_5_0.jar"/>
+	        <pathelement location="${batik.location}/lib/xml-apis-ext.jar"/>
+	        <pathelement location="${batik.location}/lib/xml-apis.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-anim.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-awt-util.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-bridge.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-codec.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-css.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-dom.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-ext.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-extension.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-gui-util.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-gvt.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-parser.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-script.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-svg-dom.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-svggen.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-swing.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-transcoder.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-util.jar"/>
+	        <pathelement location="${batik.location}/lib/batik-xml.jar"/>
+	    </path>
+	    <path id="JUnit 4.libraryclasspath">
+	        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit4_4.5.0.v20090423/junit.jar"/>
+	        <pathelement location="${ECLIPSE_HOME}/plugins/org.hamcrest.core_1.1.0.v20090501071000.jar"/>
+	    </path>
+	    <path id="h2.classpath">
+	        <pathelement location="${h2.location}/bin"/>
+	        <pathelement location="${h2.location}/lib/lucene-core-2.2.0.jar"/>
+	        <pathelement location="${h2.location}/lib/org.osgi.core-1.2.0.jar"/>
+	        <pathelement location="${h2.location}/lib/servlet-api-2.4.jar"/>
+	        <pathelement location="${h2.location}/lib/slf4j-api-1.5.0.jar"/>
+	        <pathelement location="${h2.location}/lib/derbyTesting.jar"/>
+	        <pathelement location="${h2.location}/lib/commons-cli-1.1.jar"/>
+	        <pathelement location="${h2.location}/lib/derbytools.jar"/>
+	        <pathelement location="${h2.location}/lib/derby.jar"/>
+	        <path refid="JUnit 4.libraryclasspath"/>
+	        <pathelement location="${h2.location}/lib/derbynet.jar"/>
+	        <pathelement location="${h2.location}/lib/derbyclient.jar"/>
+	    </path>
+	    <path id="jython.classpath">
+	        <pathelement location="${jython.location}/bin"/>
+	        <pathelement location="${jython.location}/lib/commons-cli-1.1.jar"/>
+	        <pathelement location="${jython.location}/lib/antlr-3.1.3.jar"/>
+	        <pathelement location="${jython.location}/lib/asm-3.1.jar"/>
+	        <pathelement location="${jython.location}/lib/asm-commons-3.1.jar"/>
+	        <pathelement location="${jython.location}/lib/janino-2.5.12.jar"/>
+	        <pathelement location="${jython.location}/lib/jna-posix.jar"/>
+	        <pathelement location="${jython.location}/lib/jna.jar"/>
+	        <pathelement location="${jython.location}/lib/servlet-api-2.4.jar"/>
+	        <pathelement location="${jython.location}/lib/jython.jar"/>
+	        <pathelement location="${jython.location}/lib/constantine-0.4.jar"/>
+	    </path>
+	    <path id="lucene.classpath">
+	        <pathelement location="${lucene.location}/bin"/>
+	        <pathelement location="${lucene.location}/lib/junit-3.8.2.jar"/>
+	        <pathelement location="${lucene.location}/lib/servlet-api-2.4.jar"/>
+	        <pathelement location="${lucene.location}/lib/commons-cli-1.1.jar"/>
+	    </path>
+	
+	<path id="pmd.classpath">
+	        <pathelement location="${pmd.location}/bin"/>
+	        <pathelement location="${pmd.location}/lib/ant-antlr.jar"/>
+	        <pathelement location="${pmd.location}/lib/ant.jar"/>
+	        <pathelement location="${pmd.location}/lib/antlr-3.1.3.jar"/>
+	        <pathelement location="${pmd.location}/lib/junit-3.8.1.jar"/>
+	        <pathelement location="${pmd.location}/lib/jaxen-1.1.1.jar"/>
+	        <pathelement location="${pmd.location}/lib/asm-3.1.jar"/>
+	        <pathelement location="${pmd.location}/lib/asm-commons-3.1.jar"/>
+	        <pathelement location="${pmd.location}/lib/commons-cli-1.1.jar"/>
+	    </path>
+	
+	    <path id="specjbb2005107_runnable.classpath">
+	        <pathelement location="${specjbb2005107_runnable.location}/bin"/>
+	    </path>
+	    <path id="stamp.classpath">
+	        <pathelement location="${stamp.location}/bin"/>
+	    </path>
+	    <path id="STMBench7.classpath">
+	        <pathelement location="${STMBench7.location}/bin"/>
+	    </path>
+	    <path id="sunflow.classpath">
+	        <pathelement location="${sunflow.location}/bin"/>
+	        <pathelement location="${sunflow.location}/lib/commons-cli-1.1.jar"/>
+	        <pathelement location="${sunflow.location}/lib/janino.jar"/>
+	        <pathelement location="${sunflow.location}/lib/sunflow_resource.jar"/>
+	    </path>
+	    <path id="Tomcat.classpath">
+	        <pathelement location="${Tomcat.location}/bin"/>
+	        <pathelement location="${Tomcat.location}/lib/commons-cli-1.1.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/ant-antlr.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/ant.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/antlr-3.1.3.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/jasper-compiler-jdt.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/jaxrpc.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/wsdl4j-1.5.1.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/commons-logging.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/commons-codec.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/commons-httpclient.jar"/>
+	        <pathelement location="${Tomcat.location}/lib/jstl.jar"/>
+	    </path>
+	    <path id="xalan.classpath">
+	        <pathelement location="${xalan.location}/bin"/>
+	        <pathelement location="${xalan.location}/lib/BCEL.jar"/>
+	        <pathelement location="${xalan.location}/lib/regexp.jar"/>
+	        <pathelement location="${xalan.location}/lib/runtime.jar"/>
+	        <pathelement location="${xalan.location}/lib/xercesImpl.jar"/>
+	        <pathelement location="${xalan.location}/lib/xml-apis.jar"/>
+	        <pathelement location="${xalan.location}/lib/commons-cli-1.1.jar"/>
+	    </path>
+	    <path id="soot24.classpath">
+	        <pathelement location="classes"/>
+	        <pathelement location="lib/jasminclasses-2.3.0.jar"/>
+	        <pathelement location="lib/jedd-runtime.jar"/>
+	        <pathelement location="lib/jedd-translator.jar"/>
+	        <pathelement location="lib/polyglot-1.3.3.jar"/>
+	        <pathelement location="lib/svnant.jar"/>
+	        <pathelement location="lib/svnClientAdapter.jar"/>
+	        <pathelement location="lib/TGGraphLayout.jar"/>
+	        <pathelement location="lib/xmlunit1.0.jar"/>
+	        <pathelement location="lib/jgraph.jar"/>
+	        <pathelement location="lib/log4j.jar"/>
+	        <pathelement location="lib/trove.jar"/>
+	        <pathelement location="lib/jboss-serialization.jar"/>
+	        <pathelement location="lib/jboss-common-4.0.2.jar"/>
+	        <pathelement location="lib/junit-4.4.jar"/>
+	        <pathelement location="javabdd_lib/javabdd_0.6.jar"/>
+	        <pathelement location="lib/ant-antlr.jar"/>
+	        <pathelement location="lib/ant-apache-bcel.jar"/>
+	        <pathelement location="lib/ant-testutil.jar"/>
+	        <pathelement location="lib/ant.jar"/>
+	        <pathelement location="lib/coffer.jar"/>
+	        <pathelement location="lib/java_cup.jar"/>
+	        <pathelement location="lib/JFlex.jar"/>
+	        <pathelement location="lib/junit-4.8.1.jar"/>
+	        <pathelement location="lib/pao.jar"/>
+	        <pathelement location="lib/polyglot.jar"/>
+	        <pathelement location="lib/pth.jar"/>
+	        <pathelement location="lib/xercesImpl.jar"/>
+	        <pathelement location="lib/xml-apis.jar"/>
+	        <pathelement location="javabdd_lib/sablejbdd_real.jar"/>
+	        <pathelement location="lib/pia.jar"/>
+	        <pathelement location="lib/poa.jar"/>
+	        <path refid="avrora.classpath"/>
+	        <path refid="smpf.classpath"/>
+	        <path refid="batik.classpath"/>
+	        <path refid="h2.classpath"/>
+	        <path refid="jython.classpath"/>
+	        <path refid="lucene.classpath"/>
+	        <path refid="specjbb2005107_runnable.classpath"/>
+	        <path refid="stamp.classpath"/>
+	        <path refid="STMBench7.classpath"/>
+	        <path refid="sunflow.classpath"/>
+	        <path refid="Tomcat.classpath"/>
+	        <path refid="xalan.classpath"/>
+	    	<path refid="pmd.classpath"/>	   
+	    </path>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+	
+    <target name="trycatchwrapper">
+    	<trycatch>
+    		<try>
+    		<antcall target="${realtarget}">
+    			<param name="mins.trycatchwrapper" value="${mins.all}"/>
+    			</antcall>
+    		</try>
+    		 <catch>		     
+    		</catch>
+    		</trycatch>
+    </target>
+    	
+    <target name="muvi-once">    	
+    	<property name="current.application" value="${currentApp}"/> 
+    	<property name="exclude.option" value="${exclude.arg}"/> 
+    	<property name="include.option" value="${include.arg}"/> 
+    	<property name ="typebased.option" value="true"/>
+    	<property name="current.min.support" value ="${mins.arg}"/>
+    	<property name="dacapo.reflection.option" value ="${dacapo.reflection.arg}"/>
+    	
+    	<echo message="current application:${current.application}"/>
+    	<echo message="current min.support:${current.min.support}"/>
+        <java classname="${analysis.class}" failonerror="true" fork="yes">
+        	<arg line="${soot.arg.line}"/>
+            <jvmarg line="-Xmx14g"/>        	 
+        	<syspropertyset>
+        	<propertyref builtin="all"/>        	            	
+        	</syspropertyset>
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+
+	<target name="all"> 		
+			<for list="${stamp.other.dacapo.benchmark}" param="benchmark">
+				<sequential>
+				<for list="${min.support.list}" param="mins">
+				  <sequential>
+					<antcall target="trycatchwrapper">
+						<param name ="realtarget" value ="@{benchmark}"/>
+						<param name ="mins.all" value ="@{mins}"/>						
+					</antcall>
+				  </sequential>
+			 </for>	
+			</sequential>
+		 </for>
+	</target>
+			
+	
+    <target name="bayes">     	
+        <antcall target="muvi-once">
+            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Bayes.Bayes"/>
+        	<param name="currentApp" value="bayes"/>
+        	<param name="exclude.arg" value=""/>
+        	<param name="include.arg" value=""/>
+        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+        	<param name="dacapo.reflection.arg" value="false"/>
+        </antcall>      
+    </target>
+	
+    <target name="genome">    	
+        <antcall target="muvi-once">
+            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Genome.Genome"/>
+        	<param name="currentApp" value="genome"/>
+        	<param name="exclude.arg" value=""/>
+        	<param name="include.arg" value=""/>
+        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+        	<param name="dacapo.reflection.arg" value="false"/>
+        </antcall>
+    </target>
+	
+	   <target name="intruder">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Intruder.Intruder"/>
+	        	<param name="currentApp" value="intruder"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="kmeans">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin KMeans.KMeans"/>
+	        	<param name="currentApp" value="kmeans"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="labyrinth3d">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Labyrinth3D.Labyrinth"/>
+	        	<param name="currentApp" value="labyrinth3d"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="matrixmultiply">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin MatrixMultiply.MatrixMultiply"/>
+	        	<param name="currentApp" value="matrixmultiply"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	   <target name="ssca2">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin SSCA2.SSCA2"/>
+	        	<param name="currentApp" value="ssca2"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	   <target name="vacation">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Vacation.Vacation"/>
+	        	<param name="currentApp" value="vacation"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	   <target name="yada">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/stamp/bin Yada.java.yada"/>
+	        	<param name="currentApp" value="yada"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="stmbench7">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/soot24/preprocessed/stmbench7 stmbench7.Benchmark"/>
+	        	<param name="currentApp" value="stmbench7"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	   <target name="specjbb">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/eclipse/workspace/soot24/preprocessed/specjbb spec.jbb.JBBmain"/>
+	        	<param name="currentApp" value="specjbb"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=""/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="false"/>
+	        </antcall>
+	    </target>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	   <target name="avrora">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/avrora-small Harness"/>
+	        	<param name="currentApp" value="avrora"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="batik">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/batik-small Harness"/>
+	        	<param name="currentApp" value="batik"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	
+	   <target name="eclipse">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/eclipse-small Harness"/>
+	        	<param name="currentApp" value="eclipse"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+
+	   <target name="h2">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/h2-small Harness"/>
+	        	<param name="currentApp" value="h2"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="jython">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/jython-small Harness"/>
+	        	<param name="currentApp" value="jython"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="luindex">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/luindex-small Harness"/>
+	        	<param name="currentApp" value="luindex"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="lusearch">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/lusearch-small Harness"/>
+	        	<param name="currentApp" value="lusearch"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="pmd">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/pmd-small Harness"/>
+	        	<param name="currentApp" value="pmd"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="sunflow">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/sunflow-small Harness"/>
+	        	<param name="currentApp" value="sunflow"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="tomcat">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/tomcat-small Harness"/>
+	        	<param name="currentApp" value="tomcat"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   <target name="tradebeans">    	
+	        <antcall target="muvi-once">
+	            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/tradebeans-small Harness"/>
+	        	<param name="currentApp" value="tradebeans"/>
+	        	<param name="exclude.arg" value=""/>
+	        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+	        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+	        	<param name="dacapo.reflection.arg" value="true"/>
+	        </antcall>
+	    </target>
+	   	
+		   <target name="tradesoap">    	
+		        <antcall target="muvi-once">
+		            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/tradesoap-small Harness"/>
+		        	<param name="currentApp" value="tradesoap"/>
+		        	<param name="exclude.arg" value=""/>
+		        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+		        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+		        	<param name="dacapo.reflection.arg" value="true"/>
+		        </antcall>
+		    </target>
+	 <target name="xalan">    	
+		        <antcall target="muvi-once">
+		            <param name="soot.arg.line" value="J /home/lpxz/benchmark/tamiflex/out/xalan-small Harness"/>
+		        	<param name="currentApp" value="xalan"/>
+		        	<param name="exclude.arg" value=""/>
+		        	<param name="include.arg" value=" -i org.apache -i org.w3c"/>
+		        	<param name="mins.arg" value="${mins.trycatchwrapper}"/>
+		        	<param name="dacapo.reflection.arg" value="true"/>
+		        </antcall>
+		    </target>
+
+	
+	
+	
+
+
+    
+</project>

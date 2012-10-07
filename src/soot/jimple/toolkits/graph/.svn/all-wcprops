@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/graph
+END
+CriticalEdgeRemover.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/graph/CriticalEdgeRemover.java
+END
+LoopConditionUnroller.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/graph/LoopConditionUnroller.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/soot/!svn/ver/533/soot/trunk/src/soot/jimple/toolkits/graph/package.html
+END

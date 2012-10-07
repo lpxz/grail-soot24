@@ -1,0 +1,176 @@
+PARSER_BEGIN(CSParser)
+package aTSE;
+
+
+import java.io.StringReader;
+import java.io.Reader;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class CSParser {
+
+ 
+   public static List list ;
+    public CSParser(String s) 
+    {
+        this((Reader)(new StringReader(s))); 
+        list = new  ArrayList();
+    }
+    
+    public static String loadAFileToString(String fstr) {
+      
+        BufferedReader br = null;
+        String ret = null;
+        try {
+        	File  f = new  File(fstr);
+            br =  new BufferedReader(new FileReader(f));
+            String line = null;
+            StringBuffer sb = new StringBuffer((int)f.length());
+            while( (line = br.readLine() ) != null ) {
+                sb.append(line);
+            }
+            ret = sb.toString();
+       } 
+        catch (Exception e) {
+			System.err.println( "reading files error");
+		}
+        finally {
+            if(br!=null) {try{br.close();} catch(Exception e){} }
+        }
+
+        return ret;       
+    }
+    public static void main(String args[])
+    {
+        try
+        {
+
+                String query = args[0];
+                String truequery= loadAFileToString(query);
+                CSParser parser = new CSParser(truequery);
+                parser.parse();
+                System.out.println(list.size());
+        }
+        catch(Exception e)
+        {
+                e.printStackTrace();
+        }
+    }
+}
+
+
+PARSER_END(CSParser) 
+
+/**  And now, the actual parsing specifications...... */
+
+/** Skip these characters, they are considered "white space" **/
+SKIP :                              
+{
+    " "
+    | "\t"
+    | "\r"
+    | "\n"
+
+}
+
+
+TOKEN: /*RESERVED TOKENS FOR UQL */
+{
+      <EOE: ";">
+   |  <EQUALS:  "=">
+   |  <SITESEP: "->">
+   |  <ITEMSEP: ":">
+   |  <TOKENSEP: ".">
+   |  <AFTER: "after">
+   |  <BEFORE: "before">
+   | <BETWEEN: "between">
+}
+
+TOKEN : /* the keywords and comparators - QUOTEDVALUE accounts for escaped quotes as well */
+{
+        < STRING : (["A"-"Z","a"-"z","0"-"9"])+ >
+
+}
+
+
+/** 
+ *  Top level
+ */
+void parse() :
+{
+}
+{
+    whole()   <EOF>       // a query followed by optional sort
+}
+
+/**
+ * An expression is defined to be a queryTerm followed by zero or more
+ * query terms joined by either an AND or an OR.   If two query terms are joined with 
+ * AND then both conditions must be met.  If two query terms are joined with an OR, then
+ * one of the two conditions must be met.  
+ */
+void whole() :
+{
+}
+{            equation()    
+            ( equation() )*
+
+} 
+
+void equation():
+{}
+{
+   <STRING> <EQUALS> inter() <EOE>
+}
+
+void inter():
+{List tmplist;}
+{
+    tmplist =chain()    {      list.add(tmplist);
+    }| <AFTER> chain()| <BEFORE> chain()|<BETWEEN> chain()
+}
+
+List chain():
+{List tmplist, list1, list2;}
+{
+  {
+    tmplist=  new  ArrayList();
+  }
+     list1 =site()     {
+       tmplist.add(list1);     }  (<SITESEP> list2= site()  {        tmplist.add(list2);
+  })*
+  {       return tmplist;
+  }}
+
+List site():
+{List list1, list2, tmplist;}
+{
+    {
+    tmplist=  new  ArrayList();
+  }
+  list1=item()  {
+    tmplist.add(list1);  }(<ITEMSEP> list2=item()  {
+    tmplist.add(list2);  })*  {       return tmplist;
+  }
+}
+
+List item():
+{Token str1, str2; List tmplist;}
+{
+  {
+    tmplist=  new  ArrayList();  }
+   str1= <STRING>   {
+     tmplist.add(str1.image);   }(<TOKENSEP> str2=<STRING>   {
+     tmplist.add(str2.image);   })*
+   {
+     return tmplist;   }
+}
+
+
+
+
+

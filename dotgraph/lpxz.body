@@ -1,0 +1,80 @@
+    private final void FillBuff() throws java.io.IOException
+    {
+        org.apache.derby.impl.sql.compile.UCode_CharStream r0;
+        byte $b0;
+        int i1, $i2, $i3, $i4, $i5, $i6, $i7, $i8, $i9, $i10, $i11, $i12, $i13, $i14, $i15, $i16, $i17, $i18, $i19;
+        java.io.IOException r1, $r7, $r9;
+        char[] $r2, $r4, $r5;
+        java.io.Reader $r3, $r6;
+        int[] $r11, $r12;
+
+        r0 := @this: org.apache.derby.impl.sql.compile.UCode_CharStream;
+        $i2 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd>;
+        $r2 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: char[] nextCharBuf>;
+        $i3 = lengthof $r2;
+        if $i2 != $i3 goto label0;
+
+        $b0 = 0;
+        r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int nextCharInd> = $b0;
+        r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd> = $b0;
+
+     label0:
+        $r3 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: java.io.Reader inputStream>;
+        $r4 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: char[] nextCharBuf>;
+        $i4 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd>;
+        $r5 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: char[] nextCharBuf>;
+        $i5 = lengthof $r5;
+        $i6 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd>;
+        $i7 = $i5 - $i6;
+        $i8 = virtualinvoke $r3.<java.io.Reader: int read(char[],int,int)>($r4, $i4, $i7);
+        i1 = $i8;
+        if $i8 != -1 goto label1;
+
+        $r6 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: java.io.Reader inputStream>;
+        virtualinvoke $r6.<java.io.Reader: void close()>();
+        $r7 = new java.io.IOException;
+        specialinvoke $r7.<java.io.IOException: void <init>()>();
+        throw $r7;
+
+     label1:
+        $i9 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd>;
+        $i10 = $i9 + i1;
+        r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int maxNextCharInd> = $i10;
+
+     label2:
+        return;
+
+     label3:
+        $r9 := @caughtexception;
+        r1 = $r9;
+        $i11 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos>;
+        if $i11 == 0 goto label4;
+
+        $i12 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos>;
+        $i13 = $i12 - 1;
+        r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos> = $i13;
+        virtualinvoke r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: void backup(int)>(0);
+        goto label5;
+
+     label4:
+        $r11 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int[] bufline>;
+        $i14 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos>;
+        $i15 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int line>;
+        $r11[$i14] = $i15;
+        $r12 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int[] bufcolumn>;
+        $i16 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos>;
+        $i17 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int column>;
+        $r12[$i16] = $i17;
+
+     label5:
+        $i18 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int tokenBegin>;
+        if $i18 != -1 goto label6;
+
+        $i19 = r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int bufpos>;
+        r0.<org.apache.derby.impl.sql.compile.UCode_CharStream: int tokenBegin> = $i19;
+
+     label6:
+        throw r1;
+
+        catch java.io.IOException from label0 to label2 with label3;
+    }

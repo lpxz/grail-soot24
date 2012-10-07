@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/misc
+END
+MonitorConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/misc/MonitorConverter.java
+END
+ThrowNullConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/misc/ThrowNullConverter.java
+END
+ConditionFlipper.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/1011/soot/trunk/src/soot/dava/toolkits/base/misc/ConditionFlipper.java
+END
+ThrowFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/misc/ThrowFinder.java
+END
+PackageNamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/misc/PackageNamer.java
+END

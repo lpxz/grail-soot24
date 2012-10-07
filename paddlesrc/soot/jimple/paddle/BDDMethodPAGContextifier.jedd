@@ -1,0 +1,156 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2004 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.*;
+import soot.util.*;
+import soot.jimple.paddle.queue.*;
+import soot.jimple.paddle.bdddomains.*;
+import java.util.*;
+
+/** Instantiates the pointer flow edges of methods in specific contexts.
+ * @author Ondrej Lhotak
+ */
+public class BDDMethodPAGContextifier extends AbsMethodPAGContextifier
+{ 
+    private BDDNodeInfo ni;
+    public BDDMethodPAGContextifier(
+        BDDNodeInfo ni,
+        Rsrc_dst simple,
+        Rsrc_fld_dst load,
+        Rsrc_dst_fld store,
+        Robj_var alloc,
+
+        Rctxt_method rcout,
+
+        Qsrcc_src_dstc_dst csimple,
+        Qsrcc_src_fld_dstc_dst cload,
+        Qsrcc_src_dstc_dst_fld cstore,
+        Qobjc_obj_varc_var calloc ) 
+    {
+        super(
+            simple, load, store, alloc,
+            rcout,
+            csimple, cload, cstore, calloc );
+        this.ni = ni;
+    }
+
+    public boolean update() {
+        boolean contextHeap = PaddleScene.v().options().context_heap();
+        <A_srcc, A_src, A_dstc, A_dst> simpleOut = 0B;
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> loadOut = 0B;
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> storeOut = 0B;
+        <A_objc, A_obj, A_varc, A_var> allocOut = 0B;
+
+        <A_src, A_dst> newSimple = simple.get();
+        csimple.add  ((( newSimple{A_src}><
+                         ni.globalSet(){A_var}){A_dst}><
+                               ni.globalSet(){A_var}){}><
+                   new{null=>A_srcc, null=>A_dstc}{} );
+        mpagSimple |= newSimple{A_src}><ni.localMap(){A_var};
+        mpagSimple |= newSimple{A_dst}><ni.localMap(){A_var};
+        
+        <A_src, A_fld, A_dst> newStore = store.get();
+        cstore.add  ((( newStore {A_src}><
+                        ni.globalSet(){A_var}){A_dst}><
+                              ni.globalSet(){A_var}){}><
+                  new{null=>A_srcc, null=>A_dstc}{} );
+        mpagStore |= newStore{A_src}><ni.localMap(){A_var};
+        mpagStore |= newStore{A_dst}><ni.localMap(){A_var};
+        
+        <A_src, A_fld, A_dst> newLoad = load.get();
+        cload.add  ((( newLoad  {A_src}><
+                       ni.globalSet(){A_var}){A_dst}><
+                             ni.globalSet(){A_var}){}><
+                 new{null=>A_srcc, null=>A_dstc}{} );
+        mpagLoad |= newLoad{A_src}><ni.localMap(){A_var};
+        mpagLoad |= newLoad{A_dst}><ni.localMap(){A_var};
+        
+        <A_var, A_obj> newAlloc = alloc.get();
+        <A_obj> globalallocSet = ni.globalallocSet();
+        if(!contextHeap) globalallocSet |= (A_method=>) ni.localallocMap();
+        calloc.add  ((( newAlloc{A_var}><
+                       ni.globalSet(){A_var}){A_obj}><
+                        globalallocSet{A_obj}){}><
+                    new{null=>A_varc, null=>A_objc}{} );
+        mpagAlloc |= newAlloc{A_var}><ni.localMap(){A_var};
+        if(contextHeap) {
+            mpagAlloc |= newAlloc{A_obj}><ni.localallocMap(){A_obj};
+        }
+        
+        <A_var> localSet = (A_method=>) ni.localMap();
+
+        <A_ctxt:C1, A_method> contexts = rcout.get();
+
+        <A_ctxt:C1, A_src, A_dst> ctxtSimple = contexts{A_method}<>mpagSimple{A_method};
+        simpleOut |= ( (A_ctxt=>A_srcc, A_ctxt=>A_dstc) ctxtSimple );
+        
+        <A_ctxt:C1, A_src, A_fld, A_dst> ctxtStore = contexts{A_method}<>mpagStore{A_method};
+        storeOut |= ( (A_ctxt=>A_srcc, A_ctxt=>A_dstc) ctxtStore );
+        
+        <A_ctxt:C1, A_src, A_fld, A_dst> ctxtLoad = contexts{A_method}<>mpagLoad{A_method};
+        loadOut |= ( (A_ctxt=>A_srcc, A_ctxt=>A_dstc) ctxtLoad );
+        
+        <A_ctxt:C1, A_var, A_obj> ctxtAlloc = contexts{A_method}<>mpagAlloc{A_method};
+        if(contextHeap) {
+            allocOut |= (A_ctxt=>A_varc, A_ctxt=>A_objc) ctxtAlloc;
+        } else {
+            allocOut |= ((A_ctxt=>A_varc) ctxtAlloc){} >< new{null=>A_objc}{};
+        }
+
+        <A_srcc, A_src, A_dstc, A_dst> globalDsts = simpleOut{A_dst} >< ni.globalSet(){A_var};
+        simpleOut -= globalDsts;
+        simpleOut |= ((A_dstc=>) globalDsts){} >< new{null=>A_dstc}{};
+        <A_srcc, A_src, A_dstc, A_dst> globalSrcs = simpleOut{A_src} >< ni.globalSet(){A_var};
+        simpleOut -= globalSrcs;
+        simpleOut |= ((A_srcc=>) globalSrcs){} >< new{null=>A_srcc}{};
+        csimple.add(simpleOut);
+
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> globalStoreDsts = storeOut{A_dst} >< ni.globalSet(){A_var};
+        storeOut -= globalStoreDsts;
+        storeOut |= ((A_dstc=>) globalStoreDsts){} >< new{null=>A_dstc}{};
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> globalStoreSrcs = storeOut{A_src} >< ni.globalSet(){A_var};
+        storeOut -= globalStoreSrcs;
+        storeOut |= ((A_srcc=>) globalStoreSrcs){} >< new{null=>A_srcc}{};
+        cstore.add(storeOut);
+
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> globalLoadDsts = loadOut{A_dst} >< ni.globalSet(){A_var};
+        loadOut -= globalLoadDsts;
+        loadOut |= ((A_dstc=>) globalLoadDsts){} >< new{null=>A_dstc}{};
+        <A_srcc, A_src, A_fld, A_dstc, A_dst> globalLoadSrcs = loadOut{A_src} >< ni.globalSet(){A_var};
+        loadOut -= globalLoadSrcs;
+        loadOut |= ((A_srcc=>) globalLoadSrcs){} >< new{null=>A_srcc}{};
+        cload.add(loadOut);
+
+        <A_objc, A_obj, A_varc, A_var> globalAllocDsts = allocOut{A_var} >< ni.globalSet(){A_var};
+        allocOut -= globalAllocDsts;
+        allocOut |= ((A_varc=>) globalAllocDsts){} >< new{null=>A_varc}{};
+        <A_objc, A_obj, A_varc, A_var> globalAllocSrcs = allocOut{A_obj} >< globalallocSet{A_obj};
+        allocOut -= globalAllocSrcs;
+        allocOut |= ((A_objc=>) globalAllocSrcs){} >< new{null=>A_objc}{};
+        calloc.add(allocOut);
+        return false;
+    }
+
+    private <A_method, A_src, A_dst> mpagSimple = 0B;
+    private <A_method, A_src, A_fld, A_dst> mpagStore = 0B;
+    private <A_method, A_src, A_fld, A_dst> mpagLoad = 0B;
+    private <A_method, A_var, A_obj> mpagAlloc = 0B;
+}
+

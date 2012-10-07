@@ -1,0 +1,16 @@
+package soot.jimple.paddle.bdddomains;
+
+import jedd.*;
+import soot.*;
+
+public class A_local extends Attribute {
+    public final LocalDomain domain = (LocalDomain) LocalDomain.v();
+    
+    public Domain domain() { return domain; }
+    
+    public static Attribute v() { return instance; }
+    
+    private static Attribute instance = new A_local();
+    
+    public A_local() { super(); }
+}

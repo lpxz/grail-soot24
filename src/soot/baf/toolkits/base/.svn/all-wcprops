@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/toolkits/base
+END
+LoadStoreOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/toolkits/base/LoadStoreOptimizer.java
+END
+Peephole.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/988/soot/trunk/src/soot/baf/toolkits/base/Peephole.java
+END
+PeepholeOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/toolkits/base/PeepholeOptimizer.java
+END
+peephole.dat
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/290/soot/trunk/src/soot/baf/toolkits/base/peephole.dat
+END
+ExamplePeephole.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/soot/!svn/ver/2728/soot/trunk/src/soot/baf/toolkits/base/ExamplePeephole.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/303/soot/trunk/src/soot/baf/toolkits/base/package.html
+END

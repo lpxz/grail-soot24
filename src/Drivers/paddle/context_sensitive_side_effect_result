@@ -1,0 +1,629 @@
+package Drivers.paddle;
+
+
+
+import java.io.BufferedWriter;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
+
+import javax.swing.plaf.basic.BasicTreeUI.TreeCancelEditingAction;
+
+
+import jedd.Attribute;
+import jedd.internal.RelationContainer;
+
+
+
+import Drivers.Setup;
+import Drivers.paddle.Contexts.PairKey;
+import soot.Body;
+import soot.BodyTransformer;
+import soot.Context;
+import soot.EntryPoints;
+import soot.G;
+import soot.Local;
+import soot.MethodOrMethodContext;
+import soot.Pack;
+import soot.PackManager;
+import soot.PhaseOptions;
+import soot.PointsToAnalysis;
+import soot.PointsToSet;
+import soot.Scene;
+import soot.SceneTransformer;
+import soot.SootClass;
+import soot.SootField;
+import soot.SootMethod;
+import soot.Transform;
+import soot.Unit;
+import soot.Value;
+import soot.ValueBox;
+import soot.jimple.Stmt;
+import soot.jimple.internal.JInvokeStmt;
+import soot.jimple.paddle.AbsCallGraph;
+import soot.jimple.paddle.AllocNode;
+import soot.jimple.paddle.BDDCallGraph;
+import soot.jimple.paddle.CSHSSideEffectAnalysis;
+import soot.jimple.paddle.ContextAllocNode;
+import soot.jimple.paddle.ContextString;
+import soot.jimple.paddle.LocalAllocNode;
+import soot.jimple.paddle.PaddleContextSensitiveCallGraph;
+import soot.jimple.paddle.PaddleScene;
+//import soot.jimple.paddle.SideEffectAnalysis;
+import soot.jimple.paddle.TradCallGraph;
+import soot.jimple.paddle.bdddomains.A_ctxt;
+import soot.jimple.paddle.bdddomains.A_fld;
+import soot.jimple.paddle.bdddomains.A_method;
+import soot.jimple.paddle.bdddomains.A_obj;
+import soot.jimple.paddle.bdddomains.A_objc;
+import soot.jimple.paddle.bdddomains.A_stmt;
+import soot.jimple.paddle.queue.Rsrcc_srcm_stmt_kind_tgtc_tgtm;
+import soot.jimple.paddle.queue.Rsrcm_stmt_kind_tgtm;
+import soot.jimple.toolkits.callgraph.CallGraph;
+import soot.jimple.toolkits.callgraph.ContextSensitiveCallGraph;
+import soot.jimple.toolkits.callgraph.Edge;
+import soot.jimple.toolkits.pointer.SideEffectAnalysis;
+import soot.options.Options;
+import soot.util.Chain;
+
+
+
+public class TestPaddle {
+	public static boolean firstTime =true; 
+	public static boolean ignoreInit=true;
+	
+	
+	
+	
+	
+public static String syncKeyWord= "entermonitor";
+public static BufferedWriter bWriter=null;
+public static void main(String[] args) throws IOException
+{ // wjtp.tn
+	
+	//@link LockProducer
+	
+    String bootclasspath=System.getProperty("sun.boot.class.path");
+String argsOftoy= "-w -f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin:/home/lpxz/java_standard/jre/lib/rt.jar --app Toy"; //java.lang.Math
+String argsOfObjectsens= "-w -f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin:/home/lpxz/java_standard/jre/lib/rt.jar --app ToyObjectSen"; //java.lang.Math
+
+
+
+
+
+///home/lpxz/javapool/jdk1.3.1_20/jre/lib/rt.jar
+String argsOfSPECJBB= "-f J -pp -cp /home/lpxz/eclipse/workspace/specjbb2005107_runnable/bin --app spec.jbb.JBBmain"; //java.lang.Math
+String argsOfSPECJBB_nolog_applysoot= "-f J -pp -cp /home/lpxz/eclipse/workspace/specjbb_nolog_nosync_applysoot/bin --app spec.jbb.JBBmain"; //java.lang.Math
+String argsOfSPECJBB_nolog_applyme= "-f J -pp -cp /home/lpxz/eclipse/workspace/specjbb_nolog_nosync_applyme/bin --app spec.jbb.JBBmain"; //java.lang.Math
+
+///home/lpxz/eclipse/workspace/specjbb_nolog_nosync_applyme
+String argsOfPurpose= "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin --app Purpose"; //java.lang.Math
+// it is correct for purpose !zs
+///home/lpxz/eclipse/workspace/Playground/src/Purpose.java
+
+String argsOfXalan= "-f J -pp -cp /home/lpxz/eclipse/workspace/xalan/bin:/home/lpxz/eclipse/workspace/xalan/lib/commons-cli-1.1.jar -main-class XalanMainHarness XalanMainHarness"; //java.lang.Math
+
+         String interString = argsOfObjectsens;
+         // use applysoot as a readonly template, so that manual transformation wont change the info
+         String[] finalArgs =interString.split(" "); 
+ 		
+         soot.Main.v().processCmdLine(finalArgs);
+ 		Setup.setupPatchOptions();
+ 	
+
+ //        Options.v().set_include_all(true);// include_all() ; not acceptable
+
+		//  Pack jtp = PackManager.v().getPack("jtp");
+		//  addReflectBodyToJTP(jtp);
+	    	Pack wjtp = PackManager.v().getPack("wjtp");
+		    //	addTradPaddlePack(wjtp);
+	    	addBDDPaddlePack(wjtp);//set the phases bdd:true!
+	    	
+        	
+		
+ 		
+ 		  Scene.v().loadNecessaryClasses();
+
+ 	     
+ 	     
+ 	     
+	  List entryPoints=EntryPoints.v().methodsOfApplicationClasses();
+	  List mainEntries = new ArrayList();
+	  for(int i=0;i< entryPoints.size(); i++)
+	  {
+		  if(entryPoints.get(i).toString().contains("main"))
+		  {
+			  mainEntries.add(entryPoints.get(i));
+		  }
+	  }
+	  
+	      soot.Scene.v().setEntryPoints(mainEntries);  // process : app and its reachable methods.
+	    //TODO: helloworld
+	    
+	      Setup.setPhaseOptionsForPaddleWork();
+			// bdd versions 
+			PhaseOptions.v().setPhaseOption("cg.paddle", "bdd:true");
+			
+	//	Setup.setPhaseOptionsForSparkWork();
+	//		Setup.setPhaseOptionsForTheirTransactionTransformer();
+	//	Setup.setPhaseOptionsForMyTransactionTransformer();
+		PackManager.v().runPacks();//1
+		PackManager.v().writeOutput();
+	    G.reset();		
+	}
+
+
+	
+	private static void addBDDPaddlePack(Pack wjtp) {
+
+		wjtp.add(new Transform("wjtp.bddpaddle",  new SceneTransformer() {
+			
+			
+			@Override
+			protected void internalTransform(String phaseName, Map options) {
+          //     callgraphInspection();
+		  //		point2Inspection();
+			
+			
+			
+		 //=====================================
+				if(firstTime)
+				{
+					 soot.jimple.paddle.CSHSSideEffectAnalysis se = new soot.jimple.paddle.CSHSSideEffectAnalysis();
+			          se.analyze();
+			          HashMap<Object, HashSet> mInst2SEInst_write = seWriteInspection(se);
+			          HashMap<Object, HashSet> mInst2SEInst_read = seReadInspection(se);
+				      
+			          printByMethod(mInst2SEInst_write);
+			          printByMethod(mInst2SEInst_write);
+			          
+			          
+			          firstTime =false;	
+				      
+				      
+				}
+         
+          //=================================================
+          
+			}
+
+			private void printByMethod(
+					HashMap<Object, HashSet> mInst2SEInstWrite) {
+				HashMap<Object, HashMap> twoLevelMap = new HashMap<Object, HashMap>();
+				Iterator it =mInst2SEInstWrite.keySet().iterator();
+				
+				while (it.hasNext()) {
+					PairKey ctxt_sm = (PairKey) it.next();
+					Object ctxt = ctxt_sm.get1();
+					Object sm =ctxt_sm.get2(); 
+					HashSet seSet = mInst2SEInstWrite.get(ctxt_sm);
+					if(twoLevelMap.get(sm)==null)
+					{
+						twoLevelMap.put(sm, new HashMap());
+					}
+					HashMap innerMap=twoLevelMap.get(sm);
+					if(innerMap.get(ctxt)!=null)
+					{
+					  ((HashSet) innerMap.get(ctxt)).addAll(seSet);	
+					}
+					else {
+						innerMap.put(ctxt, seSet);
+					}
+					
+				}
+				
+				Iterator it2= twoLevelMap.keySet().iterator();
+				while (it2.hasNext()) {
+					SootMethod sm = (SootMethod) it2.next();
+					System.out.println();
+					System.out.println();
+					System.out.println();
+					System.out.println(sm +":");
+					HashMap inner2= twoLevelMap.get(sm);
+					Iterator innnerIt =inner2.keySet().iterator();
+					while (innnerIt.hasNext()) {
+						Context ctxt = (Context) innnerIt.next();
+						System.out.println("context:" + ctxt);
+						System.out.println("{");
+						HashSet seSet2= (HashSet)inner2.get(ctxt);
+						Iterator itemIt = seSet2.iterator();
+						while (itemIt.hasNext()) {
+							PairKey ctxtalloc_field = (PairKey) itemIt.next();
+							PairKey ctxtalloc= (PairKey)ctxtalloc_field.get1();
+							
+							SootField sf = (SootField)ctxtalloc_field.get2();
+							System.out.print(sf);
+							System.out.print(" ");
+							System.out.print(ctxtalloc.get1().toString()+ ctxtalloc.get2().toString());
+							System.out.println();
+						}
+						System.out.print("\n}");
+					}
+				}
+			}
+
+			private HashMap<Object, HashSet> seReadInspection(
+					CSHSSideEffectAnalysis se) {
+				 RelationContainer readrc = se.read;// it is falseBDD currently!
+		          Contexts ccRead = new Contexts();
+		          HashMap<Object, HashSet> mInst2SEInst_read = new HashMap();          
+		          Iterator it_read =readrc.iterator(new Attribute[]{A_ctxt.v(), A_method.v(), A_stmt.v(),A_objc.v(), A_obj.v(), A_fld.v()});//
+		          while (it_read.hasNext()) {
+					Object[] tuple6 = (Object[]) it_read.next();
+					Context sm_ctxt = (Context) tuple6[0];
+					SootMethod sm = (SootMethod) tuple6[1];
+					Stmt stmt = (Stmt) tuple6[2];
+					Context alloc_ctxt = (Context) tuple6[3];
+					AllocNode allocN  =(AllocNode) tuple6[4];
+					SootField sf =(SootField) tuple6[5];
+					
+					PairKey ctxt_sm  = ccRead.getCtxtMethod(sm_ctxt, sm);
+					PairKey  ctxt_alloc  =ccRead.getCtxtAlloc(alloc_ctxt, allocN);
+					PairKey ctxtalloc_field  = ccRead.getCtxtAlloc_field(ctxt_alloc, sf);
+					// the above greatly reduce the redundancy by keeping the semantic-unique items.
+					if(mInst2SEInst_read.get(ctxt_sm)==null)
+					{
+						mInst2SEInst_read.put(ctxt_sm, new HashSet());
+					}
+					HashSet corrSESet = mInst2SEInst_read.get(ctxt_sm);
+					corrSESet.add(ctxtalloc_field);	
+					
+				//	System.out.println(sm_ctxt+ ":"+ sm.getName());
+					// may be represented in different instances.
+					// the same!, distinguish only when  the context is avaialable..
+					// this is not exactly the side effect I want
+					// I want to distinguish the region instances!
+				//	System.out.println(alloc_ctxt+":"+allocN);
+				//	System.out.println(sf.getName());			
+				//	System.out.println(" ");
+					
+
+				}
+		          return mInst2SEInst_read;
+			}
+
+			private HashMap<Object, HashSet> seWriteInspection(
+					CSHSSideEffectAnalysis se) {
+				RelationContainer rc = se.write;// it is falseBDD currently!
+		          Contexts ccWrite = new Contexts();
+		          HashMap<Object, HashSet> mInst2SEInst = new HashMap();          
+		          Iterator it =rc.iterator(new Attribute[]{A_ctxt.v(), A_method.v(), A_stmt.v(),A_objc.v(), A_obj.v(), A_fld.v()});//
+		          while (it.hasNext()) {
+					Object[] tuple6 = (Object[]) it.next();
+					Context sm_ctxt = (Context) tuple6[0];
+					SootMethod sm = (SootMethod) tuple6[1];
+					Stmt stmt = (Stmt) tuple6[2];
+					Context alloc_ctxt = (Context) tuple6[3];
+					AllocNode allocN  =(AllocNode) tuple6[4];
+					SootField sf =(SootField) tuple6[5];
+					
+					PairKey ctxt_sm  = ccWrite.getCtxtMethod(sm_ctxt, sm);
+					PairKey  ctxt_alloc  =ccWrite.getCtxtAlloc(alloc_ctxt, allocN);
+					PairKey ctxtalloc_field  = ccWrite.getCtxtAlloc_field(ctxt_alloc, sf);
+					// the above greatly reduce the redundancy by keeping the semantic-unique items.
+					if(mInst2SEInst.get(ctxt_sm)==null)
+					{
+						mInst2SEInst.put(ctxt_sm, new HashSet());
+					}
+					HashSet corrSESet = mInst2SEInst.get(ctxt_sm);
+					corrSESet.add(ctxtalloc_field);	
+					
+				//	System.out.println(sm_ctxt+ ":"+ sm.getName());
+					// may be represented in different instances.
+					// the same!, distinguish only when  the context is avaialable..
+					// this is not exactly the side effect I want
+					// I want to distinguish the region instances!
+				//	System.out.println(alloc_ctxt+":"+allocN);
+				//	System.out.println(sf.getName());			
+				//	System.out.println(" ");
+					
+
+				}
+		          return mInst2SEInst;
+		          
+			}
+
+			private void point2Inspection() {
+				 List<SootMethod > appMethods = new ArrayList<SootMethod>();
+				 Iterator<SootClass> classit =Scene.v().getApplicationClasses().iterator();
+				 while (classit.hasNext()) {
+					SootClass sootClass = (SootClass) classit.next();
+					Iterator<SootMethod> methodIt  = sootClass.getMethods().iterator();
+					while (methodIt.hasNext()) {
+						SootMethod sootMethod = (SootMethod) methodIt.next();
+						if(sootMethod.hasActiveBody() &&! appMethods.contains(sootMethod))
+						{
+							 appMethods.add(sootMethod);
+						}
+						
+					}
+				}
+				 
+				 //=====you can filter the appmethods using the name 
+				 boolean first =true;
+				PointsToAnalysis paddleP2=  Scene.v().getPointsToAnalysis();
+				 Iterator<SootMethod > appMIt = appMethods.iterator();
+				 while (appMIt.hasNext()) {
+					SootMethod sootMethod = (SootMethod) appMIt.next();
+
+						
+					Body bb =sootMethod.getActiveBody();
+					Iterator<Unit> unitIT = bb.getUnits().iterator();
+					while (unitIT.hasNext()) {
+						Unit unit = (Unit) unitIT.next();				
+						Iterator<ValueBox> vbIT  = unit.getUseBoxes().iterator();
+						while (vbIT.hasNext()) {
+							ValueBox valueBox = (ValueBox) vbIT.next();
+							Value use =valueBox.getValue();
+							//===============query on the unit's use variables 
+							//using the paddle point to
+							if(use instanceof Local)
+							{
+								PointsToSet p2S= paddleP2.reachingObjects((Local)use);
+							   if(first)
+							   {	System.out.println(p2S.getClass());
+							         first =false;
+							   }
+							}
+						}
+					}
+				}
+				
+			}
+
+			private void callgraphInspection() {
+				CallGraph cg = Scene.v().getCallGraph();
+				// look into the cg 
+			ContextSensitiveCallGraph cscg=	Scene.v().getContextSensitiveCallGraph();
+				// look into again
+			// I want to accss the edges here.
+			if(cscg instanceof PaddleContextSensitiveCallGraph)
+			{
+			   BDDCallGraph bcg= (BDDCallGraph)((PaddleContextSensitiveCallGraph) cscg).acg;
+			   Iterator<Rsrcm_stmt_kind_tgtm.Tuple> edgeIT=bcg.ciEdges().iterator();
+			   while (edgeIT.hasNext()) {
+				Rsrcm_stmt_kind_tgtm.Tuple rsrcmStmtKindTgtm = (Rsrcm_stmt_kind_tgtm.Tuple) edgeIT
+						.next();
+				
+				
+			   }
+			   Iterator<Rsrcc_srcm_stmt_kind_tgtc_tgtm.Tuple> edgeCSIt= bcg.csEdges().iterator();
+			   while (edgeCSIt.hasNext()) {
+				Rsrcc_srcm_stmt_kind_tgtc_tgtm.Tuple rsrccSrcmStmtKindTgtcTgtm = (Rsrcc_srcm_stmt_kind_tgtc_tgtm.Tuple) edgeCSIt
+						.next();
+				
+				//access a tuple , yes, the format is exactly as your expectation.
+				
+			}
+			
+			
+			}
+			
+				
+			}
+		}));
+	
+
+	
+}
+
+
+
+	private static void addTradPaddlePack(Pack wjtp) {
+		wjtp.add(new Transform("wjtp.testpaddle",  new SceneTransformer() {
+			
+			@Override
+			protected void internalTransform(String phaseName, Map options) {
+				CallGraph cg = Scene.v().getCallGraph();
+				// look into the cg 
+			ContextSensitiveCallGraph cscg=	Scene.v().getContextSensitiveCallGraph();
+				// look into again
+			// I want to accss the edges here.
+			if(cscg instanceof PaddleContextSensitiveCallGraph)
+			{
+				PaddleContextSensitiveCallGraph pccg =(PaddleContextSensitiveCallGraph) cscg;
+				TradCallGraph tcg = (TradCallGraph)pccg.acg;
+				CallGraph callgraph =tcg.cscg;
+				Iterator<Edge> edgeIt =callgraph.edges.iterator();
+			    while (edgeIt.hasNext()) {
+					Edge edge = (Edge) edgeIt.next();
+					MethodOrMethodContext src = edge.getSrc();
+					MethodOrMethodContext tgt =edge.getTgt();
+					//System.out.println(src.context());
+					Context srcContext =src.context();
+				//	Context ctx =((ContextString)srcContext).string[1];
+					
+					Context tgtContext =tgt.context();
+					
+					System.out.println(srcContext);
+					System.out.println(src.method());
+					System.out.println("====call====>");
+					System.out.println(tgtContext);
+					System.out.println(tgt.method());
+					
+					System.out.println();
+					System.out.println();
+					
+				}
+				
+			
+			}
+			
+			
+			 List<SootMethod > appMethods = new ArrayList<SootMethod>();
+			 Iterator<SootClass> classit =Scene.v().getApplicationClasses().iterator();
+			 while (classit.hasNext()) {
+				SootClass sootClass = (SootClass) classit.next();
+				Iterator<SootMethod> methodIt  = sootClass.getMethods().iterator();
+				while (methodIt.hasNext()) {
+					SootMethod sootMethod = (SootMethod) methodIt.next();
+					if(sootMethod.hasActiveBody() &&! appMethods.contains(sootMethod))
+					{
+						 appMethods.add(sootMethod);
+					}
+					
+				}
+			}
+			 
+			 //=====you can filter the appmethods using the name 
+			 SootMethod sideeffectM= null;
+			 Unit sideeffectCallingUnit  = null;
+			 boolean first =true;
+			PointsToAnalysis paddleP2=  Scene.v().getPointsToAnalysis();
+			 Iterator<SootMethod > appMIt = appMethods.iterator();
+			 while (appMIt.hasNext()) {
+				SootMethod sootMethod = (SootMethod) appMIt.next();
+
+				//============help the following block
+				if(sootMethod.getName().contains("setItem"))
+					sideeffectM =sootMethod;
+					
+				Body bb =sootMethod.getActiveBody();
+				Iterator<Unit> unitIT = bb.getUnits().iterator();
+				while (unitIT.hasNext()) {
+					Unit unit = (Unit) unitIT.next();
+					
+					//=================help the following block:
+					if(unit.toString().contains("setItem"))
+					{
+						sideeffectCallingUnit =unit;
+					}
+					
+					
+					Iterator<ValueBox> vbIT  = unit.getUseBoxes().iterator();
+					while (vbIT.hasNext()) {
+						ValueBox valueBox = (ValueBox) vbIT.next();
+						Value use =valueBox.getValue();
+						//===============query on the unit's use variables 
+						//using the paddle point to
+						if(use instanceof Local)
+						{
+							PointsToSet p2S= paddleP2.reachingObjects((Local)use);
+						   if(first)
+						   {	System.out.println(p2S.getClass());
+						         first =false;
+						   }
+						}
+					}
+				}
+			}
+
+//			
+			}
+		}));
+	
+}
+
+
+
+	private static void addReflectionToWJTP(Pack wjtp) {
+	 Setup.setupPatchOptions();
+     Setup.setPhaseOptionsForSparkWork();// equals sparkwork()spark -->
+     wjtp.add(new Transform("wjtp.viewBody", new SceneTransformer() {
+		
+		@Override
+		protected void internalTransform(String phaseName, Map options) {
+			Iterator  classIt = Scene.v().getApplicationClasses().iterator();
+			while (classIt.hasNext()) {
+				SootClass sootclass = (SootClass) classIt.next();
+				Iterator<SootMethod> methodIt= sootclass.getMethods().iterator();
+			    while (methodIt.hasNext()) {
+					SootMethod sootMethod = (SootMethod) methodIt.next();
+					if(!sootMethod.hasActiveBody())  continue;
+					Iterator<Unit> units =sootMethod.getActiveBody().getUnits().iterator();
+                    while (units.hasNext()) {
+						Unit unit = (Unit) units.next();
+						if(unit.toString().contains(syncKeyWord))
+						{
+							 System.out.println("the method: " + sootMethod.getName() +" contains synch ops");
+						}
+					}				
+			    }
+			}
+		}
+	}));
+	
+}
+
+
+
+	private static void addReflectBodyToJTP(Pack pp) throws IOException {
+        FileWriter fWriter = new FileWriter("syncCommon", true);    
+		bWriter= new BufferedWriter(fWriter);
+		
+
+         
+		pp.add(new Transform("jtp.viewBody", new BodyTransformer(){
+
+			protected void internalTransform(Body b, String phaseName, Map options) {
+
+				SootMethod  sMethod= b.getMethod();
+				boolean syncMethod= sMethod.isSynchronized();
+				if(syncMethod)
+				{
+					String output = "the method: " + b.getMethod().getDeclaringClass().getName()
+					 +":"+ b.getMethod().getName() +" contains synch ops";
+					 try {
+					    System.out.println(output);
+						 bWriter.write(output);
+						 bWriter.newLine();
+						 bWriter.flush();
+					} catch (IOException e) {
+						System.out.println("write error");
+						
+					}
+					
+				}
+				
+				Iterator unitsIterator = b.getUnits().iterator();
+	            while (unitsIterator.hasNext()) {
+					Unit unit = (Unit) unitsIterator.next();
+                  
+					if(unit.toString().contains(syncKeyWord))
+					{
+						String output = "the method: " + b.getMethod().getDeclaringClass().getName()
+						 +":"+ b.getMethod().getName() +" contains synch ops";
+						 try {
+						
+							bWriter.write(output);
+							 bWriter.newLine();
+							 bWriter.flush();
+						} catch (IOException e) {
+							System.out.println("write error");
+							
+						}
+						
+					}
+				}		
+			}
+			
+      }));
+	
+    }
+
+
+
+	private static SootClass loadClass(String name, boolean main) {
+		SootClass c = Scene.v().loadClassAndSupport(name);
+		c.setApplicationClass();
+		if (main)
+			Scene.v().setMainClass(c);
+		return c;
+	}
+
+	public void testGetShimpleBody() {
+	//	fail("Not yet implemented"); // TODO
+	}
+
+
+	
+
+}

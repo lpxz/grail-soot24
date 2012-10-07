@@ -1,0 +1,160 @@
+name: 0
+r0 := @this: example.URLParse
+
+
+name: 1
+r1 := @parameter0: java.lang.String
+
+
+name: 10
+i3 = virtualinvoke $r5.<java.lang.String: int indexOf(java.lang.String,int)>("&", i0)
+
+
+name: 11
+if i3 >= 0 goto $r11 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 12
+r6 = r0.<example.URLParse: java.lang.String url>
+
+
+name: 13
+$r7 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 15
+goto [?= i3 = virtualinvoke r6.<java.lang.String: int length()>()]
+
+
+name: 16
+$r8 := @caughtexception
+
+
+name: 17
+r9 = $r8
+
+
+name: 18
+r10 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 2
+$r2 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 20
+throw r9
+
+
+name: 21
+i3 = virtualinvoke r6.<java.lang.String: int length()>()
+
+
+name: 22
+goto [?= $z0 = virtualinvoke r1.<java.lang.String: boolean equals(java.lang.Object)>("key2")]
+
+
+name: 23
+$r11 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 25
+goto [?= $z0 = virtualinvoke r1.<java.lang.String: boolean equals(java.lang.Object)>("key2")]
+
+
+name: 26
+$r12 := @caughtexception
+
+
+name: 27
+r13 = $r12
+
+
+name: 28
+r14 = <example.URLParse: java.lang.Object globalLockObj0>
+
+
+name: 30
+throw r13
+
+
+name: 31
+$z0 = virtualinvoke r1.<java.lang.String: boolean equals(java.lang.Object)>("key2")
+
+
+name: 32
+if $z0 == 0 goto $r16 = r0.<example.URLParse: java.lang.String url>
+
+
+name: 33
+staticinvoke <java.lang.Thread: void sleep(long)>(1L)
+
+
+name: 34
+goto [?= $r16 = r0.<example.URLParse: java.lang.String url>]
+
+
+name: 35
+$r15 := @caughtexception
+
+
+name: 36
+virtualinvoke $r15.<java.lang.InterruptedException: void printStackTrace()>()
+
+
+name: 37
+$r16 = r0.<example.URLParse: java.lang.String url>
+
+
+name: 38
+$r17 = virtualinvoke $r16.<java.lang.String: java.lang.String substring(int,int)>(i1, i3)
+
+
+name: 39
+return $r17
+
+
+name: 4
+$r3 = r0.<example.URLParse: java.lang.String url>
+
+
+name: 5
+i0 = virtualinvoke $r3.<java.lang.String: int indexOf(java.lang.String)>(r1)
+
+
+name: 6
+$r4 = r0.<example.URLParse: java.lang.String url>
+
+
+name: 7
+$i2 = virtualinvoke $r4.<java.lang.String: int indexOf(java.lang.String,int)>("=", i0)
+
+
+name: 8
+i1 = $i2 + 1
+
+
+name: 9
+$r5 = r0.<example.URLParse: java.lang.String url>
+
+
+name: enter3
+entermonitor $r2
+
+
+name: exit14
+exitmonitor $r7
+
+
+name: exit19
+exitmonitor r10
+
+
+name: exit24
+exitmonitor $r11
+
+
+name: exit29
+exitmonitor r14
+
+

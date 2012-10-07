@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/soot/!svn/ver/1904/paddle/trunk/src/soot/util/queue
+END
+BDDReader.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/1903/paddle/trunk/src/soot/util/queue/BDDReader.jedd
+END
+BDDQueue.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1903/paddle/trunk/src/soot/util/queue/BDDQueue.jedd
+END
+BDDChunk.jedd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/1903/paddle/trunk/src/soot/util/queue/BDDChunk.jedd
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/soot/!svn/ver/1903/paddle/trunk/src/soot/util/queue/package.html
+END

@@ -1,0 +1,35 @@
+
+
+QB 1-6 Brief:
+
+Static Primitive Variable Shared/Total: 71/913
+
+Static Reference Variable Shared/Total: 108/211
+
+Instance Primitive Variable Shared/Total: 510/588
+
+Instance Reference Variable Shared/Total: 748/834
+
+StaFieldReads/Shared/Protected: 690/690/53
+
+InsFieldReads/Shared/Protected: 8721/7260/451
+
+StaFieldWrites/Shared/Protected: 33/33/12
+
+InsFieldWrites/Shared/Protected: 2039/1352/119
+
+methodNum/synMethodNum/synBlockNum/lockNum: 4384/63/93/0
+
+synMethod Detail:
+
+synMethodSharedRead max/min/average: 89/0/5.587301587301587
+
+synMethodSharedWrite max/min/average: 34/0/1.6031746031746033
+
+synBlock Detail:
+
+synBlockSharedRead max/min/average: 14/0/1.8279569892473118
+
+synBlockSharedWrite max/min/average: 11/0/0.4731182795698925
+
+lock Detail:

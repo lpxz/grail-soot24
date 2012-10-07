@@ -1,0 +1,61 @@
+escape portal: { varName  = "managerPtr";  methName  ="run";} // tmp1, tmp2, tmp3
+>>>>>>>>>>>>>>>>query:
+atomic set:AtomicSet142040913
+<Vacation.RBTree: int BLACK>
+<Vacation.RBTree: int RED>
+summary: side effect (nonjava G)#:2
+<Vacation.Customer: Vacation.List_t reservationInfoListPtr>
+<Vacation.List_t: Vacation.List_Node head>
+<Vacation.Node: int c>
+<Vacation.Reservation: int numTotal>
+<Vacation.Manager: Vacation.RBTree customerTablePtr>
+<Vacation.Reservation_Info: int id>
+<Vacation.Manager: Vacation.RBTree roomTablePtr>
+<Vacation.Reservation: int numUsed>
+<Vacation.Reservation: int price>
+<Vacation.Reservation: int numFree>
+<Vacation.Node: Vacation.Node p>
+<Vacation.Node: Vacation.Node r>
+<Vacation.Node: int k>
+<Vacation.RBTree: Vacation.Node root>
+<Vacation.Node: Vacation.Node l>
+<Vacation.List_Node: Vacation.List_Node nextPtr>
+<Vacation.Node: java.lang.Object v>
+<Vacation.List_Node: java.lang.Object dataPtr>
+<Vacation.Manager: Vacation.RBTree flightTablePtr>
+<Vacation.Reservation_Info: int type>
+<Vacation.Manager: Vacation.RBTree carTablePtr>
+summary:  side effect (nonempty, nonjava fields)#21
+writing to ./dot/AtomicSet142040913.dot
+this transaction accesses the set:Vacation.Client _ run_94
+this transaction accesses the set:Vacation.Client _ run_133
+this transaction accesses the set:Vacation.Client _ run_150
+
+
+
+
+atomic set:AtomicSet142052692
+<Vacation.RBTree: int BLACK>
+<Vacation.RBTree: int RED>
+summary: side effect (nonjava G)#:2
+<Vacation.Node: int c>
+<Vacation.Reservation: int numTotal>
+<Vacation.Manager: Vacation.RBTree roomTablePtr>
+<Vacation.Reservation: int numUsed>
+<Vacation.Reservation: int price>
+<Vacation.Reservation: int numFree>
+<Vacation.Node: Vacation.Node p>
+<Vacation.Node: int k>
+<Vacation.Node: Vacation.Node r>
+<Vacation.RBTree: Vacation.Node root>
+<Vacation.Node: Vacation.Node l>
+<Vacation.Node: java.lang.Object v>
+<Vacation.Manager: Vacation.RBTree flightTablePtr>
+<Vacation.Manager: Vacation.RBTree carTablePtr>
+summary:  side effect (nonempty, nonjava fields)#14
+writing to ./dot/AtomicSet142052692.dot
+this transaction accesses the set:Vacation.Client _ run_94
+this transaction accesses the set:Vacation.Client _ run_133
+this transaction accesses the set:Vacation.Client _ run_150
+
+

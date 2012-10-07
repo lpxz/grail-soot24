@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/AST/analysis
+END
+Analysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2246/soot/trunk/src/soot/dava/toolkits/base/AST/analysis/Analysis.java
+END
+AnalysisAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2246/soot/trunk/src/soot/dava/toolkits/base/AST/analysis/AnalysisAdapter.java
+END
+DepthFirstAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/soot/!svn/ver/2728/soot/trunk/src/soot/dava/toolkits/base/AST/analysis/DepthFirstAdapter.java
+END

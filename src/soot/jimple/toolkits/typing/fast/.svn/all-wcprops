@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/soot/!svn/ver/3472/soot/trunk/src/soot/jimple/toolkits/typing/fast
+END
+TypeResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/3359/soot/trunk/src/soot/jimple/toolkits/typing/fast/TypeResolver.java
+END
+QueuedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/QueuedSet.java
+END
+IEvalFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/IEvalFunction.java
+END
+BottomType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/BottomType.java
+END
+Integer32767Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/3472/soot/trunk/src/soot/jimple/toolkits/typing/fast/Integer32767Type.java
+END
+Typing.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/Typing.java
+END
+AugHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/AugHierarchy.java
+END
+Integer1Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/3472/soot/trunk/src/soot/jimple/toolkits/typing/fast/Integer1Type.java
+END
+UseChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3359/soot/trunk/src/soot/jimple/toolkits/typing/fast/UseChecker.java
+END
+IUseVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/IUseVisitor.java
+END
+IHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/IHierarchy.java
+END
+Integer127Type.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/3472/soot/trunk/src/soot/jimple/toolkits/typing/fast/Integer127Type.java
+END
+AugEvalFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/3359/soot/trunk/src/soot/jimple/toolkits/typing/fast/AugEvalFunction.java
+END
+EmptyList.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/EmptyList.java
+END
+BytecodeHierarchy.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/soot/!svn/ver/3359/soot/trunk/src/soot/jimple/toolkits/typing/fast/BytecodeHierarchy.java
+END
+SingletonList.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/soot/!svn/ver/3227/soot/trunk/src/soot/jimple/toolkits/typing/fast/SingletonList.java
+END

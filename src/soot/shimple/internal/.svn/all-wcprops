@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/soot/!svn/ver/3101/soot/trunk/src/soot/shimple/internal
+END
+SHashMultiMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2007/soot/trunk/src/soot/shimple/internal/SHashMultiMap.java
+END
+PhiNodeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/2728/soot/trunk/src/soot/shimple/internal/PhiNodeManager.java
+END
+SPhiExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/soot/!svn/ver/2728/soot/trunk/src/soot/shimple/internal/SPhiExpr.java
+END
+SPatchingChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/3101/soot/trunk/src/soot/shimple/internal/SPatchingChain.java
+END
+ShimpleBodyBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/soot/!svn/ver/2728/soot/trunk/src/soot/shimple/internal/ShimpleBodyBuilder.java
+END
+PiNodeManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/soot/!svn/ver/2728/soot/trunk/src/soot/shimple/internal/PiNodeManager.java
+END
+SPiExpr.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/2079/soot/trunk/src/soot/shimple/internal/SPiExpr.java
+END
+SUnitBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/soot/!svn/ver/987/soot/trunk/src/soot/shimple/internal/SUnitBox.java
+END
+SValueUnitPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/soot/!svn/ver/1083/soot/trunk/src/soot/shimple/internal/SValueUnitPair.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/soot/!svn/ver/875/soot/trunk/src/soot/shimple/internal/package.html
+END

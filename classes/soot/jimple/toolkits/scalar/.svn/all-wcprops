@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/soot/!svn/ver/3222/soot/trunk/src/soot/jimple/toolkits/scalar
+END
+FastAvailableExpressions.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/FastAvailableExpressions.java
+END
+CommonPrecedingEqualValueAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/CommonPrecedingEqualValueAnalysis.java
+END
+Evaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/3222/soot/trunk/src/soot/jimple/toolkits/scalar/Evaluator.java
+END
+PessimisticAvailableExpressionsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/PessimisticAvailableExpressionsAnalysis.java
+END
+FastAvailableExpressionsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/FastAvailableExpressionsAnalysis.java
+END
+LocalNameStandardizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/LocalNameStandardizer.java
+END
+CommonSubexpressionEliminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/CommonSubexpressionEliminator.java
+END
+ConstantPropagatorAndFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/ConstantPropagatorAndFolder.java
+END
+ToppedSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/ToppedSet.java
+END
+CopyPropagator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/CopyPropagator.java
+END
+EqualLocalsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/EqualLocalsAnalysis.java
+END
+DeadAssignmentEliminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/DeadAssignmentEliminator.java
+END
+EqualUsesAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/EqualUsesAnalysis.java
+END
+ConditionalBranchFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/ConditionalBranchFolder.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/soot/!svn/ver/303/soot/trunk/src/soot/jimple/toolkits/scalar/package.html
+END
+LocalCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/LocalCreation.java
+END
+UnconditionalBranchFolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/UnconditionalBranchFolder.java
+END
+NopEliminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/NopEliminator.java
+END
+AvailableExpressions.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/AvailableExpressions.java
+END
+UnreachableCodeEliminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2852/soot/trunk/src/soot/jimple/toolkits/scalar/UnreachableCodeEliminator.java
+END
+SlowAvailableExpressions.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/SlowAvailableExpressions.java
+END
+SlowAvailableExpressionsAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/soot/!svn/ver/2728/soot/trunk/src/soot/jimple/toolkits/scalar/SlowAvailableExpressionsAnalysis.java
+END

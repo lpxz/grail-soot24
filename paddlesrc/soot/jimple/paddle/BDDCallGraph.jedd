@@ -1,0 +1,86 @@
+/* Soot - a J*va Optimization Framework
+ * Copyright (C) 2003, 2004, 2005 Ondrej Lhotak
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+package soot.jimple.paddle;
+import soot.*;
+import soot.jimple.paddle.queue.*;
+import soot.jimple.paddle.bdddomains.*;
+
+/** Keeps track of call edges.
+ * @author Ondrej Lhotak
+ */
+public class BDDCallGraph extends AbsCallGraph
+{ 
+    private <A_srcc, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm> csEdges;
+    private <A_srcm, A_stmt, A_kind, A_tgtm> ciEdges;
+    BDDCallGraph( Rsrcc_srcm_stmt_kind_tgtc_tgtm in, Qsrcm_stmt_kind_tgtm ciout, Qsrcc_srcm_stmt_kind_tgtc_tgtm csout ) {
+        super(in, ciout, csout);
+    }
+    public boolean update() {
+        if(in == null) return false;
+        <A_srcc, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm> newEdges = in.get();
+        newEdges -= csEdges;
+        csEdges |= newEdges;
+        if(csout != null) csout.add( newEdges );
+        <A_srcm, A_stmt, A_kind, A_tgtm> newCiEdges = (A_srcc=>, A_tgtc=>) newEdges;
+        newCiEdges -= ciEdges;
+        ciEdges |= newCiEdges;
+        if(ciout != null) ciout.add(newCiEdges);
+        return newEdges != 0B;
+    }
+    public Rsrcc_srcm_stmt_kind_tgtc_tgtm edgesOutOf( Rctxt_method methods ) {
+        <A_ctxt, A_method> methodsBDD = methods.get();
+        <A_srcc, A_srcm, A_stmt, A_kind, A_tgtc, A_tgtm> result =
+                csEdges{A_srcm, A_srcc} >< methodsBDD{A_method, A_ctxt};
+        return new Rsrcc_srcm_stmt_kind_tgtc_tgtmBDD( result,
+                "edgesOutOf", null);
+    }
+    public Rsrcm_stmt_kind_tgtm edgesOutOf( Rmethod methods ) {
+        return new Rsrcm_stmt_kind_tgtmBDD(
+                ciEdges{A_srcm} >< methods.get(){A_method},
+                "edgesOutOf", null);
+    }
+    public Rsrcc_srcm_stmt_kind_tgtc_tgtm edgesOutOf( Context c, SootMethod m ) {
+        return new Rsrcc_srcm_stmt_kind_tgtc_tgtmBDD(
+            csEdges{A_srcm, A_srcc} ><
+            new{c=>A_ctxt, m=>A_method} {A_method, A_ctxt},
+            "edgesOutOf", null
+        );
+    }
+    public Rsrcm_stmt_kind_tgtm edgesOutOf( SootMethod m ) {
+        return new Rsrcm_stmt_kind_tgtmBDD(
+            ciEdges{A_srcm} ><
+            new{m=>A_method} {A_method},
+            "edgesOutOf", null
+        );
+    }
+    public Rsrcc_srcm_stmt_kind_tgtc_tgtm csEdges() {
+        return new Rsrcc_srcm_stmt_kind_tgtc_tgtmBDD( csEdges, "edges", null );
+    }
+    public Rsrcm_stmt_kind_tgtm ciEdges() {
+        return new Rsrcm_stmt_kind_tgtmBDD( ciEdges, "edges", null );
+    }
+    public int ciSize() {
+        return (int) ciEdges.size();
+    }
+    public int csSize() {
+        return (int) csEdges.size();
+    }
+}
+

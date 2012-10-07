@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+<project basedir="." default="build" name="soot24">
+    <property environment="env"/>
+    <property name="Transformer.location" value="../leap/transformer"/>
+    <property name="pecan-monitor.location" value="../pecan/pecan-monitor"/>
+    <property name="ECLIPSE_HOME" value="../../"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="soot24.classpath">
+        <pathelement location="classes"/>
+        <pathelement location="lib/jasminclasses-2.3.0.jar"/>
+        <pathelement location="lib/jedd-runtime.jar"/>
+        <pathelement location="lib/jedd-translator.jar"/>
+        <pathelement location="lib/polyglot-1.3.3.jar"/>
+        <pathelement location="lib/svnant.jar"/>
+        <pathelement location="lib/svnClientAdapter.jar"/>
+        <pathelement location="lib/TGGraphLayout.jar"/>
+        <pathelement location="lib/xmlunit1.0.jar"/>
+        <pathelement location="lib/log4j.jar"/>
+        <pathelement location="lib/trove.jar"/>
+        <pathelement location="lib/jboss-serialization.jar"/>
+        <pathelement location="lib/jboss-common-4.0.2.jar"/>
+        <pathelement location="lib/junit-4.4.jar"/>
+        <pathelement location="javabdd_lib/javabdd_0.6.jar"/>
+        <pathelement location="lib/ant-antlr.jar"/>
+        <pathelement location="lib/ant-apache-bcel.jar"/>
+        <pathelement location="lib/ant-testutil.jar"/>
+        <pathelement location="lib/ant.jar"/>
+        <pathelement location="lib/coffer.jar"/>
+        <pathelement location="lib/java_cup.jar"/>
+        <pathelement location="lib/JFlex.jar"/>
+        <pathelement location="lib/junit-4.8.1.jar"/>
+        <pathelement location="lib/pao.jar"/>
+        <pathelement location="lib/polyglot.jar"/>
+        <pathelement location="lib/pth.jar"/>
+        <pathelement location="lib/xercesImpl.jar"/>
+        <pathelement location="lib/xml-apis.jar"/>
+        <pathelement location="lib/ant-contrib.jar"/>
+        <pathelement location="javabdd_lib/sablejbdd_real.jar"/>
+        <pathelement location="lib/pia.jar"/>
+        <pathelement location="lib/poa.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="classes"/>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="aTSE/runtimeRegion/RegionSE.aj"/>
+                <exclude name="aTSE/runtimeRegion/implSeri.aj"/>
+                <exclude name="aTSE/runtimeRegion/implSeri.aj"/>
+                <exclude name="preprocess/DacapoTransformPreprocess.java"/>
+                <exclude name="preprocess/DacapoTransformPreprocess_fullarg.java"/>
+                <exclude name="AVfix/edge/"/>
+                <exclude name="AVfix/edge/abstractclass/"/>
+                <exclude name="AVfix/graph/"/>
+                <exclude name="AVfix/manager/"/>
+                <exclude name="AVfix/node/"/>
+                <exclude name="AVfix/node/abstractclass/"/>
+                <exclude name="pldi/locking/jin/RegionLocker.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="generated/jj">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="generated/options">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+                <exclude name="soot/AntTask.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="generated/sablecc">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="generated/singletons">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="generated/jastadd">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="paddlesrc">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="matrix">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="JgraphT">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="smpfsrc">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="javaparseSrc">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="classes">
+            <fileset dir="javaparseTest">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="src"/>
+            <exclude name="aTSE/runtimeRegion/RegionSE.aj"/>
+            <exclude name="aTSE/runtimeRegion/implSeri.aj"/>
+            <exclude name="aTSE/runtimeRegion/implSeri.aj"/>
+            <exclude name="preprocess/DacapoTransformPreprocess.java"/>
+            <exclude name="preprocess/DacapoTransformPreprocess_fullarg.java"/>
+            <exclude name="AVfix/edge/"/>
+            <exclude name="AVfix/edge/abstractclass/"/>
+            <exclude name="AVfix/graph/"/>
+            <exclude name="AVfix/manager/"/>
+            <exclude name="AVfix/node/"/>
+            <exclude name="AVfix/node/abstractclass/"/>
+            <exclude name="pldi/locking/jin/RegionLocker.java"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="generated/jj"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="generated/options"/>
+            <exclude name="soot/AntTask.java"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="generated/sablecc"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="generated/singletons"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="generated/jastadd"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="paddlesrc"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="matrix"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="JgraphT"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="smpfsrc"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="javaparseSrc"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="classes" source="${source}" target="${target}">
+            <src path="javaparseTest"/>
+            <classpath refid="soot24.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects">
+        <ant antfile="${Transformer.location}/build.xml" dir="${Transformer.location}" inheritAll="false" target="clean"/>
+        <ant antfile="${Transformer.location}/build.xml" dir="${Transformer.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="${pecan-monitor.location}/build.xml" dir="${pecan-monitor.location}" inheritAll="false" target="clean"/>
+        <ant antfile="${pecan-monitor.location}/build.xml" dir="${pecan-monitor.location}" inheritAll="false" target="build">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="LockRegionMUVIMiner">
+        <java classname="pldi.locking.LockRegionMUVIMiner" failonerror="true" fork="yes">
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+    <target name="CGAnalyzer">
+        <java classname="aTSE.CG.CGAnalyzer" failonerror="true" fork="yes">
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+    <target name="LockRegionSEMiner">
+        <java classname="pldi.locking.LockRegionSEMiner" failonerror="true" fork="yes">
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+    <target name="LineNoTester">
+        <java classname="Drivers.LineNoTester" failonerror="true" fork="yes">
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+    <target name="MethodLocker">
+        <java classname="pldi.locking.MethodLocker" failonerror="true" fork="yes">
+            <classpath refid="soot24.classpath"/>
+        </java>
+    </target>
+</project>

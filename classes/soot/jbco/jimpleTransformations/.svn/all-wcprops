@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations
+END
+ClassRenamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/ClassRenamer.java
+END
+LibraryMethodWrappersBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/LibraryMethodWrappersBuilder.java
+END
+CollectConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/CollectConstants.java
+END
+AddSwitches.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/AddSwitches.java
+END
+CollectJimpleLocals.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/CollectJimpleLocals.java
+END
+GotoInstrumenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/GotoInstrumenter.java
+END
+BuildIntermediateAppClasses.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/BuildIntermediateAppClasses.java
+END
+MethodRenamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/MethodRenamer.java
+END
+New2InitFlowAnalysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/soot/!svn/ver/2513/soot/trunk/src/soot/jbco/jimpleTransformations/New2InitFlowAnalysis.java
+END
+ArithmeticTransformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/ArithmeticTransformer.java
+END
+FieldRenamer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/soot/!svn/ver/2728/soot/trunk/src/soot/jbco/jimpleTransformations/FieldRenamer.java
+END

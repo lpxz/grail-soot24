@@ -1,0 +1,16 @@
+
+Static Primitive Variable Shared/Total: 0/296
+
+Static Reference Variable Shared/Total: 0/221
+
+Instance Primitive Variable Shared/Total: 0/334
+
+Instance Reference Variable Shared/Total: 0/435
+
+StaFieldReads/Shared/: 516/0/
+
+InsFieldReads/Shared/: 4787/0/
+
+StaFieldWrites/Shared/: 27/0/
+
+InsFieldWrites/Shared/: 1161/0/

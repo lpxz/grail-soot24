@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="runall" name="allJar">
+    <!--property file="build-all.properties" /-->
+
+    <target name="runall" >
+    	<!--only need to run once:-->
+    	<!--ant antfile="preprocess.xml" dir="${basedir}"/-->
+      
+    	 <ant antfile="muvi.xml" dir="${basedir}"/>
+        
+    </target>
+
+</project>
