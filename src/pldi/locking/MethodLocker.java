@@ -609,6 +609,10 @@ public class MethodLocker {
 
 	}
 
+
+	public static void addlock(SootMethod sm) {
+		addlock( sm, true);
+	}
 	public static void addlock(SootMethod sm, boolean random) {
 
 		 PatchingChain<Unit>units = sm.getActiveBody().getUnits();

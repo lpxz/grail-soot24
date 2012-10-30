@@ -18,9 +18,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.Stack;
 
-import java_cup.internal_error;
 
-import org.apache.log4j.spi.RootCategory;
 import org.jgrapht.ext.DOTExporter;
 import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DirectedPseudograph;

@@ -169,7 +169,7 @@ public class SourceLocator
 	    if(path.endsWith("zip") || path.endsWith("jar")) {
 		return true;
 	    } else {
-		G.v().out.println("Warning: the following soot-classpath entry is not a supported archive file (must be .zip or .jar): " + path);
+	//	G.v().out.println("Warning: the following soot-classpath entry is not a supported archive file (must be .zip or .jar): " + path);
 	    }
 	}  
 	return false;
