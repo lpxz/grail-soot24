@@ -15,7 +15,8 @@ public class Dog extends Pet{
 	//int id = 0;
 
 	public static void main(String[] args) {
-		Set  set1 = new HashSet();
+            
+                Set  set1 = new HashSet();
 		Object o1 = new Object();
 		set1.add(o1);
 		synchronized (o1) {

@@ -16,7 +16,7 @@ import soot.jimple.toolkits.thread.synchronization.CriticalSectionAwareSideEffec
 
 import soot.toolkits.scalar.*;
 import soot.toolkits.graph.*;
-import sun.awt.motif.MPopupMenuPeer;
+
 
 
 /**

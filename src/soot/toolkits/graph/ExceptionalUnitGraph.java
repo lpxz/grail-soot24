@@ -43,9 +43,14 @@ import soot.toolkits.exceptions.ThrowableSet;
 import soot.toolkits.scalar.Pair;
 import soot.baf.Inst;
 import soot.baf.NewInst;
+import soot.baf.ReturnInst;
+import soot.baf.ReturnVoidInst;
 import soot.baf.StaticPutInst;
 import soot.baf.StaticGetInst;
 import soot.baf.ThrowInst;
+import soot.jimple.MonitorStmt;
+import soot.jimple.ReturnStmt;
+import soot.jimple.ReturnVoidStmt;
 import soot.jimple.Stmt;
 import soot.jimple.ThrowStmt;
 import soot.jimple.StaticFieldRef;
@@ -220,6 +225,7 @@ public class ExceptionalUnitGraph extends UnitGraph implements ExceptionalGraph<
 	super(body);
     }
 
+    
 
     /**
      *  Performs the real work of constructing an
@@ -557,7 +563,7 @@ public class ExceptionalUnitGraph extends UnitGraph implements ExceptionalGraph<
 		}
 	    }
 	}
-			
+
 	// Now we have to worry about transitive exceptional
 	// edges, when a handler might itself throw an exception
 	// that is caught within the method.  For that we need a
@@ -760,28 +766,74 @@ public class ExceptionalUnitGraph extends UnitGraph implements ExceptionalGraph<
 	    headList.add(entryPoint);
 	}
 	
+	if (normalTails == null)
+		normalTails = new HashSet<Unit>();
+	if (implicitExceptionEscapeTails == null)
+		implicitExceptionEscapeTails = new HashSet<Unit>();
+	if (explicitExceptionEscapeTails == null)
+		explicitExceptionEscapeTails = new HashSet<Unit>();
+	
 	List<Unit> tailList = new ArrayList<Unit>();
 	for (Iterator<Unit> it = unitChain.iterator(); it.hasNext(); ) {
-	    Unit u = (Unit) it.next();
-	    if (u instanceof soot.jimple.ReturnStmt ||
-		u instanceof soot.jimple.ReturnVoidStmt ||
-		u instanceof soot.baf.ReturnInst ||
-		u instanceof soot.baf.ReturnVoidInst) {
-		tailList.add(u);
-	    } else if (u instanceof soot.jimple.ThrowStmt ||
-		       u instanceof soot.baf.ThrowInst) {
-		Collection<ExceptionDest> dests = getExceptionDests(u);
-		int escapeMethodCount = 0;
-		for (Iterator<ExceptionDest> destIt = dests.iterator(); destIt.hasNext(); ) {
-		    ExceptionDest dest = destIt.next();
-		    if (dest.getTrap() == null) {
-			escapeMethodCount++;
-		    }
+//	    Unit u = (Unit) it.next();
+//	    if (u instanceof soot.jimple.ReturnStmt ||
+//		u instanceof soot.jimple.ReturnVoidStmt ||
+//		u instanceof soot.baf.ReturnInst ||
+//		u instanceof soot.baf.ReturnVoidInst) {
+//		tailList.add(u);
+//	    } else if (u instanceof soot.jimple.ThrowStmt ||
+//		       u instanceof soot.baf.ThrowInst) {
+//		Collection<ExceptionDest> dests = getExceptionDests(u);
+//		int escapeMethodCount = 0;
+//		for (Iterator<ExceptionDest> destIt = dests.iterator(); destIt.hasNext(); ) {
+//		    ExceptionDest dest = destIt.next();
+//		    if (dest.getTrap() == null) {
+//			escapeMethodCount++;
+//		    }
+//		}
+//		if (escapeMethodCount > 0) {
+//		    tailList.add(u);
+//		}
+//	    }
+		
+		Unit u = (Unit)it.next();
+		if ((u instanceof ReturnStmt) || (u instanceof ReturnVoidStmt) || (u instanceof ReturnInst) || (u instanceof ReturnVoidInst))
+		{
+			tailList.add(u);
+			normalTails.add(u);
+		} else
+		if (u instanceof ThrowStmt)
+		{
+			Collection dests = getExceptionDests((ThrowStmt)u);
+			int escapeMethodCount = 0;
+			for (Iterator destIt = dests.iterator(); destIt.hasNext();)
+			{
+				ExceptionDest dest = (ExceptionDest)destIt.next();
+				if (dest.getTrap() == null)
+					escapeMethodCount++;
+			}
+
+			if (escapeMethodCount > 0)
+			{
+				tailList.add(u);
+				if (!(unitChain.getPredOf(u) instanceof MonitorStmt))
+					implicitExceptionEscapeTails.add(u);
+			}
+		} else
+		if (u instanceof ThrowInst)
+		{
+			Collection dests = getExceptionDests(u);
+			int escapeMethodCount = 0;
+			for (Iterator destIt = dests.iterator(); destIt.hasNext();)
+			{
+				ExceptionDest dest = (ExceptionDest)destIt.next();
+				if (dest.getTrap() == null)
+					escapeMethodCount++;
+			}
+
+			if (escapeMethodCount > 0)
+				tailList.add(u);
 		}
-		if (escapeMethodCount > 0) {
-		    tailList.add(u);
-		}
-	    }
 	}
 	tails = Collections.unmodifiableList(tailList);
 	heads = Collections.unmodifiableList(headList);
@@ -1121,6 +1173,77 @@ public class ExceptionalUnitGraph extends UnitGraph implements ExceptionalGraph<
 		
 		return ret;
 	}
+
+	public Set<Unit> implicitExceptionEscapeTails;
+	public Set<Unit> explicitExceptionEscapeTails;
+	public Set<Unit> normalTails;
+	
+// tocheck
+	public boolean inBusinessException(Unit u)
+	{
+		Collection dests = getExceptionDests(u);
+		for (Iterator i = dests.iterator(); i.hasNext();)
+		{
+			ExceptionDest dest = (ExceptionDest)i.next();
+			if (dest.getTrap() != null)
+			{
+				Unit handler = dest.getTrap().getHandlerUnit();
+				Unit next = (Unit)unitChain.getSuccOf(handler);
+				if (!(next instanceof MonitorStmt))
+					return true;
+			}
+		}
+
+		return false;
+	}
+
+
+	public Set<Unit> explicitEscapeExceptionTails()
+	{
+		for (Iterator iterator = implicitExceptionEscapeTails.iterator(); iterator.hasNext();)
+		{
+			Unit unit = (Unit)iterator.next();
+			ThrowStmt throwStmt = (ThrowStmt)unit;
+			if (!postDominatedByRetOrOtherThrows(body.getMethod(), unitChain, throwStmt))
+				explicitExceptionEscapeTails.add(throwStmt);
+		}
+
+		return explicitExceptionEscapeTails;
+	}
+
+	private static boolean postDominatedByRetOrOtherThrows(SootMethod sm, Chain units, ThrowStmt throwStmt)
+	{
+		TrapUnitGraph ug = new TrapUnitGraph(sm.getActiveBody());
+		HashSet visited = new HashSet();
+		Stack stack = new Stack();
+		stack.push(throwStmt);
+		visited.add(throwStmt);
+		while (stack.size() != 0) 
+		{
+			Unit top = (Unit)stack.pop();
+			List childrenChain = ug.getSuccsOf(top);
+			for (Iterator iterator = childrenChain.iterator(); iterator.hasNext();)
+			{
+				Unit child = (Unit)iterator.next();
+				if (!visited.contains(child))
+				{
+					visited.add(child);
+					stack.push(child);
+					if ((child instanceof ReturnStmt) || (child instanceof ReturnVoidStmt) || (child instanceof ThrowStmt))
+						return true;
+				}
+			}
+
+		}
+		return false;
+	}
+
+	public Set<Unit> normalTails()
+	{
+		return normalTails;
+	}
+
+
 	
 	
 }

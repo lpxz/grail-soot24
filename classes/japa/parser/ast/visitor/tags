@@ -1,0 +1,673 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Config	Config.java	/^public class Config {$/;"	c
+DumpVisitor	DumpVisitor.java	/^public  class DumpVisitor implements VoidVisitor<Object> {$/;"	c
+EqualsVisitor	EqualsVisitor.java	/^    EqualsVisitor() {$/;"	m	class:EqualsVisitor
+EqualsVisitor	EqualsVisitor.java	/^public class EqualsVisitor implements GenericVisitor<Boolean, Node> {$/;"	c
+GenericVisitor	GenericVisitor.java	/^public interface GenericVisitor<R, A> {$/;"	i
+GenericVisitorAdapter	GenericVisitorAdapter.java	/^public abstract class GenericVisitorAdapter<R, A> implements GenericVisitor<R, A> {$/;"	c
+Main	Main.java	/^public class Main {$/;"	c
+ModifierVisitorAdapter	ModifierVisitorAdapter.java	/^public abstract class ModifierVisitorAdapter<A> implements GenericVisitor<Node, A> {$/;"	c
+RemoveEnumMain	RemoveEnumMain.java	/^public class RemoveEnumMain {$/;"	c
+RemoveEnumVisitor	RemoveEnumVisitor.java	/^public final class RemoveEnumVisitor extends DumpVisitor$/;"	c
+RemoveSynchMain	RemoveSynchMain.java	/^public class RemoveSynchMain {$/;"	c
+RemoveSynchVisitor	RemoveSynchVisitor.java	/^public final class RemoveSynchVisitor extends DumpVisitor$/;"	c
+SINGLETON	EqualsVisitor.java	/^    private static final EqualsVisitor SINGLETON = new EqualsVisitor();$/;"	f	class:EqualsVisitor	file:
+SameBlockChecker	SameBlockChecker.java	/^public  class SameBlockChecker extends DumpVisitor$/;"	c
+SourcePrinter	DumpVisitor.java	/^    protected static class SourcePrinter {$/;"	c	class:DumpVisitor
+StatisticSynchMain	StatisticSynchMain.java	/^public class StatisticSynchMain {$/;"	c
+StatisticSynchVisitor	StatisticSynchVisitor.java	/^public  class StatisticSynchVisitor extends DumpVisitor$/;"	c
+Test	Test.java	/^public class Test {$/;"	c
+VoidVisitor	VoidVisitor.java	/^public interface VoidVisitor<A> {$/;"	i
+VoidVisitorAdapter	VoidVisitorAdapter.java	/^public abstract class VoidVisitorAdapter<A> implements VoidVisitor<A> {$/;"	c
+avoidVisit	RemoveEnumVisitor.java	/^		private boolean avoidVisit(Type ntype) {$/;"	m	class:RemoveEnumVisitor	file:
+buf	DumpVisitor.java	/^        private final StringBuilder buf = new StringBuilder();$/;"	f	class:DumpVisitor.SourcePrinter	file:
+cOrIs	RemoveEnumVisitor.java	/^	public Stack<ClassOrInterfaceDeclaration> cOrIs = new Stack<ClassOrInterfaceDeclaration>(); $/;"	f	class:RemoveEnumVisitor
+classNum	SameBlockChecker.java	/^	public static int classNum=0;$/;"	f	class:SameBlockChecker
+classNum	StatisticSynchVisitor.java	/^	public static int classNum=0;$/;"	f	class:StatisticSynchVisitor
+classesOrInterfaces	SameBlockChecker.java	/^	public  List classesOrInterfaces = new ArrayList<String>();$/;"	f	class:SameBlockChecker
+classesOrInterfaces	StatisticSynchVisitor.java	/^	public  List classesOrInterfaces = new ArrayList<String>();$/;"	f	class:StatisticSynchVisitor
+cus	RemoveEnumVisitor.java	/^	public Stack<CompilationUnit> cus= new Stack<CompilationUnit>();$/;"	f	class:RemoveEnumVisitor
+enumType	RemoveEnumVisitor.java	/^	public static  HashMap<Object, HashSet> enumType = new HashMap<Object, HashSet>();\/\/ twice using the different visitors!$/;"	f	class:RemoveEnumVisitor
+equals	EqualsVisitor.java	/^    public static boolean equals(Node n1, Node n2) {$/;"	m	class:EqualsVisitor
+fieldNum	SameBlockChecker.java	/^	public static int fieldNum=0;$/;"	f	class:SameBlockChecker
+fieldNum	StatisticSynchVisitor.java	/^	public static int fieldNum=0;$/;"	f	class:StatisticSynchVisitor
+getSource	DumpVisitor.java	/^        public String getSource() {$/;"	m	class:DumpVisitor.SourcePrinter
+getSource	DumpVisitor.java	/^    public String getSource() {$/;"	m	class:DumpVisitor
+indent	DumpVisitor.java	/^        public void indent() {$/;"	m	class:DumpVisitor.SourcePrinter
+indented	DumpVisitor.java	/^        private boolean indented = false;$/;"	f	class:DumpVisitor.SourcePrinter	file:
+japa.parser.ast.visitor	Config.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	DumpVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	EqualsVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	GenericVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	GenericVisitorAdapter.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	Main.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	ModifierVisitorAdapter.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	RemoveEnumMain.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	RemoveEnumVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	RemoveSynchMain.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	RemoveSynchVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	SameBlockChecker.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	StatisticSynchMain.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	StatisticSynchVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	Test.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	VoidVisitor.java	/^package japa.parser.ast.visitor;$/;"	p
+japa.parser.ast.visitor	VoidVisitorAdapter.java	/^package japa.parser.ast.visitor;$/;"	p
+level	DumpVisitor.java	/^        private int level = 0;$/;"	f	class:DumpVisitor.SourcePrinter	file:
+main	Config.java	/^	public static void main(String[] args) {$/;"	m	class:Config
+main	Main.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:Main
+main	RemoveEnumMain.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:RemoveEnumMain
+main	RemoveSynchMain.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:RemoveSynchMain
+main	StatisticSynchMain.java	/^	public static void main(String[] args) throws Exception {$/;"	m	class:StatisticSynchMain
+main	Test.java	/^    public static void main(String[] args) {$/;"	m	class:Test
+makeIndent	DumpVisitor.java	/^        private void makeIndent() {$/;"	m	class:DumpVisitor.SourcePrinter	file:
+methodNum	SameBlockChecker.java	/^	public static int methodNum=0;$/;"	f	class:SameBlockChecker
+methodNum	StatisticSynchVisitor.java	/^	public static int methodNum=0;$/;"	f	class:StatisticSynchVisitor
+nodeEquals	EqualsVisitor.java	/^    private <T extends Node> boolean nodeEquals(T n1, T n2) {$/;"	m	class:EqualsVisitor	file:
+nodesEquals	EqualsVisitor.java	/^    private <T extends Node> boolean nodesEquals(List<T> nodes1, List<T> nodes2) {$/;"	m	class:EqualsVisitor	file:
+objEquals	EqualsVisitor.java	/^    private boolean objEquals(Object n1, Object n2) {$/;"	m	class:EqualsVisitor	file:
+packageName	SameBlockChecker.java	/^	public String packageName ="";$/;"	f	class:SameBlockChecker
+packageName	StatisticSynchVisitor.java	/^	public String packageName ="";$/;"	f	class:StatisticSynchVisitor
+print	DumpVisitor.java	/^        public void print(String arg) {$/;"	m	class:DumpVisitor.SourcePrinter
+printAnnotations	DumpVisitor.java	/^    protected void printAnnotations(List<AnnotationExpr> annotations, Object arg) {$/;"	m	class:DumpVisitor
+printArguments	DumpVisitor.java	/^    protected void printArguments(List<Expression> args, Object arg) {$/;"	m	class:DumpVisitor
+printJavadoc	DumpVisitor.java	/^    protected void printJavadoc(JavadocComment javadoc, Object arg) {$/;"	m	class:DumpVisitor
+printLn	DumpVisitor.java	/^        public void printLn() {$/;"	m	class:DumpVisitor.SourcePrinter
+printLn	DumpVisitor.java	/^        public void printLn(String arg) {$/;"	m	class:DumpVisitor.SourcePrinter
+printMemberAnnotations	DumpVisitor.java	/^    protected void printMemberAnnotations(List<AnnotationExpr> annotations, Object arg) {$/;"	m	class:DumpVisitor
+printMembers	DumpVisitor.java	/^    protected void printMembers(List<BodyDeclaration> members, Object arg) {$/;"	m	class:DumpVisitor
+printModifiers	DumpVisitor.java	/^    protected void printModifiers(int modifiers) {$/;"	m	class:DumpVisitor
+printModifiers	RemoveSynchVisitor.java	/^	 protected void printModifiers(int modifiers) {$/;"	m	class:RemoveSynchVisitor
+printModifiers	StatisticSynchVisitor.java	/^	 protected void printModifiers(int modifiers) {$/;"	m	class:StatisticSynchVisitor
+printTypeArgs	DumpVisitor.java	/^    protected void printTypeArgs(List<Type> args, Object arg) {$/;"	m	class:DumpVisitor
+printTypeParameters	DumpVisitor.java	/^    protected void printTypeParameters(List<TypeParameter> args, Object arg) {$/;"	m	class:DumpVisitor
+printer	DumpVisitor.java	/^    protected  SourcePrinter printer = new SourcePrinter();$/;"	f	class:DumpVisitor
+removeEnum4File	RemoveEnumMain.java	/^	public static void removeEnum4File(File testfile) {$/;"	m	class:RemoveEnumMain
+removeEnumInDir	RemoveEnumMain.java	/^	public static void removeEnumInDir(String dir)$/;"	m	class:RemoveEnumMain
+removeNulls	ModifierVisitorAdapter.java	/^    private void removeNulls(List< ? > list) {$/;"	m	class:ModifierVisitorAdapter	file:
+removeSynch4File	RemoveEnumMain.java	/^	public static void removeSynch4File(String testfile) {$/;"	m	class:RemoveEnumMain
+removeSynch4File	RemoveSynchMain.java	/^	public static void removeSynch4File(File testfile) {$/;"	m	class:RemoveSynchMain
+removeSynch4File	RemoveSynchMain.java	/^	public static void removeSynch4File(String testfile) {$/;"	m	class:RemoveSynchMain
+removeSynchInDir	RemoveSynchMain.java	/^	public static void removeSynchInDir(String dir)$/;"	m	class:RemoveSynchMain
+statSynch4File	StatisticSynchMain.java	/^	public static void statSynch4File(File testfile) {$/;"	m	class:StatisticSynchMain
+statSynchInDir	StatisticSynchMain.java	/^	public static void statSynchInDir(String dir)$/;"	m	class:StatisticSynchMain
+syncBlocks	SameBlockChecker.java	/^	public static HashSet syncBlocks = new HashSet();$/;"	f	class:SameBlockChecker
+syncBlocks	StatisticSynchVisitor.java	/^	public static HashSet syncBlocks = new HashSet();$/;"	f	class:StatisticSynchVisitor
+syncMethodNum	SameBlockChecker.java	/^ 	public static int syncMethodNum =0;$/;"	f	class:SameBlockChecker
+syncMethodNum	StatisticSynchVisitor.java	/^ 	public static int syncMethodNum =0;$/;"	f	class:StatisticSynchVisitor
+testdir	Config.java	/^	public static String testdir="\/home\/lpxz\/eclipse\/workspace\/jstamp\/src\/KMeans";$/;"	f	class:Config
+toString	DumpVisitor.java	/^        public String toString() {$/;"	m	class:DumpVisitor.SourcePrinter
+unindent	DumpVisitor.java	/^        public void unindent() {$/;"	m	class:DumpVisitor.SourcePrinter
+visit	DumpVisitor.java	/^    public void visit(AnnotationDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(AnnotationMemberDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ArrayAccessExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ArrayCreationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ArrayInitializerExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(AssertStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(AssignExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(BinaryExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(BlockComment n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(BlockStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(BooleanLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(BreakStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(CastExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(CatchClause n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(CharLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ClassExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ClassOrInterfaceDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ClassOrInterfaceType n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(CompilationUnit n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ConditionalExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ConstructorDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ContinueStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(DoStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(DoubleLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EmptyMemberDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EmptyStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EmptyTypeDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EnclosedExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EnumConstantDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(EnumDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ExplicitConstructorInvocationStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ExpressionStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(FieldAccessExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(FieldDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ForStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ForeachStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(IfStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ImportDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(InitializerDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(InstanceOfExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(IntegerLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(IntegerLiteralMinValueExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(JavadocComment n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(LabeledStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(LineComment n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(LongLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(LongLiteralMinValueExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(MarkerAnnotationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(MemberValuePair n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(MethodCallExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(MethodDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(NameExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(NormalAnnotationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(NullLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ObjectCreationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(PackageDeclaration n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(Parameter n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(PrimitiveType n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(QualifiedNameExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ReferenceType n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ReturnStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(SingleMemberAnnotationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(StringLiteralExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(SuperExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(SwitchEntryStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(SwitchStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(SynchronizedStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ThisExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(ThrowStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(TryStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(TypeDeclarationStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(TypeParameter n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(UnaryExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(VariableDeclarationExpr n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(VariableDeclarator n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(VariableDeclaratorId n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(VoidType n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(WhileStmt n, Object arg) {$/;"	m	class:DumpVisitor
+visit	DumpVisitor.java	/^    public void visit(WildcardType n, Object arg) {$/;"	m	class:DumpVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(AnnotationDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(AnnotationMemberDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ArrayAccessExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ArrayCreationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ArrayInitializerExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(AssertStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(AssignExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(BinaryExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(BlockComment n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(BlockStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(BooleanLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(BreakStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(CastExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(CatchClause n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(CharLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ClassExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ClassOrInterfaceDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ClassOrInterfaceType n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(CompilationUnit n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ConditionalExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ConstructorDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ContinueStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(DoStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(DoubleLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EmptyMemberDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EmptyStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EmptyTypeDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EnclosedExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EnumConstantDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(EnumDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ExplicitConstructorInvocationStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ExpressionStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(FieldAccessExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(FieldDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ForStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ForeachStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(IfStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ImportDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(InitializerDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(InstanceOfExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(IntegerLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(IntegerLiteralMinValueExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(JavadocComment n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(LabeledStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(LineComment n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(LongLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(LongLiteralMinValueExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(MarkerAnnotationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(MemberValuePair n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(MethodCallExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(MethodDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(NameExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(NormalAnnotationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(NullLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ObjectCreationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(PackageDeclaration n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(Parameter n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(PrimitiveType n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(QualifiedNameExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ReferenceType n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ReturnStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(SingleMemberAnnotationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(StringLiteralExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(SuperExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(SwitchEntryStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(SwitchStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(SynchronizedStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ThisExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(ThrowStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(TryStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(TypeDeclarationStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(TypeParameter n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(UnaryExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(VariableDeclarationExpr n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(VariableDeclarator n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(VariableDeclaratorId n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(VoidType n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(WhileStmt n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	EqualsVisitor.java	/^    public Boolean visit(WildcardType n1, Node arg) {$/;"	m	class:EqualsVisitor
+visit	GenericVisitor.java	/^    public R visit(AnnotationDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(AnnotationMemberDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ArrayAccessExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ArrayCreationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ArrayInitializerExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(AssertStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(AssignExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(BinaryExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(BlockComment n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(BlockStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(BooleanLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(BreakStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(CastExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(CatchClause n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(CharLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ClassExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ClassOrInterfaceDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ClassOrInterfaceType n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(CompilationUnit n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ConditionalExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ConstructorDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ContinueStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(DoStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(DoubleLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EmptyMemberDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EmptyStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EmptyTypeDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EnclosedExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EnumConstantDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(EnumDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ExplicitConstructorInvocationStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ExpressionStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(FieldAccessExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(FieldDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ForStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ForeachStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(IfStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ImportDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(InitializerDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(InstanceOfExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(IntegerLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(IntegerLiteralMinValueExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(JavadocComment n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(LabeledStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(LineComment n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(LongLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(LongLiteralMinValueExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(MarkerAnnotationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(MemberValuePair n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(MethodCallExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(MethodDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(NameExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(NormalAnnotationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(NullLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ObjectCreationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(PackageDeclaration n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(Parameter n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(PrimitiveType n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(QualifiedNameExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ReferenceType n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ReturnStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(SingleMemberAnnotationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(StringLiteralExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(SuperExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(SwitchEntryStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(SwitchStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(SynchronizedStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ThisExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(ThrowStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(TryStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(TypeDeclarationStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(TypeParameter n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(UnaryExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(VariableDeclarationExpr n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(VariableDeclarator n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(VariableDeclaratorId n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(VoidType n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(WhileStmt n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitor.java	/^    public R visit(WildcardType n, A arg);$/;"	m	interface:GenericVisitor
+visit	GenericVisitorAdapter.java	/^    public R visit(AnnotationDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(AnnotationMemberDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ArrayAccessExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ArrayCreationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ArrayInitializerExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(AssertStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(AssignExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(BinaryExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(BlockComment n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(BlockStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(BooleanLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(BreakStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(CastExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(CatchClause n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(CharLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ClassExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ClassOrInterfaceDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ClassOrInterfaceType n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(CompilationUnit n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ConditionalExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ConstructorDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ContinueStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(DoStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(DoubleLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EmptyMemberDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EmptyStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EmptyTypeDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EnclosedExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EnumConstantDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(EnumDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ExplicitConstructorInvocationStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ExpressionStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(FieldAccessExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(FieldDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ForStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ForeachStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(IfStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ImportDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(InitializerDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(InstanceOfExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(IntegerLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(IntegerLiteralMinValueExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(JavadocComment n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(LabeledStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(LineComment n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(LongLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(LongLiteralMinValueExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(MarkerAnnotationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(MemberValuePair n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(MethodCallExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(MethodDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(NameExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(NormalAnnotationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(NullLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ObjectCreationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(PackageDeclaration n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(Parameter n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(PrimitiveType n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(QualifiedNameExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ReferenceType n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ReturnStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(SingleMemberAnnotationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(StringLiteralExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(SuperExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(SwitchEntryStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(SwitchStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(SynchronizedStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ThisExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(ThrowStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(TryStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(TypeDeclarationStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(TypeParameter n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(UnaryExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(VariableDeclarationExpr n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(VariableDeclarator n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(VariableDeclaratorId n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(VoidType n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(WhileStmt n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	GenericVisitorAdapter.java	/^    public R visit(WildcardType n, A arg) {$/;"	m	class:GenericVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(AnnotationDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(AnnotationMemberDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ArrayAccessExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ArrayCreationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ArrayInitializerExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(AssertStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(AssignExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(BinaryExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(BlockComment n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(BlockStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(BooleanLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(BreakStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(CastExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(CatchClause n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(CharLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ClassExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ClassOrInterfaceDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ClassOrInterfaceType n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(CompilationUnit n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ConditionalExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ConstructorDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ContinueStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(DoStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(DoubleLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EmptyMemberDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EmptyStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EmptyTypeDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EnclosedExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EnumConstantDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(EnumDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ExplicitConstructorInvocationStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ExpressionStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(FieldAccessExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(FieldDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ForStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ForeachStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(IfStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ImportDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(InitializerDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(InstanceOfExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(IntegerLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(IntegerLiteralMinValueExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(JavadocComment n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(LabeledStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(LineComment n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(LongLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(LongLiteralMinValueExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(MarkerAnnotationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(MemberValuePair n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(MethodCallExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(MethodDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(NameExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(NormalAnnotationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(NullLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ObjectCreationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(PackageDeclaration n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(Parameter n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(PrimitiveType n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(QualifiedNameExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ReferenceType n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ReturnStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(SingleMemberAnnotationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(StringLiteralExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(SuperExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(SwitchEntryStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(SwitchStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(SynchronizedStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ThisExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(ThrowStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(TryStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(TypeDeclarationStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(TypeParameter n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(UnaryExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(VariableDeclarationExpr n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(VariableDeclarator n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(VariableDeclaratorId n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(VoidType n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(WhileStmt n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	ModifierVisitorAdapter.java	/^    public Node visit(WildcardType n, A arg) {$/;"	m	class:ModifierVisitorAdapter
+visit	RemoveEnumVisitor.java	/^	    public void visit(EnumConstantDeclaration n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	    public void visit(FieldDeclaration n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	    public void visit(MethodDeclaration n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	    public void visit(Parameter n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	    public void visit(VariableDeclarationExpr n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	 public void visit(EnumDeclaration n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	public void visit(ClassOrInterfaceDeclaration n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveEnumVisitor.java	/^	public void visit(CompilationUnit n, Object arg) {$/;"	m	class:RemoveEnumVisitor
+visit	RemoveSynchVisitor.java	/^	    public void visit(SynchronizedStmt n, Object arg) {$/;"	m	class:RemoveSynchVisitor
+visit	RemoveSynchVisitor.java	/^	 public void visit(MethodDeclaration n, Object arg) {$/;"	m	class:RemoveSynchVisitor
+visit	SameBlockChecker.java	/^	 public void visit(MethodDeclaration n, Object arg) {$/;"	m	class:SameBlockChecker
+visit	StatisticSynchVisitor.java	/^	    public void visit(ClassOrInterfaceDeclaration n, Object arg) {$/;"	m	class:StatisticSynchVisitor
+visit	StatisticSynchVisitor.java	/^	    public void visit(FieldDeclaration n, Object arg) {$/;"	m	class:StatisticSynchVisitor
+visit	StatisticSynchVisitor.java	/^	    public void visit(PackageDeclaration n, Object arg) {$/;"	m	class:StatisticSynchVisitor
+visit	StatisticSynchVisitor.java	/^	    public void visit(SynchronizedStmt n, Object arg) {$/;"	m	class:StatisticSynchVisitor
+visit	StatisticSynchVisitor.java	/^	 public void visit(MethodDeclaration n, Object arg) {$/;"	m	class:StatisticSynchVisitor
+visit	VoidVisitor.java	/^    public void visit(AnnotationDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(AnnotationMemberDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ArrayAccessExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ArrayCreationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ArrayInitializerExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(AssertStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(AssignExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(BinaryExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(BlockComment n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(BlockStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(BooleanLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(BreakStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(CastExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(CatchClause n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(CharLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ClassExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ClassOrInterfaceDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ClassOrInterfaceType n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(CompilationUnit n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ConditionalExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ConstructorDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ContinueStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(DoStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(DoubleLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EmptyMemberDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EmptyStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EmptyTypeDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EnclosedExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EnumConstantDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(EnumDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ExplicitConstructorInvocationStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ExpressionStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(FieldAccessExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(FieldDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ForStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ForeachStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(IfStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ImportDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(InitializerDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(InstanceOfExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(IntegerLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(IntegerLiteralMinValueExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(JavadocComment n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(LabeledStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(LineComment n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(LongLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(LongLiteralMinValueExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(MarkerAnnotationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(MemberValuePair n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(MethodCallExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(MethodDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(NameExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(NormalAnnotationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(NullLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ObjectCreationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(PackageDeclaration n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(Parameter n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(PrimitiveType n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(QualifiedNameExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ReferenceType n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ReturnStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(SingleMemberAnnotationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(StringLiteralExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(SuperExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(SwitchEntryStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(SwitchStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(SynchronizedStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ThisExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(ThrowStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(TryStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(TypeDeclarationStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(TypeParameter n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(UnaryExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(VariableDeclarationExpr n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(VariableDeclarator n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(VariableDeclaratorId n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(VoidType n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(WhileStmt n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitor.java	/^    public void visit(WildcardType n, A arg);$/;"	m	interface:VoidVisitor
+visit	VoidVisitorAdapter.java	/^    public void visit(AnnotationDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(AnnotationMemberDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ArrayAccessExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ArrayCreationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ArrayInitializerExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(AssertStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(AssignExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(BinaryExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(BlockComment n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(BlockStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(BooleanLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(BreakStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(CastExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(CatchClause n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(CharLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ClassExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ClassOrInterfaceDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ClassOrInterfaceType n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(CompilationUnit n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ConditionalExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ConstructorDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ContinueStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(DoStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(DoubleLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EmptyMemberDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EmptyStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EmptyTypeDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EnclosedExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EnumConstantDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(EnumDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ExplicitConstructorInvocationStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ExpressionStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(FieldAccessExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(FieldDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ForStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ForeachStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(IfStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ImportDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(InitializerDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(InstanceOfExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(IntegerLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(IntegerLiteralMinValueExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(JavadocComment n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(LabeledStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(LineComment n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(LongLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(LongLiteralMinValueExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(MarkerAnnotationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(MemberValuePair n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(MethodCallExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(MethodDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(NameExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(NormalAnnotationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(NullLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ObjectCreationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(PackageDeclaration n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(Parameter n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(PrimitiveType n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(QualifiedNameExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ReferenceType n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ReturnStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(SingleMemberAnnotationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(StringLiteralExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(SuperExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(SwitchEntryStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(SwitchStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(SynchronizedStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ThisExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(ThrowStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(TryStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(TypeDeclarationStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(TypeParameter n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(UnaryExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(VariableDeclarationExpr n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(VariableDeclarator n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(VariableDeclaratorId n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(VoidType n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(WhileStmt n, A arg) {$/;"	m	class:VoidVisitorAdapter
+visit	VoidVisitorAdapter.java	/^    public void visit(WildcardType n, A arg) {$/;"	m	class:VoidVisitorAdapter

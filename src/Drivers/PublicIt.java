@@ -56,13 +56,13 @@ public class PublicIt {
 		// @link LockProducer
         String argsOfToy2 = "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin:/home/lpxz/eclipse/workspace/soot24/bin Toy2";// soot.jimple.toolkits.thread.synchronizationLP.Jimples.HelloWorld"; // java.lang.Math
 		String argsOfToyW = "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin Toy"; // java.lang.Math
-		String argsOfJimpleHelloWorld = "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin:/home/lpxz/eclipse/workspace/soot24/bin soot.jimple.toolkits.thread.synchronizationLP.Jimples.HelloWorld"; // java.lang.Math
+		String argsOfJimpleHelloWorld = "-f J -pp -cp /home/lpxz/eclipse/workspace/openjms/bin org.exolab.jms.common.uuid.Clock"; // java.lang.Math
 		String argsOfpaddleJar = "-f J -pp -cp /home/lpxz/eclipse/workspace/soot24/paddlePublic/ -process-dir /home/lpxz/eclipse/workspace/soot24/paddlePublic/"; // java.lang.Math
 		// do not use the jar directly,
 		// unzip it to a folder, and parse the folder like above.
 		// /home/lpxz/javapool/jdk1.3.1_20/jre/lib/rt.jar
 
-		String interString = argsOfpaddleJar;
+		String interString = argsOfJimpleHelloWorld;
 		String[] finalArgs = interString.split(" ");
 
 		soot.Main.v().processCmdLine(finalArgs);
@@ -118,6 +118,7 @@ public class PublicIt {
 			protected void internalTransform(Body b, String phaseName,
 					Map options) {
 				SootMethod  sm =b.getMethod();
+				System.out.println(b);
 				if(sm.isPrivate())
 				{
 					int  modifiers =sm.getModifiers();

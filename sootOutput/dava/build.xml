@@ -22,7 +22,7 @@
 		<arg value="-ast-metrics" />
 		<arg value="--src-prec" />
 		<arg value="java" />
-		<arg value="Toy$InnerThread" />
+		<arg value="Simple" />
 	  </exec>
 	</target>
 </project>

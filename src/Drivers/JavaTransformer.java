@@ -54,7 +54,7 @@ public class JavaTransformer {
 	public static void main(String[] args) throws IOException { // wjtp.tn
     //    String argsOfToy = "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin:/home/lpxz/eclipse/workspace/soot24/bin Toy";// soot.jimple.toolkits.thread.synchronizationLP.Jimples.HelloWorld"; // java.lang.Math
 		String argsOfToyW = "-f J -pp -cp /home/lpxz/eclipse/workspace/Playground/bin --app Toy"; // java.lang.Math
-		String argsOfToy_dava = "-f dava -pp -cp /home/lpxz/eclipse/workspace/Playground/bin Toy$InnerThread"; // java.lang.Math
+		String argsOfToy_dava = "-f dava -pp -cp /home/lpxz/eclipse/workspace/simple/bin Simple"; // java.lang.Math
 		// -app: exceptions for synch in innerthread
 		// no app: innerthread is taken as a symbol, no translation of innerthread itself.
 		// no app, and decompile Toy$InnerThread: still the exceptions
@@ -72,8 +72,8 @@ public class JavaTransformer {
 		Scene.v().loadNecessaryClasses();
 	//    Setup.setPhaseOptionsForSparkWork();
 
-
-	    
+		Pack jtp = PackManager.v().getPack("jtp");
+		addVisitorPackToJtp(jtp);    
 	 
 	  PackManager.v().runPacks();// 1
 		PackManager.v().writeOutput();
@@ -101,6 +101,8 @@ public class JavaTransformer {
 			protected void internalTransform(Body b, String phaseName,
 					Map options) {
 				// MethodVisitor visitor = new MethodVisitor();
+if(!b.getMethod().getName().contains("main"))
+	return;
 
 				 SootMethod sootMethod = b.getMethod();
 			      Visitor.thisClass = sootMethod.getDeclaringClass();
@@ -108,14 +110,15 @@ public class JavaTransformer {
 				
 				Chain units = body.getUnits();
 
-				solidVisitor.visitMethodBegin(sootMethod, units);
+			
 				Iterator stmtIt = units.snapshotIterator();
 				while (stmtIt.hasNext()) {
 					Stmt s = (Stmt) stmtIt.next();
-					solidVisitor.thisStmt = s;
-					solidVisitor.visitStmt(sootMethod, units, s);
+					System.out.println(s);
+					
+					System.out.println(s);
 				}
-				solidVisitor.visitMethodEnd(sootMethod, units);
+			
 				body.validate();
 
 			}
